@@ -1,0 +1,12 @@
+{
+  "title": "落水与快速回忆 · 四镜讨论稿",
+  "aspect": "宽画幅示意",
+  "note": "原创拍法练习；旅行格为占位，不代表客户去过的地方。",
+  "timeline": "S1现实定位 → 硬切S2贴近水线 → 短镜记忆组S3 → 硬切S4同一水线。海浪可贯穿，是待讨论提案。",
+  "shots": [
+    {"id":"S1","label":"现实位置","scene":"shore","scale":"wide","action":"人物与板、岸的位置可辨。","camera":"岸上观察；避免先让现实位置含糊。","cut":"看到人物离板的关系后切近","sound":"现实海浪","production":"实拍空间板","experience":"认出他正在试图回到哪里"},
+    {"id":"S2","label":"与他同处","scene":"water","scale":"close","action":"眼睛与水线同在近处。","camera":"受控水线机位，靠近人物眼睛高度。","cut":"注意转向一侧时进入记忆组","sound":"海浪是否延续可试","production":"受控场地真人近景","experience":"进入人的当下处境"},
+    {"id":"S3","label":"快速旅行回忆组","scene":"memory","scale":"wide","action":"真实旅行素材待选；主体位置或视线相接。","camera":"依原有素材构图重新排列，不填造经历。","cut":"短镜密集；不预定必须停留十秒","sound":"可保留当下海浪","production":"本人旧素材／受授权素材","experience":"快速走过同一个人的世界"},
+    {"id":"S4","label":"回到同一位置","scene":"water","scale":"medium","action":"回到可认出的水线与板的方向。","camera":"空间关系承接S2，按下一动作调景别。","cut":"后续接真实外部救援材料","sound":"保持现实可辨","production":"受控真人与环境拼接","experience":"过去展开后现实仍在此刻"}
+  ]
+}

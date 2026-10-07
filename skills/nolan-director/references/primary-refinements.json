@@ -1,0 +1,125 @@
+{
+  "reviewed_on": "2026-10-07",
+  "scope": "相关段落核读；没有观看整段视频或完成逐帧研究。新卡是已存在来源的细化，部分与旧概念卡重合，不算新增独立来源。",
+  "reviewed_existing": [
+    {
+      "id": "QA12-D01",
+      "source_id": "S21",
+      "locator": "DGA 2012：How do you accommodate actors... 问答",
+      "observation": "Pacino 与 Swank 的准备方式对比得到相关段落支持。"
+    },
+    {
+      "id": "QA12-D02",
+      "source_id": "S21",
+      "locator": "DGA 2012：What did you pick up... 问答",
+      "observation": "Guy Pearce 请求再拍并采用该条的经历得到相关段落支持。"
+    },
+    {
+      "id": "QA12-I06",
+      "source_id": "S21",
+      "locator": "DGA 2012：budget for Insomnia... 问答",
+      "observation": "从朋友合作到大型剧组的比较得到相关段落支持。"
+    },
+    {
+      "id": "QA12-I09",
+      "source_id": "S07",
+      "locator": "BFI：Did you encourage Cillian Murphy... 问答",
+      "observation": "演员理解与导演解释不同，以及欣赏其表演，得到相关段落支持。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "EXP-ASC01",
+      "title": "奥本海默：相机靠近谁决定观看的位置",
+      "source_id": "S08",
+      "source_date": "2023-10-04",
+      "locator": "What’s the most abstract... 问答；color sequences / black-and-white sequences",
+      "fact": "诺兰谈到彩色段落的相机贴近奥本海默，黑白段落贴近施特劳斯并用长焦镜头拍奥本海默。",
+      "inference": "当画面漂亮却疏离人物时，先改变相机所在的位置和视点关系，比较观众参与感。",
+      "limits": "不能把贴近相机或长焦作为所有人物戏的固定公式；此处 long lenses 指长焦镜头，不是长时间不剪切的镜头。",
+      "keywords": "奥本海默 Oppenheimer 视点 相机 机位 物理距离 人物 疏离 好看 漂亮 进入不了 三维",
+      "related_ids": [
+        "K03",
+        "N01",
+        "VE06"
+      ]
+    },
+    {
+      "id": "EXP-ASC02",
+      "title": "洛斯阿拉莫斯：用确定的机位范围缩减布景",
+      "source_id": "S08",
+      "source_date": "2023-10-04",
+      "locator": "What can you tell us about Ruth De Jong’s contributions... 问答",
+      "fact": "诺兰说，美术团队利用洛斯阿拉莫斯模型和已确定的拍摄范围精简布景，保留城镇的规模感。",
+      "inference": "预算不足时先确定真正要被看见、经过或听见的空间，减少不承担叙事责任的搭建。",
+      "limits": "这不证明小成本项目能复刻原片规模；贡献归属于 Ruth De Jong 及团队，不能虚构导演独自完成设计。",
+      "keywords": "奥本海默 Oppenheimer 预算 没钱 资源 制作 布景 规模 搭景 Ruth De Jong",
+      "related_ids": [
+        "K16",
+        "DCA10",
+        "DCA12"
+      ]
+    },
+    {
+      "id": "EXP-DGA17A",
+      "title": "敦刻尔克：从不同位置与时间经历组织结构",
+      "source_id": "S05",
+      "source_date": "2017 summer",
+      "locator": "various geographies and time frames；precise mathematical structure 段落",
+      "fact": "诺兰解释《敦刻尔克》通过岸上、船上和空中的不同经历组织观看，并先确定结构再写剧本。",
+      "inference": "多线切换需要共同的事件关系和能被跟随的局部处境；借这种判断方式，而不是复制三条线。",
+      "limits": "作品的具体形式服务特定历史事件，不能推出所有故事都需要不同时间尺度。",
+      "keywords": "敦刻尔克 Dunkirk 时间线 结构 观众 地理 来回切 位置 视点 信息",
+      "related_ids": [
+        "K01",
+        "K02",
+        "DCA06"
+      ]
+    },
+    {
+      "id": "EXP-DGA17B",
+      "title": "敦刻尔克：严格结构中仍能通过即兴排练丰富人物",
+      "source_id": "S05",
+      "source_date": "2017 summer",
+      "locator": "Rylance launched a set of improvs；Nobody knows rehearsal... 段落",
+      "fact": "诺兰谈到 Mark Rylance 带演员即兴构想船上剧本场景之间的情境，这丰富了人物。",
+      "inference": "可以保留结构中的关键事件，同时让演员探索这些事件间的关系和反应。",
+      "limits": "排练中的即兴不等于成片全部对白即兴，也不等于导演没有结构。",
+      "keywords": "敦刻尔克 Dunkirk Mark Rylance 演员 即兴 排练 自由 结构 表演",
+      "related_ids": [
+        "K11",
+        "J16"
+      ]
+    },
+    {
+      "id": "EXP-DGA12A",
+      "title": "银翼杀手的影响：让世界延伸到画框外",
+      "source_id": "S21",
+      "source_date": "2012 spring",
+      "locator": "favorite film is Blade Runner... 问答",
+      "fact": "诺兰把《银翼杀手》的影响联系到画框外仍在运作的世界感。",
+      "inference": "有限空间的外部世界可以通过声音、来去方向和人物对环境的反应被感知。",
+      "limits": "这里的声音与调度方案是原创迁移，不能说成诺兰指定过的具体拍法。",
+      "keywords": "银翼杀手 Blade Runner 观看影响 画外 世界 小房间 空间 规模",
+      "related_ids": [
+        "K05",
+        "DCA10"
+      ]
+    },
+    {
+      "id": "EXP-BFI01",
+      "title": "奥本海默：难以直接画出的概念可以借剪辑建立关系",
+      "source_id": "S07",
+      "source_date": "2024",
+      "locator": "Robbert Dijkgraaf；editing is the key；shot A plus shot B 段落",
+      "fact": "诺兰回忆与物理学家交流后，转向用不同图像的剪辑关系思考量子概念的呈现。",
+      "inference": "抽象概念不一定需要一个万能符号，可以比较两种具体经验如何共同产生理解。",
+      "limits": "电影联想不等于科学模型正确；科学说明仍需核实专业事实。",
+      "keywords": "奥本海默 Oppenheimer 抽象 概念 科学 量子 视觉 剪辑 无法画出 图像",
+      "related_ids": [
+        "K13",
+        "N03"
+      ]
+    }
+  ]
+}

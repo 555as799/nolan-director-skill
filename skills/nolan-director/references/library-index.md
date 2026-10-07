@@ -1,0 +1,241 @@
+# 资料索引
+
+204 张卡：继承 171 张，补入 6 张卡、细化 6 张公开经历，再扩展 21 张有语境的公开经历及合作回忆；含重合事实，不是同等数量的独立经历。
+先按影片或关键词定位，再读相关单卡；下面只是目录，不能凭标题编造事实。已核对补充卡适合直接核读；继承卡的逐项复核状态在卡内。
+
+## 影片入口
+- [追随｜Following](cards/F01.md)
+- [记忆碎片｜Memento](cards/F02.md)
+- [白夜追凶｜Insomnia](cards/F03.md)
+- [蝙蝠侠：侠影之谜｜Batman Begins](cards/F04.md)
+- [致命魔术｜The Prestige](cards/F05.md)
+- [黑暗骑士｜The Dark Knight](cards/F06.md)
+- [盗梦空间｜Inception](cards/F07.md)
+- [黑暗骑士崛起｜The Dark Knight Rises](cards/F08.md)
+- [星际穿越｜Interstellar](cards/F09.md)
+- [敦刻尔克｜Dunkirk](cards/F10.md)
+- [信条｜Tenet](cards/F11.md)
+- [奥本海默｜Oppenheimer](cards/F12.md)
+- [奥德赛｜The Odyssey](cards/F13.md)
+
+## 公开经历与阅读（归属于诺兰）
+- [QA12-D01 同片演员的排练习惯不同，如何协调？](cards/QA12-D01.md) · 表演 排练 演员准备 Pacino Swank 白夜追凶 相反需求 协调
+- [QA12-D02 早期拍片从演员身上学到什么？](cards/QA12-D02.md) · 表演 再拍 Guy Pearce 记忆碎片 成本 犹豫 制作抉择
+- [QA12-D03 单机是否让剪辑更快？](cards/QA12-D03.md) · 单机 多机 特技 素材 审片 剪辑时间 记忆碎片 黑暗骑士崛起
+- [QA12-DI02 为何改变以往少用高速摄影的习惯？](cards/QA12-DI02.md) · 慢动作 高速摄影 时间 梦境 清醒 叙事工具 盗梦空间
+- [QA12-DB01 结构确定后怎样写作和审看素材？](cards/QA12-DB01.md) · 剧本 顺序 追随 记忆碎片 重排 重写 信息限制 审看
+- [QA12-DB02 如何启动《星际穿越》的配乐合作？](cards/QA12-DB02.md) · 配乐 委托 情感 类型 Hans Zimmer 星际穿越 音乐写作
+- [QA12-DB03 怎样让演员体验飞船窗外世界？](cards/QA12-DB03.md) · 演员 视效 预先CG 投影 反射 飞船 窗外 参照 星际穿越
+- [QA12-I01 开场被问最近去影院看了哪部别人的电影。](cards/QA12-I01.md) · 临场确认 最近看片 Lady Bird 记忆局限 工作分析 BAFTA 自然回应
+- [QA12-I02 主持人援引Edgar Wright，说他比人们想象的更迷喜剧。](cards/QA12-I02.md) · 喜剧 幽默 Edgar Wright 类型标签 导演偏好 BAFTA 接话
+- [QA12-I03 主持人说把三部Batman剪在一起，希望他不介意。](cards/QA12-I03.md) · Batman 三部片段 十年 压缩 临场玩笑 主持人 轻松回应
+- [QA12-I04 观众追问重复使用Cobb是否有缩写或秘密意义，随后重提Hughes问题。](cards/QA12-I04.md) · Cobb 命名 秘密 缩写 多问题 追问 Howard Hughes 未公开项目
+- [QA12-I06 被问预算从Insomnia到Batman Begins大幅增长是否最难。](cards/QA12-I06.md) · 预算 规模 Following Memento Insomnia Batman Begins 团队责任 比较尺度
+- [QA12-I08 采访结束被问为什么片场穿西装外套。](cards/QA12-I08.md) · 外套 西装 口袋 沙袋 片场分工 形象 实用解释
+- [QA12-I09 提出角色意图后，被追问是否让Murphy照此解释表演。](cards/QA12-I09.md) · Cillian Murphy Kitty 奥本海默 演员分歧 意图 表演结果 合作
+- [QA12-I10 采访者提醒人们常在成功后把Inception成功看作必然。](cards/QA12-I10.md) · 盗梦空间 Inception Lee Smith 剪辑 困惑 风险 成功后见 制作不确定
+- [QA12-I11 被问是否像Powell一样，有许多没能拍成的完整剧本。](cards/QA12-I11.md) · Howard Hughes 项目发展 未拍剧本 创作满足 成熟状态 经验转化
+- [QA12-I12 被追问Nolanesque成为标签，是否无法避免个人名字成为卖点。](cards/QA12-I12.md) · Nolanesque 作者风格 个人形象 观众注意 标签 作者性 作品
+- [V4-N001 倒叙与信息缺失](cards/V4-N001.md) · Memento 记忆碎片 非线性 倒叙 信息差 主观体验
+- [V4-N002 旋转走廊与电影技法的改造](cards/V4-N002.md) · Inception 盗梦空间 2001: A Space Odyssey 2001太空漫游 实拍 布景 镜头 电影影响 空间
+- [V4-N003 Waterland 的阅读影响](cards/V4-N003.md) · Waterland 水之乡 阅读 多时间线 连贯性 文学影响
+- [V4-N004 Following 与有限资源](cards/V4-N004.md) · Following 追随 预算 独立电影 排期 资源限制
+- [V4-N005 CGI 与实拍材料的配合](cards/V4-N005.md) · CGI 视效 实拍 真实性 取舍
+- [V4-N006 用画面建立悬念](cards/V4-N006.md) · Dunkirk 敦刻尔克 对白 视觉叙事 悬念 生存
+- [EXP-ASC01 奥本海默：相机靠近谁决定观看的位置](cards/EXP-ASC01.md) · 奥本海默 Oppenheimer 视点 相机 机位 物理距离 人物 疏离 好看 漂亮 进入不了 三维
+- [EXP-ASC02 洛斯阿拉莫斯：用确定的机位范围缩减布景](cards/EXP-ASC02.md) · 奥本海默 Oppenheimer 预算 没钱 资源 制作 布景 规模 搭景 Ruth De Jong
+- [EXP-DGA17A 敦刻尔克：从不同位置与时间经历组织结构](cards/EXP-DGA17A.md) · 敦刻尔克 Dunkirk 时间线 结构 观众 地理 来回切 位置 视点 信息
+- [EXP-DGA17B 敦刻尔克：严格结构中仍能通过即兴排练丰富人物](cards/EXP-DGA17B.md) · 敦刻尔克 Dunkirk Mark Rylance 演员 即兴 排练 自由 结构 表演
+- [EXP-DGA12A 银翼杀手的影响：让世界延伸到画框外](cards/EXP-DGA12A.md) · 银翼杀手 Blade Runner 观看影响 画外 世界 小房间 空间 规模
+- [EXP-BFI01 奥本海默：难以直接画出的概念可以借剪辑建立关系](cards/EXP-BFI01.md) · 奥本海默 Oppenheimer 抽象 概念 科学 量子 视觉 剪辑 无法画出 图像
+- [EXP-PR01 致命魔术：改编观众经历，而不只是搬运舞台节目](cards/EXP-PR01.md) · 致命魔术 The Prestige 改编 魔术 观众 媒介 结构
+- [EXP-PR02 致命魔术：时代服装不必带来僵硬的时代腔](cards/EXP-PR02.md) · 致命魔术 年代戏 演员 表演 僵硬 台词腔 排练
+- [EXP-TE01 信条：实拍飞机是勘景与成本比较后的方案变化](cards/EXP-TE01.md) · 信条 Tenet 飞机 实拍 成本 CG 模型 勘景
+- [EXP-TE02 信条：有时参照的是类型留下的感受](cards/EXP-TE02.md) · 信条 Tenet 电影影响 邦德 谍战 参考片 模仿 原创
+- [EXP-FO01 追随：一个漂亮结尾也可能抢走前提的力量](cards/EXP-FO01.md) · 追随 Following 结尾 反转 炫技 余味 自我修订
+- [EXP-FO02 记忆碎片：缩小制作规模以保留叙述选择](cards/EXP-FO02.md) · 记忆碎片 Memento 低预算 融资 创作控制 制作 独立电影
+- [EXP-IN01 星际穿越：复杂情节先在剧本里保住情感清晰度](cards/EXP-IN01.md) · 星际穿越 Interstellar 剧本 复杂 看不懂 情感 科幻
+- [EXP-RD01 阅读影响：Waterland让历史与现在同时生长](cards/EXP-RD01.md) · Waterland 水之乡 水之大地 Graham Swift 阅读 文学 影响 时间线
+- [EXP-RD02 电影影响：从银翼杀手与异形发现统一的导演选择](cards/EXP-RD02.md) · 银翼杀手 异形 Ridley Scott 雷德利斯科特 电影影响 视听 部门协作
+- [EXP-AU01 星际穿越：新加入的作者先替观众做减法](cards/EXP-AU01.md) · 星际穿越 改编 设定 科学 删减 解释过多 观众
+- [EXP-AU02 星际穿越：保护一次新鲜反应需要全组提前准备](cards/EXP-AU02.md) · 星际穿越 Cooper 表演 哭戏 首条 排练 真实反应 McConaughey
+- [EXP-WR01 回应方式：可以接纳对方发现的另一种理解](cards/EXP-WR01.md) · 对话 语气 谦逊 幽默 主题 不同意见 星际穿越
+- [EXP-RB01 双城记：在改稿时补读，用群像汇合确定终章的情绪基调](cards/EXP-RB01.md) · 阅读 文学影响 双城记 A Tale of Two Cities 狄更斯 Charles Dickens 黑暗骑士崛起 The Dark Knight Rises 群像 结尾 情绪基调
+- [EXP-RB02 美国普罗米修斯：用研究与索引支撑主观改编](cards/EXP-RB02.md) · 阅读 美国普罗米修斯 American Prometheus Kai Bird Martin J. Sherwin 奥本海默 Oppenheimer 传记 改编 索引 研究 主观视点
+- [EXP-RB03 奥本海默战后演讲集：阅读使已经熟悉的危险重新变得陌生](cards/EXP-RB03.md) · 阅读 奥本海默 Oppenheimer 战后演讲 演讲集 Robert Pattinson 帕丁森 信条 历史题材 陌生感 威胁 情感
+- [EXP-ASC03 与霍伊特合作：先让抽象的情绪意图进入讨论，再找实现办法](cards/EXP-ASC03.md) · 霍伊特 Hoyte van Hoytema 奥本海默 Oppenheimer 抽象 感觉 情绪 意向 意图 创作 合作 工程 画面 表达
+- [EXP-RD03 观看影响：记忆与梦可以通过影像互相进入](cards/EXP-RD03.md) · The Wall Pink Floyd 迷墙 Nicolas Roeg 尼古拉斯罗伊格 天外来客 The Man Who Fell to Earth Performance 迷幻演出 回忆 梦境 联想 非线性 剪辑 主观 观看影响
+
+## 主题入口
+- 结构、倒叙、时间与观众信息：K01、K02、J01—J03；阅读影响见 V4-N003。
+- 演员、排练、协作：K11、J16、QA12-D01、QA12-D02；不同主创归属见下面目录。
+- 镜头、距离、画幅、空间：K03—K05、J05、J09；画面技术问答见 L01—L48（原创应用）。
+- 声音、配乐、剪辑：K06、K10、J06、J07、QA12-DB02。
+- 预算、实拍、技术协作：K12、K16、J10、J12；低预算经验见 V4-N004。
+- 语气、接话、回应反驳：VP、VE、QA12-I 系列；VC 是原创中文示范。
+
+## 全卡目录
+
+### 创作研究：事实与分析混合，核对原归属
+- [K01 观众知道什么与时间顺序](cards/K01.md)
+- [K02 时间伸缩与期待](cards/K02.md)
+- [K03 相机的物理位置与视点](cards/K03.md)
+- [K04 大画幅与人物亲近](cards/K04.md)
+- [K05 空间关系与沉浸](cards/K05.md)
+- [K06 声音作为听觉视点](cards/K06.md)
+- [K07 自然感与布光调度](cards/K07.md)
+- [K08 暗部中的关键信息](cards/K08.md)
+- [K09 颗粒在时间中的成像](cards/K09.md)
+- [K10 音乐和剪辑的共同发展](cards/K10.md)
+- [K11 演员需要与排练方式](cards/K11.md)
+- [K12 实拍、光学与数字的协作](cards/K12.md)
+- [K13 抽象图像与人物经验](cards/K13.md)
+- [K14 改编与人物变化的过程](cards/K14.md)
+- [K15 归返、相认和现实锚点](cards/K15.md)
+- [K16 预算、协作与观看验证](cards/K16.md)
+- [J01 先确定观众被限制在哪里，再决定时间顺序](cards/J01.md)
+- [J02 结构蓝图需要在剪辑中重新获得时间感](cards/J02.md)
+- [J03 高密度信息要由观众的情绪任务串起来](cards/J03.md)
+- [J04 胶片感包括运动中的成像与观看条件](cards/J04.md)
+- [J05 大画幅既能表现尺度，也能靠近脸](cards/J05.md)
+- [J06 声音变形首先是视点规则](cards/J06.md)
+- [J07 压力可由现实声的关系逐步建立](cards/J07.md)
+- [J08 成长不是事故自动赋予的道德结论](cards/J08.md)
+- [J09 电影空间必须在剪辑外仍能想象](cards/J09.md)
+- [J10 实景与特效按叙事责任分工](cards/J10.md)
+- [J11 借归乡的情感尺度，不套神话经历](cards/J11.md)
+- [J12 导演判断是协作中的取舍，不是单一招式库](cards/J12.md)
+- [J13 自然灯光与演员自由需要一起安排](cards/J13.md)
+- [J14 暗部留什么信息，比暗到几档更关键](cards/J14.md)
+- [J15 心理黑暗可以发生在白天](cards/J15.md)
+- [J16 排练方式和拍摄条数服务于这个演员](cards/J16.md)
+- [N01 相机真的靠近谁](cards/N01.md)
+- [N02 时间由压力与期待组成](cards/N02.md)
+- [N03 抽象形象贴着人物发生](cards/N03.md)
+- [N04 物理尺度与面部并存](cards/N04.md)
+- [N05 声音的视点与图像相互制约](cards/N05.md)
+- [N06 真实接触与环境规模分开解决](cards/N06.md)
+- [F01 追随｜Following](cards/F01.md)
+- [F02 记忆碎片｜Memento](cards/F02.md)
+- [F03 白夜追凶｜Insomnia](cards/F03.md)
+- [F04 蝙蝠侠：侠影之谜｜Batman Begins](cards/F04.md)
+- [F05 致命魔术｜The Prestige](cards/F05.md)
+- [F06 黑暗骑士｜The Dark Knight](cards/F06.md)
+- [F07 盗梦空间｜Inception](cards/F07.md)
+- [F08 黑暗骑士崛起｜The Dark Knight Rises](cards/F08.md)
+- [F09 星际穿越｜Interstellar](cards/F09.md)
+- [F10 敦刻尔克｜Dunkirk](cards/F10.md)
+- [F11 信条｜Tenet](cards/F11.md)
+- [F12 奥本海默｜Oppenheimer](cards/F12.md)
+- [F13 奥德赛｜The Odyssey](cards/F13.md)
+- [VDC01 观众经验与结构的条件联系](cards/VDC01.md)
+- [VDC02 由抽象感受落实相机和人物的距离](cards/VDC02.md)
+- [VDC03 把限制作为一起想办法的起点](cards/VDC03.md)
+- [VDC04 时间和声音随本片发展](cards/VDC04.md)
+- [DCA01 同一事实可以改变认识，未必需要改变剧情](cards/DCA01.md)
+- [DCA02 隐去信息要给观众一个可理解的期待](cards/DCA02.md)
+- [DCA03 主观摄影是三维的关系](cards/DCA03.md)
+- [DCA04 顺序服务于人物的处境](cards/DCA04.md)
+- [DCA05 重复可以改变认识，也可以延长一种状态](cards/DCA05.md)
+- [DCA06 平行剪辑可以建立压力、对照或共同的时间感](cards/DCA06.md)
+- [DCA07 记忆与现实的时间关系可以分别设计](cards/DCA07.md)
+- [DCA08 抽象情绪译成目标和阻力](cards/DCA08.md)
+- [DCA09 声音改变注意力的位置](cards/DCA09.md)
+- [DCA10 规模依赖参照关系](cards/DCA10.md)
+- [DCA11 真实感容纳不完美，但不能掩饰错误](cards/DCA11.md)
+- [DCA12 制作条件参与美学](cards/DCA12.md)
+- [ODU01 奥德赛摄影事实与格式条件](cards/ODU01.md)
+- [ODU02 奥德赛实景与奇幻元素的可信接触](cards/ODU02.md)
+- [VP01 当采访者给出他不同意的时代或身份归类时](cards/VP01.md)
+- [VP02 当采访者问演员是否遵从他对角色的解释时](cards/VP02.md)
+- [VP03 当讨论作品中的象征以及观众解读时](cards/VP03.md)
+- [VP04 当被问是否继续自己的 Batman 故事时](cards/VP04.md)
+- [VP05 当提问者用现实主义概括其电影时](cards/VP05.md)
+- [VP06 当为胶片放映这一强烈立场辩护时](cards/VP06.md)
+- [VP07 在与另一位导演共同受访、对方调侃其胶片立场时](cards/VP07.md)
+- [VP08 当观众要求摄影指导最重要的单一品质时](cards/VP08.md)
+- [VP09 当解释为何不用第二组拍摄时](cards/VP09.md)
+- [VP10 当被要求解释抽象的摄影合作构想时](cards/VP10.md)
+- [VE01 校正一个具体前提，再把对话向前推](cards/VE01.md)
+- [VE02 用有条件的反直觉关系解释剪辑](cards/VE02.md)
+- [VE03 以一次真实制作抉择连接工作原则](cards/VE03.md)
+- [VE04 把媒介审美讲成观看条件，落到可比较的物理经验](cards/VE04.md)
+- [VE05 拆出一个细小的阻碍，解释慢为什么能产生压力](cards/VE05.md)
+- [VE06 从抽象取向走向三维机位关系](cards/VE06.md)
+- [VE07 回应标签时用制作事实容纳表面矛盾](cards/VE07.md)
+- [VE08 承认创作选择与现实判断有张力](cards/VE08.md)
+- [VE09 保留作品未被作者完全穷尽的含义](cards/VE09.md)
+- [VE10 诚实讲最初预想被协作者改变](cards/VE10.md)
+
+### 其他主创的经验
+- [QA12-DP01 新片为何不延续上一部的复杂制作方式？](cards/QA12-DP01.md)
+- [QA12-DP02 仅用烛光的愿望能否成立？](cards/QA12-DP02.md)
+- [QA12-DP03 少布光是否等于处处自由移动？](cards/QA12-DP03.md)
+- [QA12-DI01 为何尝试大画幅，却没有采用 IMAX 摄影？](cards/QA12-DI01.md)
+- [QA12-DI03 交叉剪辑怎样使观众仍辨明地点？](cards/QA12-DI03.md)
+- [QA12-DL01 持续快速剪辑是预定追求吗？](cards/QA12-DL01.md)
+- [QA12-DL02 怎样处理多时间线而不失控？](cards/QA12-DL02.md)
+- [QA12-DL03 是否从一开始就把影片当恐怖片？](cards/QA12-DL03.md)
+- [EXP-IN02 星际穿越：演员给英雄保留自己的愿望](cards/EXP-IN02.md)
+- [EXP-SC01 星际穿越：被删掉的科学点子不等于坏点子](cards/EXP-SC01.md)
+- [EXP-SC02 星际穿越：接手开发保留科学旅程，重新组织人的故事](cards/EXP-SC02.md)
+- [EXP-WR02 星际穿越：合作久了也可以主动撤掉旧配乐习惯](cards/EXP-WR02.md)
+
+### 原创练习与对话示例：不是历史事实
+- [L01 格式｜35mm、65mm和IMAX胶片的区别，怎样落到我们的选择？](cards/L01.md)
+- [L02 格式｜把数码画面裁成1.43:1就等于IMAX吗？](cards/L02.md)
+- [L03 格式｜电影里50mm很好，我们也直接用50mm吗？](cards/L03.md)
+- [L04 透视｜为什么近景看着像手机，换长焦就能解决吗？](cards/L04.md)
+- [L05 景深｜背景全虚化才是胶片感吗？](cards/L05.md)
+- [L06 景深｜要同时看到人物与远处高楼，怎样保留层次？](cards/L06.md)
+- [L07 镜头｜变形宽银幕镜头一定更高级吗？](cards/L07.md)
+- [L08 镜头｜镜头边缘拉伸能当记忆风格保留吗？](cards/L08.md)
+- [L09 镜头｜柔焦能把廉价场景拍得像胶片吗？](cards/L09.md)
+- [L10 镜头｜高光晕开越大越像胶片吗？](cards/L10.md)
+- [L11 曝光｜想要浓黑，是不是现场少曝两档？](cards/L11.md)
+- [L12 曝光｜数字ISO调高等于胶片推片吗？](cards/L12.md)
+- [L13 曝光｜海面反光很亮，怎么兼顾人脸？](cards/L13.md)
+- [L14 曝光｜暗部很干净却没有胶片味，怎样判断问题？](cards/L14.md)
+- [L15 光线｜主光、辅光、轮廓光的固定比例能训练给智能体吗？](cards/L15.md)
+- [L16 光线｜怎样用自然光拍出人物的重量感？](cards/L16.md)
+- [L17 光线｜阴天海边全灰，怎样给画面明确重点？](cards/L17.md)
+- [L18 光线｜负补光用在哪里才不会做作？](cards/L18.md)
+- [L19 光线｜回忆室内的灯必须很暖吗？](cards/L19.md)
+- [L20 光线｜LED模拟火光总觉得像灯在闪，怎么测试？](cards/L20.md)
+- [L21 肤色｜为了统一冷色，把肤色也推蓝可以吗？](cards/L21.md)
+- [L22 肤色｜真人与AI环境色彩一致，要哪些现场记录？](cards/L22.md)
+- [L23 颗粒｜能给一个万能的诺兰胶片颗粒预设吗？](cards/L23.md)
+- [L24 颗粒｜颗粒越粗越真实吗？](cards/L24.md)
+- [L25 颗粒｜每帧同一张噪点贴图是不是也可以？](cards/L25.md)
+- [L26 颗粒｜AI镜有奇怪颗粒，可以给真人镜也加重来掩盖吗？](cards/L26.md)
+- [L27 色彩｜诺兰是不是所有电影都用蓝橙配色？](cards/L27.md)
+- [L28 色彩｜两个地区能分别用土黄和冷蓝来区分吗？](cards/L28.md)
+- [L29 色彩｜LUT一套就很电影，为什么还需要测试？](cards/L29.md)
+- [L30 色彩｜光化学调色是不是表示完全不能用数字后期？](cards/L30.md)
+- [L31 美术｜旧船、工具很多，要怎么控制画面颜色？](cards/L31.md)
+- [L32 美术｜人物服装怎样配海面才不会像宣传照？](cards/L32.md)
+- [L33 运动｜24fps加180度快门是不是一定电影感？](cards/L33.md)
+- [L34 运动｜120fps浪花转24fps后，接真人会不会突兀？](cards/L34.md)
+- [L35 运动｜后期加镜头抖动能替代手持吗？](cards/L35.md)
+- [L36 运动｜环绕人物一圈为什么常看起来空？](cards/L36.md)
+- [L37 构图｜地平线一定置中才有诺兰感吗？](cards/L37.md)
+- [L38 构图｜横竖三版怎样保留同一情绪？](cards/L38.md)
+- [L39 构图｜竖幅只能拍人物，海的规模怎么表达？](cards/L39.md)
+- [L40 构图｜前景太多像照片，怎样变成电影镜头？](cards/L40.md)
+- [L41 后期｜数码素材必须先转胶片再扫描才行吗？](cards/L41.md)
+- [L42 后期｜如何检查调色是否改变了故事？](cards/L42.md)
+- [L43 后期｜AI素材和实拍锐度差很多，该怎样匹配？](cards/L43.md)
+- [L44 声音｜大画幅摄影与同期声怎样一起考虑？](cards/L44.md)
+- [L45 样片｜每天看样片只检查对焦够吗？](cards/L45.md)
+- [L46 交付｜同一个调色版本在手机和放映厅差很多怎么办？](cards/L46.md)
+- [L47 参照｜拿网络截图当胶片色彩目标靠谱吗？](cards/L47.md)
+- [L48 验收｜胶片质感怎样做可以被复查的测试？](cards/L48.md)
+- [VDC05 接住创作者的修改并保留采用选择](cards/VDC05.md)
+- [VC01 一个人的漂流也可以成立](cards/VC01.md)
+- [VC02 快乐回忆自己的生活](cards/VC02.md)
+- [VC03 从等待到享受等待](cards/VC03.md)
+- [VC04 演员额外一条的真实经验](cards/VC04.md)
+- [VC05 小房间里的外部世界](cards/VC05.md)
+- [VC06 数字拍摄与胶片的观看条件](cards/VC06.md)
+- [VC07 制作经历准确归属](cards/VC07.md)
+- [VC08 只推敲一个开场镜头](cards/VC08.md)

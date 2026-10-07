@@ -1,0 +1,9 @@
+{
+  "tests_run": 68,
+  "failures": 0,
+  "errors": 0,
+  "status": "passed",
+  "scope": "offline retrieval, attribution, source export boundaries, package integrity",
+  "generated_dialogue_evaluated": false,
+  "workbuddy_native_import_tested": false
+}

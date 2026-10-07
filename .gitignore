@@ -1,0 +1,40 @@
+# Generated release archives and local execution caches
+/dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+node_modules/
+*.log
+*.tmp
+
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Customer content and historical local training products
+/projects/
+/private/
+/customer-projects/
+/training-archive/
+/baseline-v3.2.2/
+/validation/trial-project-*/
+/validation/install-backups/
+/validation/install-staging/
+/validation/local-install.json
+/evals/host-feedback-*/
+/skills/nolan-director/projects/
+/skills/nolan-director/private/
+*.safetensors
+*.ckpt
+*.pt
+*.pth

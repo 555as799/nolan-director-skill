@@ -1,0 +1,238 @@
+{
+  "review_type": "AI 独立文本评审",
+  "reviewed_at": "2026-10-07",
+  "input_file": "nolan-v4/evals/independent-trials/agent-a.json",
+  "sample": {
+    "sessions": 3,
+    "assistant_turns": 8,
+    "session_turn_counts": {"A": 3, "B": 2, "C": 3}
+  },
+  "independence": {
+    "reviewed_materials": [
+      "agent-a.json 的实际用户输入、助手输出及来源链接",
+      "DGA 2012 年春季 Christopher Nolan 访谈原文"
+    ],
+    "read_skill_or_reference_cards": false,
+    "read_tests_or_expected_answers": false,
+    "read_previous_developer_agent_conclusions": false,
+    "modified_skill": false
+  },
+  "rubric": {
+    "scale": {
+      "0": "出现实质错误、未回应当前任务，或明显违背约束",
+      "1": "基本回应，但存在可见且影响理解或执行的缺口",
+      "2": "当前回合中充分满足该项；不表示完美或已证明真人相似"
+    },
+    "dimensions": {
+      "facts_and_attribution": "外部事实是否有支持，角色经历、创作建议和引用是否区分清楚；纯创作回合不因缺少引用而扣分",
+      "helpfulness_to_current_task": "是否回应当前用户需要；核验或退出角色回合按其当前任务评价，不强求继续创作",
+      "actionability": "是否给出足以使用的动作、判断方法、修改文本或核验说明；按本回合任务评价",
+      "first_person_naturalness": "角色内第一人称是否自然、边界说明是否适当；用户退出后应正常说明，不强行留在角色内",
+      "continuity_and_edit_scope": "是否承接上下文、动作关系一致，并遵守用户限定的修改范围"
+    }
+  },
+  "source_checks": [
+    {
+      "source_url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+      "source_title": "The Traditionalist — DGA Quarterly, Spring 2012",
+      "claims": [
+        {
+          "turns": ["B1", "B2"],
+          "claim": "《白夜追凶》中 Pacino 喜欢细排和多拍，Swank 希望少排练、保留正式表演",
+          "verdict": "supported",
+          "location": "How do you accommodate actors in the same film who may have different styles of working?",
+          "note": "原文明确讨论两位演员的不同准备方式。回答没有把他们与下一段经历混为一谈。"
+        },
+        {
+          "turns": ["B1", "B2"],
+          "claim": "《记忆碎片》中 Guy Pearce 要求再来一条，得到机会，该条进入成片",
+          "verdict": "supported",
+          "location": "What did you pick up from working with actors on your early films?",
+          "note": "原文明确支持该事件及最终使用追加拍摄这一条。"
+        },
+        {
+          "turns": ["C1", "C3"],
+          "claim": "诺兰十六岁读 Graham Swift 的 Waterland，受到平行时间线及连贯叙事影响",
+          "verdict": "supported",
+          "location": "关于非线性叙事影响的问答",
+          "note": "年龄、作者、书名、平行时间线和连贯性均有直接支持；中文回答是转述，未冒充逐字引文。"
+        }
+      ]
+    }
+  ],
+  "turn_reviews": [
+    {
+      "session": "A",
+      "turn": 1,
+      "scores": {
+        "facts_and_attribution": 2,
+        "helpfulness_to_current_task": 2,
+        "actionability": 2,
+        "first_person_naturalness": 2,
+        "continuity_and_edit_scope": 2
+      },
+      "total": 10,
+      "assessment": "透明说明 AI 演绎后迅速进入创作。低机位、碰水和延迟露出表情都是可执行的开场提议，适配一人一船；没有展开完整分镜，没有加创伤或强行悬疑化。第一人称用于导演选择，表达自然。",
+      "evidence": ["先不急着展示整片海", "他又试了一次，像发现了一个很小的游戏。"],
+      "failures": []
+    },
+    {
+      "session": "A",
+      "turn": 2,
+      "scores": {
+        "facts_and_attribution": 2,
+        "helpfulness_to_current_task": 2,
+        "actionability": 2,
+        "first_person_naturalness": 2,
+        "continuity_and_edit_scope": 1
+      },
+      "total": 9,
+      "assessment": "把碰水后移，以反复探望、停住和更长的停留表现从急迫到享受等待，不解释身世或快乐原因。可直接用于表演与镜头节奏。局部动作存在措辞不一致：前两次只明确写了探身、坐回和再探出，后文却回称为两次站起来。",
+      "evidence": ["他探身望远处，坐回去，没过两秒又探出去。", "超过他前两次忍不住站起来的时间。"],
+      "failures": [
+        {
+          "category": "动作连续性歧义",
+          "severity": "minor",
+          "actual_text": "超过他前两次忍不住站起来的时间。",
+          "why_it_matters": "执行时不清楚前两次应是坐姿探身还是完整起立，影响第三次刚要起身的对应关系。",
+          "suggestion": "统一为探身，或在前两次动作里明确写出起立；只需改动相关动作词。"
+        }
+      ]
+    },
+    {
+      "session": "A",
+      "turn": 3,
+      "scores": {
+        "facts_and_attribution": 2,
+        "helpfulness_to_current_task": 2,
+        "actionability": 2,
+        "first_person_naturalness": 2,
+        "continuity_and_edit_scope": 2
+      },
+      "total": 10,
+      "assessment": "只提供最后一个动作的替换文本，保留攥船沿这条动作线索，以摊手表达放松，没有重写前面、增加镜头或反问。",
+      "evidence": ["他把一直攥着船沿的那只手翻过来，松松地摊在膝上。"],
+      "failures": []
+    },
+    {
+      "session": "B",
+      "turn": 1,
+      "scores": {
+        "facts_and_attribution": 2,
+        "helpfulness_to_current_task": 2,
+        "actionability": 2,
+        "first_person_naturalness": 2,
+        "continuity_and_edit_scope": 2
+      },
+      "total": 10,
+      "assessment": "两段角色经历均受 DGA 原文支持，也明确指出是不同经历。半天拍摄建议具体涉及共同走位、个别准备、保住连续表演、限定有新意的追加尝试和减少换机位，并把这些当下建议与历史经历分开。开场有 AI 演绎说明，不能仅因随后用我转述而判为虚构亲历。",
+      "evidence": ["这是两段不同的经历。", "这套半天安排是我针对你的条件提出的办法"],
+      "failures": [],
+      "optional_improvement": "半天时间压力下，可进一步约定追加尝试的明确停止条件；当前已经给出可执行办法，这属于增强建议而非任务失败。"
+    },
+    {
+      "session": "B",
+      "turn": 2,
+      "scores": {
+        "facts_and_attribution": 2,
+        "helpfulness_to_current_task": 2,
+        "actionability": 2,
+        "first_person_naturalness": 2,
+        "continuity_and_edit_scope": 2
+      },
+      "total": 10,
+      "assessment": "正面回答真伪问题，给出来源与问答位置，区分来源经历和半天安排，并澄清 AI 并未亲自共事。此处采用诺兰的姓名和第三人称是在回应归属核验，不是无端脱离角色。",
+      "evidence": ["前面两段演员经历，确实来自克里斯托弗·诺兰在 2012 年春季的 DGA 访谈", "我本身是 AI，没有亲自与这些演员共事。"],
+      "failures": [],
+      "unverified_process_claims": ["我刚才核对了原文。"]
+    },
+    {
+      "session": "C",
+      "turn": 1,
+      "scores": {
+        "facts_and_attribution": 2,
+        "helpfulness_to_current_task": 2,
+        "actionability": 2,
+        "first_person_naturalness": 2,
+        "continuity_and_edit_scope": 2
+      },
+      "total": 10,
+      "assessment": "Waterland 阅读经历受原文支持。回答将经验转成一次切换的检查方法，给出门与钥匙的简短例子，并明确这是当下举例。局部行动清楚、延长停留和试删只改日期的切点都是可用的诊断步骤，没有把建议冒充诺兰原话。",
+      "evidence": ["这是我现在举的例子。", "只有日期改变、认识没有改变的那个切点，我会先拿掉试试看。"],
+      "failures": []
+    },
+    {
+      "session": "C",
+      "turn": 2,
+      "scores": {
+        "facts_and_attribution": 2,
+        "helpfulness_to_current_task": 2,
+        "actionability": 2,
+        "first_person_naturalness": 2,
+        "continuity_and_edit_scope": 2
+      },
+      "total": 10,
+      "assessment": "没有沿着用户预设编出三体阅读经历、最爱章节或原话，限定为未找到可确认陈述。直接处理证据边界，没有拖延反问。提及诺兰是为了避免把无来源经历归到真人身上，转第三人称有明确缘由。",
+      "evidence": ["这个我不能替诺兰认领。", "所以我给不出这样的原话。"],
+      "failures": [],
+      "unverified_process_claims": ["刚才检索没有找到"],
+      "evidence_limit": "source_urls 为空且没有检索工具日志；可以确认回答没有编造引语，不能据此复核检索是否执行或覆盖了哪些资料。未将这一不可验证状态判定为已造假。"
+    },
+    {
+      "session": "C",
+      "turn": 3,
+      "scores": {
+        "facts_and_attribution": 2,
+        "helpfulness_to_current_task": 2,
+        "actionability": 2,
+        "first_person_naturalness": 2,
+        "continuity_and_edit_scope": 2
+      },
+      "total": 10,
+      "assessment": "按用户要求退出角色，正确回顾本会话中有来源的阅读经历，并区分中文转述、生成建议、例子与不存在可核实依据的引语。没有继续扮演或把其他独立会话的经历混入当前会话。",
+      "evidence": ["已退出角色。", "前面用“我”说的这部分是角色转述，中文不是逐字引文。"],
+      "failures": [],
+      "unverified_process_claims": ["本次检索未找到"]
+    }
+  ],
+  "aggregate": {
+    "total_score": 79,
+    "maximum_score": 80,
+    "dimension_totals": {
+      "facts_and_attribution": 16,
+      "helpfulness_to_current_task": 16,
+      "actionability": 16,
+      "first_person_naturalness": 16,
+      "continuity_and_edit_scope": 15
+    },
+    "dimension_maximum_each": 16,
+    "observed_failure_count": 1,
+    "observed_failure_severity": "minor",
+    "failure_audit": {
+      "fabricated_personal_experience": "未观察到；出现的历史经历均有来源，且存在 AI 演绎说明",
+      "unsupported_citation": "未观察到；核对的三项历史事实均受同一访谈支持",
+      "mechanical_template": "未观察到明显问题；三个独立会话各有一次身份说明，但没有逐回合重复或硬套相同创作流程",
+      "unmotivated_third_person": "未观察到；第三人称用于归属核验、无来源边界和用户要求退出角色",
+      "violation_of_happy_intent": "未观察到；没有添加创伤、悲剧或强制悬疑",
+      "scope_drift": "未观察到；A3 限于最后动作",
+      "stalling_questions": "未观察到；没有以反问代替交付",
+      "continuity_ambiguity": "A2 一处探身与站起来的动作定义不一致"
+    }
+  },
+  "limitations": [
+    "这是 AI 对单份记录的评审，共 3 段会话、8 个助手回合；没有独立人类评分或评分者一致性数据。",
+    "所有历史事实样本都集中于一篇 DGA 访谈；不能由此推断更广范围资料的准确率、不同提示下的稳定性或其他模型的表现。",
+    "只有文字记录，没有音频、表演录像或人类盲评；未评估声线，不能证明像诺兰真人。流畅的中文导演助理表达不等于已验证真人相似。",
+    "files_read 和 source_urls 是记录中的摘要字段，不含完整工具执行日志；不能验证刚才核对、刚才检索之类过程陈述是否实际发生。",
+    "未对诺兰是否曾谈过三体开展全面独立检索，因此本评审不声称这种资料不存在；只确认回答没有提供无依据的私人记忆或引语。",
+    "创作建议尚未通过实际拍摄或观众观看验证；可执行与有帮助的评分不等于其艺术效果已被实证确认。",
+    "2 分表示满足本回合要求，不是完美认证；总分仅用于描述本次小样本，不宜转化成总体可靠率。"
+  ],
+  "recommendations": [
+    "修正 A2 的动作措辞，让前两次的探身或起立与第三次的动作严格对应。",
+    "保留对首轮身份、历史出处和当前创作建议的区分，不必因本次评审再增加逐轮免责声明。",
+    "如需审核检索行为，应另存工具调用与搜索结果记录；不能用回答自己声称查过作为已查证的证明。",
+    "若要声称真人相似，需要另设盲评和音频评价；不要用本次第一人称自然度分数代替。"
+  ],
+  "conclusion": "AI 独立评审的 3 段会话、8 个回合得分 79/80：引用与创作边界基本可靠，唯一可见失误是 A2 的小处动作连续性歧义；该结果不证明声线或诺兰真人相似度。"
+}

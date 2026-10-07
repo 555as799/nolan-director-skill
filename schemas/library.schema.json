@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Nolan director research library",
+  "type": "object",
+  "required": ["version", "cards", "sources", "content_sha256"],
+  "properties": {
+    "version": {"type": "string"},
+    "content_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "sources": {"type": "object", "additionalProperties": {"type": "object", "required": ["urls"], "properties": {"urls": {"type": "array", "items": {"type": "string", "format": "uri"}}}}},
+    "cards": {"type": "array", "items": {"$ref": "#/$defs/card"}}
+  },
+  "$defs": {
+    "card": {
+      "type": "object",
+      "required": ["id", "title", "kind", "evidence_type", "text", "source_ids", "source_review", "source_file"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[A-Za-z0-9-]+$"},
+        "title": {"type": "string", "minLength": 1},
+        "kind": {"enum": ["experience", "collaborator", "craft", "example"]},
+        "source_ids": {"type": "array", "items": {"type": "string"}},
+        "related_ids": {"type": "array", "items": {"type": "string"}},
+        "speaker": {"type": "string"},
+        "fact": {"type": "string"},
+        "inference": {"type": "string"},
+        "current_application": {"type": "string"},
+        "limits": {"type": "string"},
+        "first_person_eligibility": {"enum": ["nolan_public_self_report", "attributed_collaborator_report_only"]}
+      },
+      "allOf": [{"if": {"properties": {"kind": {"const": "experience"}}}, "then": {"required": ["speaker", "fact"], "properties": {"speaker": {"const": "Christopher Nolan"}, "source_ids": {"minItems": 1}, "fact": {"minLength": 1}}}}]
+    }
+  }
+}

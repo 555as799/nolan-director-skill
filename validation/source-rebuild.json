@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "version": "4.1.1",
+  "steps": [
+    {
+      "command": "python build.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python tests/run_all.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python audit_readiness.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python export_source.py",
+      "exit_code": 0
+    }
+  ],
+  "same_corpus_sha256": "0d488943b78746456aa76d3284037c4f1fc1f72492673e09d3f59e2e515f4b9d",
+  "input_archive_sha256": "c981e3f327d896dca345db4ca10ee819dc561a7b943ce8df88082f2d7b1895a2",
+  "offline_tests": {
+    "tests_run": 68,
+    "failures": 0,
+    "errors": 0,
+    "status": "passed",
+    "scope": "offline retrieval, attribution, source export boundaries, package integrity",
+    "generated_dialogue_evaluated": false,
+    "workbuddy_native_import_tested": false
+  },
+  "scope": "isolated source extraction/build/test/export; not a WorkBuddy client test"
+}

@@ -1,0 +1,10 @@
+{
+  "scope": "Manually reviewed overlap among structured experience cards only; not a complete semantic deduplication of the corpus.",
+  "events": [
+    {
+      "id": "reading-waterland",
+      "card_ids": ["V4-N003", "EXP-RD01"],
+      "reason": "Two public interviews describe the same formative reading and its temporal-structure influence. Keep each source and its distinct details, but avoid spending two default retrieval slots on this one experience."
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "stage": "release_candidate",
+  "ready_for_final_release": false,
+  "date": "2026-10-07",
+  "version": "4.1.1",
+  "customer_host_feedback": {
+    "date": "2026-10-07",
+    "affected_version": "4.1.0",
+    "revision": "4.1.1",
+    "evidence_type": "customer_supplied_partial_workbuddy_screenshot_and_direct_feedback",
+    "observed": {
+      "skill_selected_in_client": true,
+      "automatic_identity_preface": true,
+      "corrective_opening_before_scene_development": true,
+      "unsupported_claim_restricting_subjective_memory": true,
+      "customer_acceptance": "rejected"
+    },
+    "visibility_limits": "Only the visible portion of a single reply was available. The host model, hidden prompt, loading trace and remainder of the reply were not inspected.",
+    "fixes": [
+      "Keep product identity disclosure in metadata and documentation; answer direct identity questions truthfully without adding an automatic preface to creative replies.",
+      "Develop the author's intended scene and emotion before critique; give concrete choices and conditional reasons.",
+      "Allow subjective memory, association and ellipsis; distinguish cinematic proposals from factual claims about real cognition.",
+      "Treat historical project exercises as optional context, not universal directing rules."
+    ],
+    "knowledge_added_this_revision": 0,
+    "model_weight_training_this_revision": false,
+    "proxy_comparison": {
+      "status": "completed_with_limitations",
+      "environment": "independent_codex_subagents_not_workbuddy",
+      "baseline": "original_3.2.2_configured_expert_entry",
+      "candidate": "4.1.1_skill_entry",
+      "human_blind_review": false,
+      "superiority_established": false,
+      "baseline_assistant_turns": 2,
+      "candidate_assistant_turns": 4,
+      "shared_prompt_turns_per_version": 2,
+      "version_labels_hidden_from_reviewer": true,
+      "candidate_observations": [
+        "No automatic identity preface in either creative opening.",
+        "Subjective memories and author-requested emotional direction developed into concrete scenes.",
+        "Public Waterland reading account was distinguished from newly proposed scene details."
+      ],
+      "tool_observations": [
+        "Python launcher was unavailable in the trial environment; direct card reading was used.",
+        "One linked source timed out; the alternative linked primary source was accessible."
+      ],
+      "limits": "Single generation per prompt in independent proxy agents; logical sessions share context within a candidate; not the WorkBuddy model, not human ratings, not a held-out general-quality result.",
+      "review_type": "single_separate_ai_text_review_with_version_labels_hidden",
+      "review_result": "Both versions usable in these samples; reviewer slightly preferred the original 3.2.2 baseline. Current revision superiority not established.",
+      "remaining_observations": [
+        "Candidate sometimes explained intended audience feelings too conclusively and repeated a full proposal after a short confirmation.",
+        "One user-specified sequence of multiple contributions was developed less fully than in the baseline.",
+        "One proposed action callback referred to a detail not explicitly established earlier."
+      ],
+      "patch_scope": "Addresses the specific host opening and creative-stance failures; does not claim all remaining dialogue weaknesses are solved."
+    },
+    "current_revision_workbuddy_reply_observed": false,
+    "public_data_boundary": "Raw customer screenshot, prompt, and scene-specific comparison outputs stay local and are excluded from the public source allowlist."
+  },
+  "counts": {
+    "cards": 202,
+    "card_kinds": {
+      "craft": 89,
+      "example": 57,
+      "experience": 44,
+      "collaborator": 12
+    },
+    "source_registry_entries": 73,
+    "source_entries_referenced_by_cards": 57,
+    "registered_source_entries_without_card_links": [
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16",
+      "S39",
+      "S41",
+      "S42",
+      "S43",
+      "S44",
+      "S55",
+      "S56",
+      "S57",
+      "S58",
+      "S61",
+      "S62"
+    ],
+    "film_navigation_entries": 13,
+    "structured_nolan_self_report_candidates": 44,
+    "sources_supporting_structured_nolan_self_reports": [
+      "EXP-S-AUREVIEW-2015",
+      "EXP-S-BULLETIN-2023",
+      "EXP-S-COMINGSOON-2012",
+      "EXP-S-NBR-2014",
+      "EXP-S-RADIOFREE-2006",
+      "EXP-S-THEWRAP-2014",
+      "EXP-S-TOTALFILM-2020",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S21",
+      "S24",
+      "V4-FANDANGO-2017"
+    ],
+    "v4_cards_with_relevant_passage_review": 35,
+    "v4_cards_with_inherited_review_only": 167,
+    "original_example_cards": 57,
+    "v4_behavior_cases_prepared": 25,
+    "v4_behavior_cases_executed": 0,
+    "independent_trial_sessions": 6,
+    "independent_trial_assistant_turns": 17
+  },
+  "claims_not_supported": [
+    "Card count equals independent real Nolan experiences",
+    "Every registered source has been independently reverified in full",
+    "13 film entries are 13 films studied shot by shot",
+    "The new corpus has been used to train model weights",
+    "Passing offline tests proves conversational or creative quality",
+    "The current revision has passed customer WorkBuddy creative acceptance",
+    "Positive proxy-agent reviews outweigh a real customer-host failure"
+  ],
+  "software_validation": {
+    "tests_run": 68,
+    "failures": 0,
+    "errors": 0,
+    "status": "passed",
+    "scope": "offline retrieval, attribution, source export boundaries, package integrity",
+    "generated_dialogue_evaluated": false,
+    "workbuddy_native_import_tested": false
+  },
+  "independent_dialogue_trials": {
+    "records": [
+      {
+        "record": "evals/independent-trials/agent-a.json",
+        "sessions": 3,
+        "assistant_turns": 8
+      },
+      {
+        "record": "evals/independent-trials/agent-b.json",
+        "sessions": 3,
+        "assistant_turns": 9
+      }
+    ],
+    "reviews": [
+      "evals/independent-trials/review.json",
+      "evals/independent-trials/review-b.json"
+    ],
+    "type": "independent_ai_generations_and_separate_ai_review",
+    "limits": "small samples; logical sessions share one agent context per cohort; no human blind ratings, voice evaluation, customer-host model comparison or general accuracy claim"
+  },
+  "prior_training_record": {
+    "source": "user_supplied_archive_not_reproduced_this_session",
+    "runs": [
+      {
+        "id": "run1",
+        "completed_optimizer_steps": 160,
+        "quality_result": "rejected_protocol_and_creative_failures"
+      },
+      {
+        "id": "run2",
+        "completed_optimizer_steps": 160,
+        "selected_checkpoint": 80,
+        "quality_result": "rejected_creative_factual_and_constraint_failures"
+      }
+    ],
+    "data": {
+      "authored_training_episodes": 59,
+      "assistant_targets": 100,
+      "validation_episodes": 6,
+      "test_episodes": 6,
+      "authentic_nolan_utterances": 0,
+      "all_research_corpus_finetuned": false
+    },
+    "new_training_run_this_session": false
+  },
+  "coverage_limits": [
+    "Structured self-report cards cover only a subset of the source registry; other cards mix research summaries and applications.",
+    "No complete verified reading history or complete film/scene analysis is available.",
+    "New passage-reviewed cards overlap with old concepts; the current build is not a corpus deduplication study.",
+    "Independent AI trials were run; no held-out old/new comparison on the customer model has been run.",
+    "MIT and NOTICE define authored-content scope; third-party works remain separately attributed; no public repository has been published."
+  ],
+  "duplicate_source_urls": {
+    "https://open.workbuddy.cn/en/docs/expert": 2
+  },
+  "acceptance_gates": {
+    "baseline_migration": "passed",
+    "offline_retrieval_and_packaging": "passed",
+    "source_by_source_evidence_audit": "incomplete",
+    "corpus_expansion": {
+      "added_cards_with_overlap": 31,
+      "inherited_cards_rechecked": 4
+    },
+    "model_parameter_training": "not_done_not_required_for_current_skill_scope",
+    "generated_dialogue_and_creative_evaluation": "independent_ai_trials_and_reviews_available",
+    "workbuddy_native_customer_workflow": "4.1.0_activation_observed_dialogue_rejected;4.1.1_unverified",
+    "open_source_release_preparation": "prepared"
+  }
+}

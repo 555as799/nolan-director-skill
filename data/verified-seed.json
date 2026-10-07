@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "knowledge_version": "2026-10-07-seed",
+  "status": "verified_seed_not_complete_corpus",
+  "sources": [
+    {
+      "id": "BAFTA-2017",
+      "title": "A Life in Pictures: Christopher Nolan",
+      "publisher": "BAFTA",
+      "url": "https://www.bafta.org/media-centre/press-releases/a-life-in-pictures-christopher-nolan/",
+      "published": "2017-12-02",
+      "verified_on": "2026-10-07",
+      "type": "primary_interview_transcript",
+      "verification": "Opened and checked the relevant transcript passages; no audio prosody analysis."
+    },
+    {
+      "id": "DGA-2012",
+      "title": "The Traditionalist",
+      "publisher": "Directors Guild of America",
+      "interviewer": "Jeffrey Ressner",
+      "url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+      "published": "Spring 2012",
+      "verified_on": "2026-10-07",
+      "type": "primary_interview",
+      "verification": "Opened and checked the relevant interview answers."
+    },
+    {
+      "id": "FANDANGO-2017",
+      "title": "Exclusive Interview: Christopher Nolan on Why 'Dunkirk' Is Like Nothing You've Ever Seen Before",
+      "publisher": "Fandango",
+      "interviewer": "Erik Davis",
+      "url": "https://www.fandango.com/movie-news/exclusive-interview-christopher-nolan-on-why-dunkirk-is-like-nothing-youve-ever-seen-before-752098",
+      "published": "2017-03-30",
+      "verified_on": "2026-10-07",
+      "type": "primary_interview",
+      "verification": "Opened and checked the answer about dialogue and visual suspense."
+    }
+  ],
+  "cards": [
+    {
+      "id": "N001",
+      "title": "倒叙与信息缺失",
+      "works": ["Memento", "记忆碎片"],
+      "tags": ["非线性", "倒叙", "信息差", "主观体验"],
+      "evidence_type": "self_report",
+      "source_id": "BAFTA-2017",
+      "locator": "访谈讨论 Memento 的剧本结构处；定位词 reverse chronology。",
+      "fact": "诺兰解释，逆向叙述让观众同样不知道刚刚发生过什么。",
+      "inference": "先确定希望观众缺少哪种信息，再决定是否改变叙述顺序。",
+      "applies_to": ["倒叙显得炫技", "观众无法进入人物处境", "反转缺乏必要性"],
+      "limits": ["不能推出所有故事都适合倒叙", "不等于在每场戏里把人物目标也隐藏掉"],
+      "exercise": "对三场关键戏分别写下人物知道什么、观众知道什么，再比较顺叙与倒叙的信息差。"
+    },
+    {
+      "id": "N002",
+      "title": "旋转走廊与电影技法的改造",
+      "works": ["Inception", "盗梦空间", "2001: A Space Odyssey", "2001太空漫游"],
+      "tags": ["实拍", "布景", "镜头", "电影影响", "空间"],
+      "evidence_type": "self_report",
+      "source_id": "BAFTA-2017",
+      "locator": "访谈讨论 Inception 走廊制作处；定位词 rotating corridor。",
+      "fact": "诺兰将旋转走廊技法联系到《2001太空漫游》的旋转布景，并谈到移动摄影机的扩展。",
+      "inference": "学习前人的方法时，找出当前场景需要新增的观看体验，而不是只复制画面。",
+      "applies_to": ["视觉参考如何转成方案", "镜头缺少空间感", "致敬只有表面相似"],
+      "limits": ["大型布景的可行性不能直接套用到低预算短片", "此卡不提供任何机械或特技安全施工指令"],
+      "exercise": "用纸模型或分镜比较固定视点与移动视点下的信息变化，先验证镜头目的，再讨论制作方式。"
+    },
+    {
+      "id": "N003",
+      "title": "Waterland 的阅读影响",
+      "works": ["Waterland", "水之乡"],
+      "tags": ["阅读", "多时间线", "连贯性", "文学影响"],
+      "evidence_type": "self_report",
+      "source_id": "DGA-2012",
+      "locator": "回答非线性叙事影响的段落；定位词 Waterland。",
+      "relationship": "confirmed_reading_and_influence",
+      "fact": "诺兰说十六岁读过格雷厄姆·斯威夫特的《Waterland》，并关注其多时间线的连贯性。",
+      "inference": "多条时间线需要共同的情感或因果问题，让切换具有意义。",
+      "applies_to": ["多时间线互不关联", "需要有依据的阅读影响案例"],
+      "limits": ["不能据此推断整本书每一章都影响了某部具体电影", "不代表诺兰确认读过所有相似题材小说"],
+      "exercise": "给每条时间线写一个它独自回答不了的问题，测试另一条线是否使这个问题更清楚。"
+    },
+    {
+      "id": "N004",
+      "title": "Following 与有限资源",
+      "works": ["Following", "追随"],
+      "tags": ["预算", "独立电影", "排期", "资源限制"],
+      "evidence_type": "self_report",
+      "source_id": "DGA-2012",
+      "locator": "访谈开头谈第一部长片的段落；定位词 weekends。",
+      "fact": "诺兰回忆自筹拍摄《追随》，和有全职工作的朋友利用周末完成。",
+      "inference": "剧本规模与拍摄组织可以围绕已经可靠拥有的人、地点和时间设计。",
+      "applies_to": ["学生短片", "业余团队排期", "创意超过可用资源"],
+      "limits": ["这不是要求所有项目模仿当年的拍摄周期", "不保证相同方式能取得相同发行结果"],
+      "exercise": "把已确认可用的演员、地点和时间列出来，重新设计最昂贵的一场戏，保留其戏剧功能。"
+    },
+    {
+      "id": "N005",
+      "title": "CGI 与实拍材料的配合",
+      "works": [],
+      "tags": ["CGI", "视效", "实拍", "真实性", "取舍"],
+      "evidence_type": "self_report",
+      "source_id": "DGA-2012",
+      "locator": "回答何时使用计算机生成影像的段落；定位词 rig removals。",
+      "fact": "诺兰谈到用 CGI 加强现场效果并移除威亚、装置，强调与拍摄材料匹配。",
+      "inference": "判断标准可以是最终镜头是否可信，以及技术选择是否服务表演和叙事。",
+      "applies_to": ["错误地把诺兰概括为从不用CGI", "需要比较实拍与后期方案"],
+      "limits": ["不能外推为其每一部电影的具体制作清单", "早年访谈不自动等于目前对所有技术的意见"],
+      "exercise": "为同一镜头列出现场获得的真实参照和后期需补足的部分，再比较资源、可信度及风险。"
+    },
+    {
+      "id": "N006",
+      "title": "用画面建立悬念",
+      "works": ["Dunkirk", "敦刻尔克"],
+      "tags": ["对白", "视觉叙事", "悬念", "生存"],
+      "evidence_type": "self_report",
+      "source_id": "FANDANGO-2017",
+      "locator": "回答影片对白较少的问题；定位词 light on dialogue。",
+      "fact": "诺兰解释从视觉、行动和悬念出发处理《敦刻尔克》的叙事。",
+      "inference": "说明性对白可先转成观众能看见的障碍、动作和选择，再决定哪些话仍不可少。",
+      "applies_to": ["人物反复解释危险", "对白承担了所有信息", "悬念停在台词中"],
+      "limits": ["不能推出对白越少电影越好", "适用于视觉可承担的信息，不是删除必要的人物关系"],
+      "exercise": "选一场戏暂时遮住对白，标出观众仍能理解的目标和障碍，再补回确有必要的台词。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-07",
+  "affected_version": "4.1.0",
+  "revision": "4.1.1",
+  "evidence_type": "customer_supplied_partial_workbuddy_screenshot_and_direct_feedback",
+  "observed": {
+    "skill_selected_in_client": true,
+    "automatic_identity_preface": true,
+    "corrective_opening_before_scene_development": true,
+    "unsupported_claim_restricting_subjective_memory": true,
+    "customer_acceptance": "rejected"
+  },
+  "visibility_limits": "Only the visible portion of a single reply was available. The host model, hidden prompt, loading trace and remainder of the reply were not inspected.",
+  "fixes": [
+    "Keep product identity disclosure in metadata and documentation; answer direct identity questions truthfully without adding an automatic preface to creative replies.",
+    "Develop the author's intended scene and emotion before critique; give concrete choices and conditional reasons.",
+    "Allow subjective memory, association and ellipsis; distinguish cinematic proposals from factual claims about real cognition.",
+    "Treat historical project exercises as optional context, not universal directing rules."
+  ],
+  "knowledge_added_this_revision": 0,
+  "model_weight_training_this_revision": false,
+  "proxy_comparison": {
+    "status": "completed_with_limitations",
+    "environment": "independent_codex_subagents_not_workbuddy",
+    "baseline": "original_3.2.2_configured_expert_entry",
+    "candidate": "4.1.1_skill_entry",
+    "human_blind_review": false,
+    "superiority_established": false,
+    "baseline_assistant_turns": 2,
+    "candidate_assistant_turns": 4,
+    "shared_prompt_turns_per_version": 2,
+    "version_labels_hidden_from_reviewer": true,
+    "candidate_observations": [
+      "No automatic identity preface in either creative opening.",
+      "Subjective memories and author-requested emotional direction developed into concrete scenes.",
+      "Public Waterland reading account was distinguished from newly proposed scene details."
+    ],
+    "tool_observations": [
+      "Python launcher was unavailable in the trial environment; direct card reading was used.",
+      "One linked source timed out; the alternative linked primary source was accessible."
+    ],
+    "limits": "Single generation per prompt in independent proxy agents; logical sessions share context within a candidate; not the WorkBuddy model, not human ratings, not a held-out general-quality result.",
+    "review_type": "single_separate_ai_text_review_with_version_labels_hidden",
+    "review_result": "Both versions usable in these samples; reviewer slightly preferred the original 3.2.2 baseline. Current revision superiority not established.",
+    "remaining_observations": [
+      "Candidate sometimes explained intended audience feelings too conclusively and repeated a full proposal after a short confirmation.",
+      "One user-specified sequence of multiple contributions was developed less fully than in the baseline.",
+      "One proposed action callback referred to a detail not explicitly established earlier."
+    ],
+    "patch_scope": "Addresses the specific host opening and creative-stance failures; does not claim all remaining dialogue weaknesses are solved."
+  },
+  "current_revision_workbuddy_reply_observed": false,
+  "public_data_boundary": "Raw customer screenshot, prompt, and scene-specific comparison outputs stay local and are excluded from the public source allowlist."
+}

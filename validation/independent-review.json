@@ -1,0 +1,852 @@
+{
+  "date": "2026-10-07",
+  "scope": "independent adversarial retrieval review, no generated dialogue evaluation",
+  "test_design": "New queries authored without reading compare_retrieval.py; stress tests are not a representative accuracy estimate.",
+  "recall_sha256": "59a93c143a9a56f24bbb91e6dc19740d5f6b0eba550fedc4d7b67ffea447457d",
+  "library_sha256": "ed1cd89888dc2cf413e4f6136d1f2b6853f1a83d9563d8ef35b4414031ade8d9",
+  "results": [
+    {
+      "id": "IR01",
+      "query": "摄影机要贴着人物还是往后退？用长焦拍近景会不会等于站在他身边？",
+      "mode": "craft",
+      "situations": [],
+      "json_backend_ids": [
+        "N03",
+        "EXP-ASC01",
+        "VDC02",
+        "VE06"
+      ],
+      "auto_backend_ids": [
+        "N03",
+        "EXP-ASC01",
+        "VDC02",
+        "VE06"
+      ],
+      "backend_equivalent": true,
+      "matches": 71,
+      "top_titles": [
+        "抽象形象贴着人物发生",
+        "奥本海默：相机靠近谁决定观看的位置",
+        "由抽象感受落实相机和人物的距离",
+        "从抽象取向走向三维机位关系"
+      ],
+      "after_patch": {
+        "situations": [],
+        "ids": [
+          "N03",
+          "EXP-ASC01",
+          "VDC02",
+          "VE06"
+        ],
+        "query_interpretation": {
+          "text": "摄影机要贴着人物还是往后退；用长焦拍近景会不会等于站在他身边",
+          "excluded_clauses": [],
+          "explicit_focus": false,
+          "summary_truncated": false
+        },
+        "auto_backend": "json-bm25",
+        "backend_equivalent": true
+      },
+      "rebuilt_corpus_verification": {
+        "situations": [],
+        "json_ids": [
+          "N03",
+          "EXP-ASC01",
+          "VDC02",
+          "VE06"
+        ],
+        "sqlite_ids": [
+          "N03",
+          "EXP-ASC01",
+          "VDC02",
+          "VE06"
+        ],
+        "sqlite_backend": "sqlite-fts5+bm25",
+        "cards_equivalent": true,
+        "sources_equivalent": true
+      }
+    },
+    {
+      "id": "IR02",
+      "query": "我不想反复排练，演员已经很自然。现在只想处理结尾对白像说明书的问题。",
+      "mode": "craft",
+      "situations": [
+        "actor_process"
+      ],
+      "json_backend_ids": [
+        "QA12-D01",
+        "J16",
+        "EXP-DGA17B",
+        "K11"
+      ],
+      "auto_backend_ids": [
+        "QA12-D01",
+        "J16",
+        "EXP-DGA17B",
+        "K11"
+      ],
+      "backend_equivalent": true,
+      "matches": 92,
+      "top_titles": [
+        "同片演员的排练习惯不同，如何协调？",
+        "排练方式和拍摄条数服务于这个演员",
+        "敦刻尔克：严格结构中仍能通过即兴排练丰富人物",
+        "演员需要与排练方式"
+      ],
+      "after_patch": {
+        "situations": [
+          "exposition"
+        ],
+        "ids": [
+          "V4-N006",
+          "DCA02",
+          "VE02",
+          "K01"
+        ],
+        "query_interpretation": {
+          "text": "处理结尾对白像说明书的问题",
+          "excluded_clauses": [],
+          "explicit_focus": true,
+          "summary_truncated": false
+        },
+        "auto_backend": "json-bm25",
+        "backend_equivalent": true
+      },
+      "rebuilt_corpus_verification": {
+        "situations": [
+          "exposition"
+        ],
+        "json_ids": [
+          "V4-N006",
+          "DCA02",
+          "VE02",
+          "K01"
+        ],
+        "sqlite_ids": [
+          "V4-N006",
+          "DCA02",
+          "VE02",
+          "K01"
+        ],
+        "sqlite_backend": "sqlite-fts5+bm25",
+        "cards_equivalent": true,
+        "sources_equivalent": true
+      }
+    },
+    {
+      "id": "IR03",
+      "query": "Can I preserve spontaneity while rehearsing a scene?",
+      "mode": "experience",
+      "situations": [],
+      "json_backend_ids": [
+        "V4-N002"
+      ],
+      "auto_backend_ids": [
+        "V4-N002"
+      ],
+      "backend_equivalent": true,
+      "matches": 1,
+      "top_titles": [
+        "旋转走廊与电影技法的改造"
+      ],
+      "after_patch": {
+        "situations": [
+          "actor_process"
+        ],
+        "ids": [
+          "QA12-D01",
+          "QA12-D02",
+          "EXP-DGA17B",
+          "QA12-I09"
+        ],
+        "query_interpretation": {
+          "text": "can i preserve spontaneity while rehearsing a scene",
+          "excluded_clauses": [],
+          "explicit_focus": false,
+          "summary_truncated": false
+        },
+        "auto_backend": "json-bm25",
+        "backend_equivalent": true
+      },
+      "rebuilt_corpus_verification": {
+        "situations": [
+          "actor_process"
+        ],
+        "json_ids": [
+          "QA12-D01",
+          "QA12-D02",
+          "QA12-I09",
+          "EXP-DGA17B"
+        ],
+        "sqlite_ids": [
+          "QA12-D01",
+          "QA12-D02",
+          "QA12-I09",
+          "EXP-DGA17B"
+        ],
+        "sqlite_backend": "sqlite-fts5+bm25",
+        "cards_equivalent": true,
+        "sources_equivalent": true
+      }
+    },
+    {
+      "id": "IR04",
+      "query": "I want a coherent emotional line through three different time scales.",
+      "mode": "experience",
+      "situations": [],
+      "json_backend_ids": [
+        "V4-N002"
+      ],
+      "auto_backend_ids": [
+        "V4-N002"
+      ],
+      "backend_equivalent": true,
+      "matches": 1,
+      "top_titles": [
+        "旋转走廊与电影技法的改造"
+      ],
+      "after_patch": {
+        "situations": [
+          "audience_orientation"
+        ],
+        "ids": [
+          "V4-N001",
+          "EXP-DGA17A",
+          "V4-N003",
+          "V4-N006"
+        ],
+        "query_interpretation": {
+          "text": "i want a coherent emotional line through three different time scales.",
+          "excluded_clauses": [],
+          "explicit_focus": false,
+          "summary_truncated": false
+        },
+        "auto_backend": "json-bm25",
+        "backend_equivalent": true
+      },
+      "rebuilt_corpus_verification": {
+        "situations": [
+          "audience_orientation"
+        ],
+        "json_ids": [
+          "V4-N001",
+          "EXP-DGA17A",
+          "V4-N003",
+          "V4-N006"
+        ],
+        "sqlite_ids": [
+          "V4-N001",
+          "EXP-DGA17A",
+          "V4-N003",
+          "V4-N006"
+        ],
+        "sqlite_backend": "sqlite-fts5+bm25",
+        "cards_equivalent": true,
+        "sources_equivalent": true
+      }
+    },
+    {
+      "id": "IR05",
+      "query": "不要多时间线，就顺着一天拍；怎样把房间外的城市做得像真的？",
+      "mode": "craft",
+      "situations": [
+        "audience_orientation"
+      ],
+      "json_backend_ids": [
+        "V4-N003",
+        "EXP-DGA17A",
+        "V4-N001",
+        "J01"
+      ],
+      "auto_backend_ids": [
+        "V4-N003",
+        "EXP-DGA17A",
+        "V4-N001",
+        "J01"
+      ],
+      "backend_equivalent": true,
+      "matches": 105,
+      "top_titles": [
+        "Waterland 的阅读影响",
+        "敦刻尔克：从不同位置与时间经历组织结构",
+        "倒叙与信息缺失",
+        "先确定观众被限制在哪里，再决定时间顺序"
+      ],
+      "after_patch": {
+        "situations": [
+          "world_beyond_frame"
+        ],
+        "ids": [
+          "EXP-DGA12A",
+          "K05",
+          "DCA10",
+          "N01"
+        ],
+        "query_interpretation": {
+          "text": "就顺着一天拍；怎样把房间外的城市做得像真的",
+          "excluded_clauses": [
+            "不要多时间线"
+          ],
+          "explicit_focus": false,
+          "summary_truncated": false
+        },
+        "auto_backend": "json-bm25",
+        "backend_equivalent": true
+      },
+      "rebuilt_corpus_verification": {
+        "situations": [
+          "world_beyond_frame"
+        ],
+        "json_ids": [
+          "EXP-DGA12A",
+          "K05",
+          "DCA10",
+          "N01"
+        ],
+        "sqlite_ids": [
+          "EXP-DGA12A",
+          "K05",
+          "DCA10",
+          "N01"
+        ],
+        "sqlite_backend": "sqlite-fts5+bm25",
+        "cards_equivalent": true,
+        "sources_equivalent": true
+      }
+    },
+    {
+      "id": "IR06",
+      "query": "你真读过《水之乡》吗？它怎样影响你处理过去和现在？",
+      "mode": "experience",
+      "situations": [],
+      "json_backend_ids": [
+        "V4-N003",
+        "EXP-DGA12A",
+        "QA12-DI02",
+        "V4-N006"
+      ],
+      "auto_backend_ids": [
+        "V4-N003",
+        "EXP-DGA12A",
+        "QA12-DI02",
+        "V4-N006"
+      ],
+      "backend_equivalent": true,
+      "matches": 7,
+      "top_titles": [
+        "Waterland 的阅读影响",
+        "银翼杀手的影响：让世界延伸到画框外",
+        "为何改变以往少用高速摄影的习惯？",
+        "用画面建立悬念"
+      ],
+      "after_patch": {
+        "situations": [],
+        "ids": [
+          "V4-N003",
+          "EXP-DGA12A",
+          "QA12-DI02",
+          "V4-N006"
+        ],
+        "query_interpretation": {
+          "text": "你真读过《水之乡》吗；它怎样影响你处理过去和现在",
+          "excluded_clauses": [],
+          "explicit_focus": false,
+          "summary_truncated": false
+        },
+        "auto_backend": "json-bm25",
+        "backend_equivalent": true
+      },
+      "rebuilt_corpus_verification": {
+        "situations": [],
+        "json_ids": [
+          "V4-N003",
+          "EXP-RD01",
+          "EXP-DGA12A",
+          "EXP-RD02"
+        ],
+        "sqlite_ids": [
+          "V4-N003",
+          "EXP-RD01",
+          "EXP-DGA12A",
+          "EXP-RD02"
+        ],
+        "sqlite_backend": "sqlite-fts5+bm25",
+        "cards_equivalent": true,
+        "sources_equivalent": true
+      }
+    },
+    {
+      "id": "IR07",
+      "query": "Guy Pearce asks for an extra take even though you have the shot—what would you do?",
+      "mode": "experience",
+      "situations": [],
+      "json_backend_ids": [
+        "QA12-D02",
+        "QA12-D01",
+        "QA12-D03",
+        "QA12-I09"
+      ],
+      "auto_backend_ids": [
+        "QA12-D02",
+        "QA12-D01",
+        "QA12-D03",
+        "QA12-I09"
+      ],
+      "backend_equivalent": true,
+      "matches": 4,
+      "top_titles": [
+        "早期拍片从演员身上学到什么？",
+        "同片演员的排练习惯不同，如何协调？",
+        "单机是否让剪辑更快？",
+        "提出角色意图后，被追问是否让Murphy照此解释表演。"
+      ],
+      "after_patch": {
+        "situations": [
+          "actor_process"
+        ],
+        "ids": [
+          "QA12-D02",
+          "QA12-D01",
+          "EXP-DGA17B",
+          "QA12-I09"
+        ],
+        "query_interpretation": {
+          "text": "guy pearce asks for an extra take even though you have the shot—what would you do",
+          "excluded_clauses": [],
+          "explicit_focus": false,
+          "summary_truncated": false
+        },
+        "auto_backend": "json-bm25",
+        "backend_equivalent": true
+      },
+      "rebuilt_corpus_verification": {
+        "situations": [
+          "actor_process"
+        ],
+        "json_ids": [
+          "QA12-D02",
+          "QA12-D01",
+          "QA12-I09",
+          "EXP-DGA17B"
+        ],
+        "sqlite_ids": [
+          "QA12-D02",
+          "QA12-D01",
+          "QA12-I09",
+          "EXP-DGA17B"
+        ],
+        "sqlite_backend": "sqlite-fts5+bm25",
+        "cards_equivalent": true,
+        "sources_equivalent": true
+      }
+    },
+    {
+      "id": "IR08",
+      "query": "不是预算有限，是人物的选择有限。我不需要省钱建议。",
+      "mode": "craft",
+      "situations": [],
+      "json_backend_ids": [
+        "DCA04",
+        "VDC02",
+        "VE08",
+        "K16"
+      ],
+      "auto_backend_ids": [
+        "DCA04",
+        "VDC02",
+        "VE08",
+        "K16"
+      ],
+      "backend_equivalent": true,
+      "matches": 94,
+      "top_titles": [
+        "顺序服务于人物的处境",
+        "由抽象感受落实相机和人物的距离",
+        "承认创作选择与现实判断有张力",
+        "预算、协作与观看验证"
+      ],
+      "after_patch": {
+        "situations": [],
+        "ids": [
+          "DCA04",
+          "VDC02",
+          "N03",
+          "EXP-DGA12A"
+        ],
+        "query_interpretation": {
+          "text": "是人物的选择有限",
+          "excluded_clauses": [
+            "不是预算有限",
+            "我不需要省钱建议"
+          ],
+          "explicit_focus": false,
+          "summary_truncated": false
+        },
+        "auto_backend": "json-bm25",
+        "backend_equivalent": true
+      },
+      "rebuilt_corpus_verification": {
+        "situations": [],
+        "json_ids": [
+          "DCA04",
+          "VDC02",
+          "N03",
+          "EXP-SC01"
+        ],
+        "sqlite_ids": [
+          "DCA04",
+          "VDC02",
+          "N03",
+          "EXP-SC01"
+        ],
+        "sqlite_backend": "sqlite-fts5+bm25",
+        "cards_equivalent": true,
+        "sources_equivalent": true
+      }
+    },
+    {
+      "id": "IR09",
+      "query": "我不需要低成本方案，制片人已经解决钱的问题。我要知道怎样让一句对白听起来不像解释。",
+      "mode": "craft",
+      "situations": [
+        "limited_resources"
+      ],
+      "json_backend_ids": [
+        "K16",
+        "EXP-ASC02",
+        "QA12-I06",
+        "J12"
+      ],
+      "auto_backend_ids": [
+        "K16",
+        "EXP-ASC02",
+        "QA12-I06",
+        "J12"
+      ],
+      "backend_equivalent": true,
+      "matches": 117,
+      "top_titles": [
+        "预算、协作与观看验证",
+        "洛斯阿拉莫斯：用确定的机位范围缩减布景",
+        "被问预算从Insomnia到Batman Begins大幅增长是否最难。",
+        "导演判断是协作中的取舍，不是单一招式库"
+      ],
+      "after_patch": {
+        "situations": [
+          "exposition"
+        ],
+        "ids": [
+          "V4-N006",
+          "VE02",
+          "K01",
+          "DCA02"
+        ],
+        "query_interpretation": {
+          "text": "怎样让一句对白听起来不像解释",
+          "excluded_clauses": [],
+          "explicit_focus": true,
+          "summary_truncated": false
+        },
+        "auto_backend": "json-bm25",
+        "backend_equivalent": true
+      },
+      "rebuilt_corpus_verification": {
+        "situations": [
+          "exposition"
+        ],
+        "json_ids": [
+          "V4-N006",
+          "VE02",
+          "K01",
+          "DCA02"
+        ],
+        "sqlite_ids": [
+          "V4-N006",
+          "VE02",
+          "K01",
+          "DCA02"
+        ],
+        "sqlite_backend": "sqlite-fts5+bm25",
+        "cards_equivalent": true,
+        "sources_equivalent": true
+      }
+    },
+    {
+      "id": "IR10",
+      "query": "How did you work with Hans Zimmer to make sound drive the narrative?",
+      "mode": "craft",
+      "situations": [],
+      "json_backend_ids": [
+        "QA12-DB02",
+        "F07",
+        "J12",
+        "F13"
+      ],
+      "auto_backend_ids": [
+        "QA12-DB02",
+        "F07",
+        "J12",
+        "F13"
+      ],
+      "backend_equivalent": true,
+      "matches": 82,
+      "top_titles": [
+        "如何启动《星际穿越》的配乐合作？",
+        "盗梦空间｜Inception",
+        "导演判断是协作中的取舍，不是单一招式库",
+        "奥德赛｜The Odyssey"
+      ],
+      "after_patch": {
+        "situations": [
+          "sound_emotion"
+        ],
+        "ids": [
+          "QA12-DB02",
+          "EXP-DGA17A",
+          "J06",
+          "DCA09"
+        ],
+        "query_interpretation": {
+          "text": "how did you work with hans zimmer to make sound drive the narrative",
+          "excluded_clauses": [],
+          "explicit_focus": false,
+          "summary_truncated": false
+        },
+        "auto_backend": "json-bm25",
+        "backend_equivalent": true
+      },
+      "rebuilt_corpus_verification": {
+        "situations": [
+          "sound_emotion"
+        ],
+        "json_ids": [
+          "QA12-DB02",
+          "EXP-DGA17A",
+          "J06",
+          "DCA09"
+        ],
+        "sqlite_ids": [
+          "QA12-DB02",
+          "EXP-DGA17A",
+          "J06",
+          "DCA09"
+        ],
+        "sqlite_backend": "sqlite-fts5+bm25",
+        "cards_equivalent": true,
+        "sources_equivalent": true
+      }
+    },
+    {
+      "id": "IR11",
+      "query": "想找《黑暗騎士》的攝影經驗，該怎麼讓城市像一個角色？",
+      "mode": "craft",
+      "situations": [],
+      "json_backend_ids": [
+        "VP02",
+        "QA12-I09",
+        "J15",
+        "F06"
+      ],
+      "auto_backend_ids": [
+        "VP02",
+        "QA12-I09",
+        "J15",
+        "F06"
+      ],
+      "backend_equivalent": true,
+      "matches": 15,
+      "top_titles": [
+        "当采访者问演员是否遵从他对角色的解释时",
+        "提出角色意图后，被追问是否让Murphy照此解释表演。",
+        "心理黑暗可以发生在白天",
+        "黑暗骑士｜The Dark Knight"
+      ],
+      "after_patch": {
+        "situations": [],
+        "ids": [
+          "QA12-DI01",
+          "F06",
+          "F08",
+          "VP10"
+        ],
+        "query_interpretation": {
+          "text": "想找《黑暗骑士》的摄影经验；该怎么让城市像一个角色",
+          "excluded_clauses": [],
+          "explicit_focus": false,
+          "summary_truncated": false
+        },
+        "auto_backend": "json-bm25",
+        "backend_equivalent": true
+      },
+      "rebuilt_corpus_verification": {
+        "situations": [],
+        "json_ids": [
+          "QA12-DI01",
+          "F06",
+          "F08",
+          "VP10"
+        ],
+        "sqlite_ids": [
+          "QA12-DI01",
+          "F06",
+          "F08",
+          "VP10"
+        ],
+        "sqlite_backend": "sqlite-fts5+bm25",
+        "cards_equivalent": true,
+        "sources_equivalent": true
+      }
+    },
+    {
+      "id": "IR12",
+      "query": "不是画面漂亮的问题，是对白的因果关系很含混。",
+      "mode": "craft",
+      "situations": [],
+      "json_backend_ids": [
+        "EXP-ASC01",
+        "V4-N003",
+        "V4-N006",
+        "QA12-I04"
+      ],
+      "auto_backend_ids": [
+        "EXP-ASC01",
+        "V4-N003",
+        "V4-N006",
+        "QA12-I04"
+      ],
+      "backend_equivalent": true,
+      "matches": 84,
+      "top_titles": [
+        "奥本海默：相机靠近谁决定观看的位置",
+        "Waterland 的阅读影响",
+        "用画面建立悬念",
+        "观众追问重复使用Cobb是否有缩写或秘密意义，随后重提Hughes问题。"
+      ],
+      "after_patch": {
+        "situations": [
+          "exposition"
+        ],
+        "ids": [
+          "V4-N006",
+          "VE02",
+          "K01",
+          "DCA02"
+        ],
+        "query_interpretation": {
+          "text": "是对白的因果关系很含混",
+          "excluded_clauses": [
+            "不是画面漂亮的问题"
+          ],
+          "explicit_focus": false,
+          "summary_truncated": false
+        },
+        "auto_backend": "json-bm25",
+        "backend_equivalent": true
+      },
+      "rebuilt_corpus_verification": {
+        "situations": [
+          "exposition"
+        ],
+        "json_ids": [
+          "V4-N006",
+          "VE02",
+          "K01",
+          "DCA02"
+        ],
+        "sqlite_ids": [
+          "V4-N006",
+          "VE02",
+          "K01",
+          "DCA02"
+        ],
+        "sqlite_backend": "sqlite-fts5+bm25",
+        "cards_equivalent": true,
+        "sources_equivalent": true
+      }
+    }
+  ],
+  "patched_recall_sha256": "48af5bebae4769e24ef1969c81dd8b9ea6dbf817a91d978e56967fd049b613b0",
+  "test_status": {
+    "new_unit_tests": 16,
+    "passed": 16,
+    "generated_dialogue_evaluated": false,
+    "native_workbuddy_evaluated": false,
+    "original_suite_tests": 25,
+    "original_suite_passed": 25,
+    "explicit_sqlite_parity_cases": 12,
+    "explicit_sqlite_parity_passed": 12
+  },
+  "interpretation": "The first pass was independent of the existing developer-selected comparison set. After exposing failures these exact cases became regression tests, not an untouched held-out benchmark. No persona quality accuracy is claimed.",
+  "findings": [
+    {
+      "id": "IR-F01",
+      "priority": "P1",
+      "status": "fixed_with_bounded_rules",
+      "problem": "Declined/background topics were boosted above the live task.",
+      "evidence": [
+        "IR02",
+        "IR05",
+        "IR09"
+      ],
+      "fix": "Normalize explicit topic shifts and declined-topic clauses before lexical expansion; preserve negative desired outcomes and actor refusals."
+    },
+    {
+      "id": "IR-F02",
+      "priority": "P1",
+      "status": "fixed_for_tested_domain",
+      "problem": "English function words matched a rotating-corridor card despite unrelated intent.",
+      "evidence": [
+        "IR03",
+        "IR04"
+      ],
+      "fix": "English stopwords, whole-word alias matching, bilingual craft situations. No general multilingual semantics claimed."
+    },
+    {
+      "id": "IR-F03",
+      "priority": "P2",
+      "status": "fixed_for_common_domain_characters",
+      "problem": "Traditional Chinese film/craft terms missed Simplified Chinese aliases.",
+      "evidence": [
+        "IR11"
+      ],
+      "fix": "Auditable limited traditional-character normalization and explicit-film relevance bonus."
+    },
+    {
+      "id": "IR-F04",
+      "priority": "P2",
+      "status": "fixed_build_and_runtime_verified",
+      "problem": "A changed token analyzer could reuse an old FTS index because its fingerprint tracked corpus only.",
+      "fix": "Require analyzer_version metadata to match ANALYZER_VERSION."
+    },
+    {
+      "id": "IR-F05",
+      "priority": "P1",
+      "status": "parent_integrating",
+      "problem": "Source archive recursively included historical baseline and arbitrary new files.",
+      "fix": "Standalone canonical inputs and release allowlist; do not publish customer memory or training history by default."
+    },
+    {
+      "id": "IR-F06",
+      "priority": "P2",
+      "status": "recommendation",
+      "problem": "Persona/voice rules could be absent after host context compression; no restoration contract was explicit.",
+      "fix": "Recover the small role core, voice contract and author-confirmed project summary only when missing, without reopening the whole library."
+    },
+    {
+      "id": "IR-F07",
+      "priority": "P2",
+      "status": "recommendation",
+      "problem": "Cards overlap facts and original testing material; card count is not experience count.",
+      "fix": "Canonical fact/episode identifiers, query-time near-duplicate diversity, per-fact provenance and source review status."
+    },
+    {
+      "id": "IR-F08",
+      "priority": "P2",
+      "status": "recommendation",
+      "problem": "Packaging and lexical recall do not measure first-person creative conversation quality.",
+      "fix": "Run target-host generated multi-turn evaluation with source attribution, author constraints, correction adoption, specificity and hallucination checks."
+    }
+  ],
+  "patched_library_sha256": "ed1cd89888dc2cf413e4f6136d1f2b6853f1a83d9563d8ef35b4414031ade8d9",
+  "rebuilt_library_sha256": "e41d1c0e44be93a91b8dab233d37aea6074ae4748f938608e0c3e7f74efaca85"
+}

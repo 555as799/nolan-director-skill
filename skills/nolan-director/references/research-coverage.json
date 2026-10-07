@@ -1,0 +1,359 @@
+{
+  "as_of": "2026-10-06",
+  "feature_films": [
+    {
+      "id": "F01",
+      "title": "追随｜Following",
+      "source_ids": [
+        "S21",
+        "S23",
+        "S24",
+        "S37",
+        "S51",
+        "S52"
+      ],
+      "source_supported_topics": [
+        "低成本/排练",
+        "顺序与信息",
+        "空间与叙事"
+      ],
+      "original_decisions": 10,
+      "full_film_shot_annotation": "not_completed",
+      "gaps": [
+        "正版版本与连续场次逐镜标注",
+        "原片精确焦距/机位/灯位的逐项出处",
+        "人物表演与剪辑节奏的完整观片证据"
+      ],
+      "notes": "主题为有限读取范围，不代表整片已分析。具体边界见来源索引。"
+    },
+    {
+      "id": "F02",
+      "title": "记忆碎片｜Memento",
+      "source_ids": [
+        "S04",
+        "S25",
+        "S40",
+        "S51"
+      ],
+      "source_supported_topics": [
+        "主观信息限制",
+        "写作次序",
+        "自我解释"
+      ],
+      "original_decisions": 10,
+      "full_film_shot_annotation": "not_completed",
+      "gaps": [
+        "正版版本与连续场次逐镜标注",
+        "原片精确焦距/机位/灯位的逐项出处",
+        "人物表演与剪辑节奏的完整观片证据"
+      ],
+      "notes": "主题为有限读取范围，不代表整片已分析。具体边界见来源索引。"
+    },
+    {
+      "id": "F03",
+      "title": "白夜追凶｜Insomnia",
+      "source_ids": [
+        "S25",
+        "S51"
+      ],
+      "source_supported_topics": [
+        "视点与内疚",
+        "改编"
+      ],
+      "original_decisions": 10,
+      "full_film_shot_annotation": "not_completed",
+      "gaps": [
+        "正版版本与连续场次逐镜标注",
+        "原片精确焦距/机位/灯位的逐项出处",
+        "人物表演与剪辑节奏的完整观片证据"
+      ],
+      "notes": "主题为有限读取范围，不代表整片已分析。具体边界见来源索引。"
+    },
+    {
+      "id": "F04",
+      "title": "蝙蝠侠：侠影之谜｜Batman Begins",
+      "source_ids": [
+        "S26",
+        "S45"
+      ],
+      "source_supported_topics": [
+        "起源过程",
+        "编剧协作",
+        "摄影有限片段"
+      ],
+      "original_decisions": 10,
+      "full_film_shot_annotation": "not_completed",
+      "gaps": [
+        "正版版本与连续场次逐镜标注",
+        "原片精确焦距/机位/灯位的逐项出处",
+        "人物表演与剪辑节奏的完整观片证据"
+      ],
+      "notes": "主题为有限读取范围，不代表整片已分析。具体边界见来源索引。"
+    },
+    {
+      "id": "F05",
+      "title": "致命魔术｜The Prestige",
+      "source_ids": [
+        "S22",
+        "S37"
+      ],
+      "source_supported_topics": [
+        "光向与舞台",
+        "人物距离"
+      ],
+      "original_decisions": 10,
+      "full_film_shot_annotation": "not_completed",
+      "gaps": [
+        "正版版本与连续场次逐镜标注",
+        "原片精确焦距/机位/灯位的逐项出处",
+        "人物表演与剪辑节奏的完整观片证据"
+      ],
+      "notes": "主题为有限读取范围，不代表整片已分析。具体边界见来源索引。"
+    },
+    {
+      "id": "F06",
+      "title": "黑暗骑士｜The Dark Knight",
+      "source_ids": [
+        "S27",
+        "S33",
+        "S45"
+      ],
+      "source_supported_topics": [
+        "城市与摄影",
+        "实拍VFX协作",
+        "编剧"
+      ],
+      "original_decisions": 10,
+      "full_film_shot_annotation": "not_completed",
+      "gaps": [
+        "正版版本与连续场次逐镜标注",
+        "原片精确焦距/机位/灯位的逐项出处",
+        "人物表演与剪辑节奏的完整观片证据"
+      ],
+      "notes": "主题为有限读取范围，不代表整片已分析。具体边界见来源索引。"
+    },
+    {
+      "id": "F07",
+      "title": "盗梦空间｜Inception",
+      "source_ids": [
+        "S06",
+        "S33",
+        "S38"
+      ],
+      "source_supported_topics": [
+        "分层识别",
+        "摄影光源/高速",
+        "音乐与视效"
+      ],
+      "original_decisions": 10,
+      "full_film_shot_annotation": "not_completed",
+      "gaps": [
+        "正版版本与连续场次逐镜标注",
+        "原片精确焦距/机位/灯位的逐项出处",
+        "人物表演与剪辑节奏的完整观片证据"
+      ],
+      "notes": "主题为有限读取范围，不代表整片已分析。具体边界见来源索引。"
+    },
+    {
+      "id": "F08",
+      "title": "黑暗骑士崛起｜The Dark Knight Rises",
+      "source_ids": [
+        "S28",
+        "S33",
+        "S45"
+      ],
+      "source_supported_topics": [
+        "大画幅与对白",
+        "遮脸表演"
+      ],
+      "original_decisions": 10,
+      "full_film_shot_annotation": "not_completed",
+      "gaps": [
+        "正版版本与连续场次逐镜标注",
+        "原片精确焦距/机位/灯位的逐项出处",
+        "人物表演与剪辑节奏的完整观片证据"
+      ],
+      "notes": "主题为有限读取范围，不代表整片已分析。具体边界见来源索引。"
+    },
+    {
+      "id": "F09",
+      "title": "星际穿越｜Interstellar",
+      "source_ids": [
+        "S29",
+        "S04",
+        "S33",
+        "S46"
+      ],
+      "source_supported_topics": [
+        "实拍CG协作",
+        "格式与时间颗粒",
+        "情感音乐"
+      ],
+      "original_decisions": 10,
+      "full_film_shot_annotation": "not_completed",
+      "gaps": [
+        "正版版本与连续场次逐镜标注",
+        "原片精确焦距/机位/灯位的逐项出处",
+        "人物表演与剪辑节奏的完整观片证据"
+      ],
+      "notes": "主题为有限读取范围，不代表整片已分析。具体边界见来源索引。"
+    },
+    {
+      "id": "F10",
+      "title": "敦刻尔克｜Dunkirk",
+      "source_ids": [
+        "S05",
+        "S10",
+        "S31",
+        "S46",
+        "S47",
+        "S49",
+        "S50",
+        "S53"
+      ],
+      "source_supported_topics": [
+        "时间/空间",
+        "汇合剪辑",
+        "大画幅/声音/展示"
+      ],
+      "original_decisions": 10,
+      "full_film_shot_annotation": "not_completed",
+      "gaps": [
+        "正版版本与连续场次逐镜标注",
+        "原片精确焦距/机位/灯位的逐项出处",
+        "人物表演与剪辑节奏的完整观片证据"
+      ],
+      "notes": "主题为有限读取范围，不代表整片已分析。具体边界见来源索引。"
+    },
+    {
+      "id": "F11",
+      "title": "信条｜Tenet",
+      "source_ids": [
+        "S30",
+        "S34",
+        "S54"
+      ],
+      "source_supported_topics": [
+        "摄影",
+        "逆向动作视效",
+        "声音视点"
+      ],
+      "original_decisions": 10,
+      "full_film_shot_annotation": "not_completed",
+      "gaps": [
+        "正版版本与连续场次逐镜标注",
+        "原片精确焦距/机位/灯位的逐项出处",
+        "人物表演与剪辑节奏的完整观片证据"
+      ],
+      "notes": "主题为有限读取范围，不代表整片已分析。具体边界见来源索引。"
+    },
+    {
+      "id": "F12",
+      "title": "奥本海默｜Oppenheimer",
+      "source_ids": [
+        "S07",
+        "S08",
+        "S09",
+        "S19",
+        "S20",
+        "S48"
+      ],
+      "source_supported_topics": [
+        "人物距离/结构",
+        "光学实验",
+        "剪辑/音乐/后期流程"
+      ],
+      "original_decisions": 10,
+      "full_film_shot_annotation": "not_completed",
+      "gaps": [
+        "正版版本与连续场次逐镜标注",
+        "原片精确焦距/机位/灯位的逐项出处",
+        "人物表演与剪辑节奏的完整观片证据"
+      ],
+      "notes": "主题为有限读取范围，不代表整片已分析。具体边界见来源索引。"
+    },
+    {
+      "id": "F13",
+      "title": "奥德赛｜The Odyssey",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S17",
+        "S18",
+        "S32",
+        "S42",
+        "S43"
+      ],
+      "source_supported_topics": [
+        "归返/改编",
+        "新IMAX摄影",
+        "幕后材料/声音有限片段"
+      ],
+      "original_decisions": 10,
+      "full_film_shot_annotation": "not_completed",
+      "gaps": [
+        "正版版本与连续场次逐镜标注",
+        "原片精确焦距/机位/灯位的逐项出处",
+        "人物表演与剪辑节奏的完整观片证据"
+      ],
+      "notes": "主题为有限读取范围，不代表整片已分析。具体边界见来源索引。"
+    }
+  ],
+  "full_films_frame_analyzed": 0,
+  "private_archives_available": false,
+  "expert_reviewed_examples": 0,
+  "version": "3.0.0",
+  "contextual_dialogue_research": {
+    "source_file": "references/contextual-dialogue.json",
+    "input_cards": 27,
+    "deduplicated_cards": 25,
+    "duplicate_pairs_merged": 2,
+    "source_ids": [
+      "S04",
+      "S06",
+      "S07",
+      "S19",
+      "S21",
+      "S22"
+    ],
+    "existing_sources_reread": 6,
+    "new_unique_sources": 0,
+    "speakers": [
+      "Christopher Nolan",
+      "Wally Pfister",
+      "Jennifer Lame"
+    ],
+    "actual_questions_and_editorial_contexts_distinguished": true,
+    "full_interview_videos_viewed": 0,
+    "model_weight_training": false,
+    "source_accounting_note": "BAFTA网页与官方PDF为同一访谈；复读不增加既有64个来源登记条目。"
+  },
+  "runtime_and_training_boundary": {
+    "expert_package_mode": "prompt_plus_RAG",
+    "external_runtime": "not_included_in_this_delivery",
+    "external_training_status": "two_160_step_runs_completed_quality_acceptance_failed",
+    "release_status": "expert_configuration_delivery_3.0.1",
+    "training_original_scenarios": 59,
+    "training_assistant_targets": 100,
+    "validation_records": 6,
+    "test_records": 6,
+    "raw_nolan_speech_records": 0,
+    "knowledge_source_entries": 64,
+    "knowledge_research_units": 171,
+    "full_knowledge_corpus_used_for_training": false,
+    "weights_bundled": false,
+    "human_review_claim": false,
+    "effectiveness_verified": false,
+    "published": false,
+    "training_steps_completed": 320,
+    "expert_default_model": "WorkBuddy_account_available_cloud_model",
+    "adapter_auto_loaded_by_expert_install": false,
+    "external_runtime_status": "not_delivered_model_quality_failed",
+    "windows_runtime_verified": false,
+    "knowledge_file_reading_route": "references/research-index.md",
+    "python_required_for_file_reading_route": false,
+    "training_runs_completed": 2,
+    "training_steps_per_run": 160
+  }
+}

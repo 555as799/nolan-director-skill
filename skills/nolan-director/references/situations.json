@@ -1,0 +1,248 @@
+{
+  "schema_version": "1.0",
+  "purpose": "编辑建立的创作问题导航，不是诺兰原话；辅助词法检索，不是向量语义模型。",
+  "situations": [
+    {
+      "id": "limited_resources",
+      "label": "预算与资源不足",
+      "patterns": [
+        "没.{0,2}钱",
+        "钱.{0,4}不够",
+        "预算.{0,6}(少|低|紧|不够|有限)",
+        "(付不起|买不起|租不起|拍不起)",
+        "(资源|设备|人手).{0,4}(少|不足|有限)",
+        "低(成本|预算)",
+        "\\b(?:low[- ]budget|limited resources|no money|can[\\x27’]t afford|cannot afford|small crew)\\b"
+      ],
+      "search_terms": "预算 资源 制作限制 Following 追随 空间 布景",
+      "experience_ids": [
+        "V4-N004",
+        "EXP-ASC02",
+        "QA12-I06"
+      ],
+      "craft_ids": [
+        "K16",
+        "DCA12",
+        "J12"
+      ],
+      "transfer": "先找现有资源能支持的动作、空间与叙事规模；用过去的限制说明取舍，再回到作者实际能拍到什么。"
+    },
+    {
+      "id": "audience_orientation",
+      "label": "时间线与观众理解",
+      "patterns": [
+        "(两|三|几|多).{0,3}(条线|时间线)",
+        "来回切",
+        "(观众|故事|剧情).{0,10}(糊涂|跟不上|看不懂|迷糊|混乱)",
+        "(顺叙|倒叙|插叙|非线性)",
+        "\\b(?:two|three|multiple|different|parallel)\\b.{0,35}\\b(?:time(?:line)?s?|time scales|chronolog\\w*)\\b",
+        "\\b(?:audience|viewer)\\w*.{0,30}\\b(?:confus\\w*|lost|follow)\\b"
+      ],
+      "search_terms": "观众 信息 顺序 主观体验 时间线 Memento 敦刻尔克",
+      "experience_ids": [
+        "V4-N001",
+        "V4-N003",
+        "EXP-DGA17A"
+      ],
+      "craft_ids": [
+        "K01",
+        "J01",
+        "DCA02",
+        "DCA06"
+      ],
+      "transfer": "区分有意保留的未知和让观众无法理解的局部动作；先检验切换带来的信息与情绪变化。"
+    },
+    {
+      "id": "camera_identification",
+      "label": "画面与人物的距离",
+      "patterns": [
+        "(画面|镜头|摄影).{0,24}(离.{0,6}(人|角色).{0,5}远|疏离|没.{0,3}感情|没.{0,3}情绪)",
+        "(人物|角色|这个人).{0,8}(很远|遥远|疏远|疏离)",
+        "(漂亮|好看).{0,16}(人|空|感受不到|进不去|冷)",
+        "(站在谁|靠近谁|相机位置|三维机位|心理距离)",
+        "\\bcamera\\b.{0,25}\\b(?:position|distance|close|character|point of view)\\b",
+        "\\b(?:perspective|focal length|subjective camera)\\b"
+      ],
+      "search_terms": "相机 物理位置 视点 距离 Oppenheimer 奥本海默",
+      "experience_ids": [
+        "EXP-ASC01"
+      ],
+      "craft_ids": [
+        "K03",
+        "N01",
+        "DCA03",
+        "VE06"
+      ],
+      "transfer": "把漂亮的二维构图问题转换成相机和人物的实际关系，检验观众在谁身边经历动作。"
+    },
+    {
+      "id": "actor_process",
+      "label": "演员准备与追加尝试",
+      "patterns": [
+        "排练",
+        "演员.{0,15}(再|不愿|不想|坚持|准备|不同)",
+        "(再来|重来|多拍|再拍).{0,4}(一条|一次)",
+        "(表演|演戏).{0,6}(僵|假|机械)",
+        "\\b(?:rehears\\w*|improvis\\w*|spontaneity)\\b",
+        "\\b(?:actor|performer|pearce)\\b.{0,50}\\b(?:prepar\\w*|take|spontan\\w*|rigid|stiff)\\b"
+      ],
+      "search_terms": "演员 表演 排练 Pacino Swank Pearce 准备 尝试",
+      "experience_ids": [
+        "QA12-D02",
+        "QA12-D01",
+        "EXP-DGA17B",
+        "QA12-I09"
+      ],
+      "craft_ids": [
+        "K11",
+        "J16",
+        "VE03"
+      ],
+      "transfer": "区分演员准备方式、共同调度和新的尝试空间，不把拍摄次数本身当标准。"
+    },
+    {
+      "id": "exposition",
+      "label": "解释很多但仍然不清楚",
+      "patterns": [
+        "(台词|对白|解释|说明).{0,15}(难懂|看不懂|不明白|太多|重复|说明白|啰嗦)",
+        "说.{0,3}太多",
+        "(看不懂|难懂).{0,12}(台词|解释)",
+        "(对白|台词|结尾).{0,20}(说明书|像解释|不像解释|生硬|含混|因果)",
+        "\\b(?:dialogue|exposition)\\b.{0,25}\\b(?:explain\\w*|wooden|clunky|confus\\w*|stiff|too much)\\b",
+        "\\b(?:too much|excessive)\\s+exposition\\b"
+      ],
+      "search_terms": "解释 台词 重复 剪辑 理解 信息 悬念",
+      "experience_ids": [
+        "V4-N006"
+      ],
+      "craft_ids": [
+        "VE02",
+        "K01",
+        "DCA02"
+      ],
+      "transfer": "检查观众是否看见过足够的动作或因果，再决定保留、挪动或删去哪一次解释。"
+    },
+    {
+      "id": "sound_emotion",
+      "label": "音乐是否替人物表达过多",
+      "patterns": [
+        "(配乐|音乐|声音).{0,16}(煽情|太满|去掉|拿掉|撤掉|抢|情绪)",
+        "煽情.{0,10}(配乐|音乐)",
+        "声画关系",
+        "\\b(?:sound|music|score)\\b.{0,30}\\b(?:emotion\\w*|narrative|overwhelm\\w*|remove|drive)\\b",
+        "\\b(?:zimmer|composer)\\b"
+      ],
+      "search_terms": "声音 配乐 听觉 视点 叙事 情绪 节奏",
+      "experience_ids": [
+        "QA12-DB02",
+        "EXP-DGA17A"
+      ],
+      "craft_ids": [
+        "K10",
+        "DCA09",
+        "K06",
+        "J06"
+      ],
+      "transfer": "先明确此处音乐在承担什么；比较保留、延迟进入和撤掉，而非一律压低情绪。"
+    },
+    {
+      "id": "collaborative_revision",
+      "label": "合作改变了最初方案",
+      "patterns": [
+        "改变.{0,8}(想法|预想|方案|主意)",
+        "(演员|主创|合作者).{0,12}(分歧|不同意|意见不一)",
+        "(最初|原来).{0,8}(想法|计划).{0,8}(变|改)",
+        "\\b(?:actor|collaborator|crew)\\b.{0,30}\\b(?:disagree\\w*|chang\\w*|conflict|suggest\\w*)\\b"
+      ],
+      "search_terms": "协作 表演 预想 修改 意外 判断 主创",
+      "experience_ids": [
+        "QA12-D02",
+        "QA12-I09",
+        "EXP-ASC02"
+      ],
+      "craft_ids": [
+        "VE10",
+        "J12",
+        "VP02"
+      ],
+      "transfer": "比较作品实际获得的东西；保留不同解释的可能，而不是为了导演权威压住合作者。"
+    },
+    {
+      "id": "world_beyond_frame",
+      "label": "小空间如何让人感到外面的世界",
+      "patterns": [
+        "(小房间|一间屋|一个房间|小空间).{0,20}(世界|外面|规模|大|开阔)",
+        "(画外|框外).{0,6}(世界|空间)",
+        "空间.{0,6}(单薄|封闭|局促)",
+        "(房间|房子|屋子|镜头|画框).{0,3}(外|以外).{0,15}(城市|世界|真实|存在)",
+        "\\b(?:off[- ]screen|outside the frame|world beyond|sense of a larger world)\\b"
+      ],
+      "search_terms": "画外 空间 世界 Blade Runner 银翼杀手",
+      "experience_ids": [
+        "EXP-DGA12A"
+      ],
+      "craft_ids": [
+        "K05",
+        "DCA10"
+      ],
+      "transfer": "让声音、人物来去及空间关系提示镜头之外，不把扩大世界误解为必须多搭景。"
+    },
+    {
+      "id": "worldbuilding_selection",
+      "label": "设定和研究信息怎样取舍",
+      "patterns": [
+        "(科幻|科学|世界观|世界设定|设定).{0,24}(信息取舍|删减|取舍|太多|过多|容量|吸收|解释.{0,8}(动作|人物|影响))",
+        "(解释|设定|知识|信息).{0,8}(挡|压|打断|影响).{0,8}(动作|人物|选择|情节)",
+        "\\b(?:science|worldbuilding|world[- ]building|lore)\\b.{0,35}\\b(?:too much|cut|trim|overwhelm\\w*|prioriti\\w*|select\\w*|exposition)\\b"
+      ],
+      "search_terms": "设定 科学 信息 取舍 吸收 人物 动作 观众 科学内容",
+      "experience_ids": [
+        "EXP-AU01"
+      ],
+      "craft_ids": [
+        "EXP-SC01",
+        "K01",
+        "DCA02"
+      ],
+      "transfer": "先检验观众要承受的后果、人物要作的选择，再判断哪些知识应进入这部影片。Thorne的回忆仍归于Thorne，不能转成Nolan本人亲历自述。"
+    },
+    {
+      "id": "period_performance",
+      "label": "年代戏如何保持人物的当下感",
+      "patterns": [
+        "(年代戏|年代片|时代片|古装|历史剧|时代服装).{0,30}(表演|演员|腔|僵|当下|现代|亲近)",
+        "(表演|演员|腔调).{0,20}(年代戏|年代片|古装|历史剧|时代感)",
+        "\\b(?:period|historical)\\s+(?:film|drama|costume)\\w*.{0,35}\\b(?:acting|perform\\w*|stiff|modern|immediat\\w*)\\b"
+      ],
+      "search_terms": "年代戏 时代服装 表演 模仿 僵硬 当下 人物关系 致命魔术",
+      "experience_ids": [
+        "EXP-PR02"
+      ],
+      "craft_ids": [
+        "K11",
+        "J16"
+      ],
+      "transfer": "区分时代考据与人物正在完成的行动；不要求丢掉礼仪和语言，也不把年代感等同于僵硬的表演。"
+    },
+    {
+      "id": "first_reaction",
+      "label": "保护第一次观看或表演的新鲜反应",
+      "patterns": [
+        "(第一(次|条)|首次|首条|初次).{0,20}(反应|表演|新鲜|观看)",
+        "(保护|保留).{0,15}(新鲜|第一次|初次).{0,8}(反应|表演)",
+        "\\bfirst\\s+(?:take|viewing)\\b.{0,25}\\b(?:reaction|fresh\\w*|emotion\\w*)\\b",
+        "\\b(?:preserv\\w*|protect\\w*)\\b.{0,25}\\b(?:fresh|first)\\b.{0,15}\\b(?:reaction|response|performance)\\b"
+      ],
+      "search_terms": "第一条 首次 新鲜 反应 表演 观看 准备 消息 McConaughey",
+      "experience_ids": [
+        "EXP-AU02"
+      ],
+      "craft_ids": [
+        "K11",
+        "J16"
+      ],
+      "transfer": "先让技术条件准备好，再与演员商量哪些信息保留到第一次；不能从个案推出突袭演员或永远只拍一条。"
+    }
+  ],
+  "query_handling": "先规范有限的繁简领域词，按明确转题标记与否定主题分句；英语规则只覆盖列出的创作领域。无完整语义理解，宿主应先确认当前问题，再选择可选的situation。"
+}

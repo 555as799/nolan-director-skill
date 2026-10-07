@@ -1,0 +1,22 @@
+{
+  "version": "4.1.2",
+  "baseline_files_verified_at_migration": 171,
+  "cards": 204,
+  "source_entries": 73,
+  "types": {
+    "craft": 89,
+    "example": 57,
+    "experience": 46,
+    "collaborator": 12
+  },
+  "film_entries": 13,
+  "passage_checked_supplement_cards": 6,
+  "passage_checked_refined_cards": 6,
+  "passage_checked_expansion_cards": 21,
+  "existing_cards_rechecked": 4,
+  "total_passage_checked_cards": 37,
+  "all_baseline_sources_rechecked": false,
+  "new_weight_training": false,
+  "workbuddy_native_import_tested": false,
+  "content_sha256": "31ddf6fe30cd819eb0ac6aec783e288b6a211548ba16e6817a644e0f37b108ea"
+}

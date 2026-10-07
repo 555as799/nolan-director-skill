@@ -1,0 +1,8 @@
+{
+  "baseline_version": "3.2.2",
+  "baseline_manifest_entries_checked": 171,
+  "all_match": true,
+  "original_archive_sha256": "fc979ee2b102782dc20ff33d41bd8e1b3002d681a91b8753d950da68c0cabf2b",
+  "copied_corpus_sha256": "816aea3c6d935c6d613487db4f17dd10d052389d02fe468a96a6e0a78c06362f",
+  "purpose": "Provenance only; baseline archives and historical training jobs are not build dependencies."
+}

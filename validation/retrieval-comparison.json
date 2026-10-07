@@ -1,0 +1,443 @@
+{
+  "status": "executed",
+  "scope": "developer-selected retrieval regressions, not held-out evaluation or model response quality",
+  "cases": 12,
+  "top4_hit_counts": {
+    "before": 5,
+    "new_retriever_same_corpus": 12,
+    "new_retriever_refined_corpus": 12
+  },
+  "generated_dialogue_evaluated": false,
+  "results": [
+    {
+      "case": "多线混乱",
+      "query": "为什么我的两条线来回切，观众越来越糊涂？",
+      "expected_any": [
+        "V4-N001",
+        "V4-N003",
+        "J01"
+      ],
+      "before": {
+        "top4": [
+          "DCA06",
+          "QA12-I08",
+          "VE05",
+          "J07"
+        ],
+        "hit": false
+      },
+      "new_retriever_same_corpus": {
+        "top4": [
+          "DCA06",
+          "V4-N003",
+          "V4-N001",
+          "J01"
+        ],
+        "hit": true
+      },
+      "new_retriever_refined_corpus": {
+        "top4": [
+          "EXP-DGA17A",
+          "DCA06",
+          "V4-N001",
+          "V4-N003"
+        ],
+        "hit": true
+      }
+    },
+    {
+      "case": "人物距离",
+      "query": "我的画面很漂亮，但感觉离这个人很远。",
+      "expected_any": [
+        "N01",
+        "K03",
+        "EXP-ASC01"
+      ],
+      "before": {
+        "top4": [
+          "VE07",
+          "VP05",
+          "QA12-DL03",
+          "VP04"
+        ],
+        "hit": false
+      },
+      "new_retriever_same_corpus": {
+        "top4": [
+          "K03",
+          "N01",
+          "VE06",
+          "DCA03"
+        ],
+        "hit": true
+      },
+      "new_retriever_refined_corpus": {
+        "top4": [
+          "EXP-ASC01",
+          "K03",
+          "N01",
+          "VE06"
+        ],
+        "hit": true
+      }
+    },
+    {
+      "case": "缺钱",
+      "query": "没有钱拍大场面，你以前怎么处理？",
+      "expected_any": [
+        "V4-N004",
+        "QA12-I06",
+        "K16",
+        "EXP-ASC02"
+      ],
+      "before": {
+        "top4": [
+          "QA12-DI01",
+          "QA12-DL02",
+          "VE08",
+          "VE10"
+        ],
+        "hit": false
+      },
+      "new_retriever_same_corpus": {
+        "top4": [
+          "V4-N004",
+          "QA12-I06",
+          "K16",
+          "DCA12"
+        ],
+        "hit": true
+      },
+      "new_retriever_refined_corpus": {
+        "top4": [
+          "V4-N004",
+          "EXP-ASC02",
+          "QA12-I06",
+          "K16"
+        ],
+        "hit": true
+      }
+    },
+    {
+      "case": "追加表演",
+      "query": "演员老想再来一条，我觉得已经够了。",
+      "expected_any": [
+        "QA12-D02",
+        "VE03"
+      ],
+      "before": {
+        "top4": [
+          "QA12-D02",
+          "VE03",
+          "QA12-D01",
+          "J16"
+        ],
+        "hit": true
+      },
+      "new_retriever_same_corpus": {
+        "top4": [
+          "QA12-D02",
+          "QA12-D01",
+          "VE03",
+          "J16"
+        ],
+        "hit": true
+      },
+      "new_retriever_refined_corpus": {
+        "top4": [
+          "QA12-D02",
+          "QA12-D01",
+          "VE03",
+          "J16"
+        ],
+        "hit": true
+      }
+    },
+    {
+      "case": "解释过量",
+      "query": "这段台词都说明白了，但好像更难懂了。",
+      "expected_any": [
+        "VE02",
+        "V4-N006"
+      ],
+      "before": {
+        "top4": [
+          "V4-N006",
+          "QA12-DL02",
+          "VE02",
+          "J01"
+        ],
+        "hit": true
+      },
+      "new_retriever_same_corpus": {
+        "top4": [
+          "V4-N006",
+          "VE02",
+          "K01",
+          "DCA02"
+        ],
+        "hit": true
+      },
+      "new_retriever_refined_corpus": {
+        "top4": [
+          "V4-N006",
+          "VE02",
+          "K01",
+          "DCA02"
+        ],
+        "hit": true
+      }
+    },
+    {
+      "case": "合作改变",
+      "query": "给我讲一个拍片时改变最初想法的经验。",
+      "expected_any": [
+        "QA12-D02",
+        "QA12-I09"
+      ],
+      "before": {
+        "top4": [
+          "VE10",
+          "VE01",
+          "QA12-I11",
+          "QA12-D02"
+        ],
+        "hit": true
+      },
+      "new_retriever_same_corpus": {
+        "top4": [
+          "VE10",
+          "QA12-D02",
+          "QA12-I09",
+          "J12"
+        ],
+        "hit": true
+      },
+      "new_retriever_refined_corpus": {
+        "top4": [
+          "VE10",
+          "QA12-D02",
+          "QA12-I09",
+          "EXP-ASC02"
+        ],
+        "hit": true
+      }
+    },
+    {
+      "case": "设备限制",
+      "query": "设备太少，就我们几个人能拍出什么？",
+      "expected_any": [
+        "V4-N004",
+        "K16",
+        "DCA12"
+      ],
+      "before": {
+        "top4": [
+          "VE05",
+          "QA12-I11",
+          "QA12-I08",
+          "K04"
+        ],
+        "hit": false
+      },
+      "new_retriever_same_corpus": {
+        "top4": [
+          "V4-N004",
+          "QA12-I06",
+          "K16",
+          "DCA12"
+        ],
+        "hit": true
+      },
+      "new_retriever_refined_corpus": {
+        "top4": [
+          "V4-N004",
+          "EXP-ASC02",
+          "QA12-I06",
+          "K16"
+        ],
+        "hit": true
+      }
+    },
+    {
+      "case": "切换理解",
+      "query": "这几段来回切，故事看不懂了。",
+      "expected_any": [
+        "V4-N001",
+        "J01",
+        "K01"
+      ],
+      "before": {
+        "top4": [
+          "VP04",
+          "J14",
+          "F12",
+          "QA12-DB02"
+        ],
+        "hit": false
+      },
+      "new_retriever_same_corpus": {
+        "top4": [
+          "V4-N001",
+          "V4-N003",
+          "J01",
+          "K01"
+        ],
+        "hit": true
+      },
+      "new_retriever_refined_corpus": {
+        "top4": [
+          "EXP-DGA17A",
+          "V4-N001",
+          "V4-N003",
+          "J01"
+        ],
+        "hit": true
+      }
+    },
+    {
+      "case": "漂亮而疏离",
+      "query": "房间拍得好看，却让人物很疏离。",
+      "expected_any": [
+        "N01",
+        "K03",
+        "EXP-ASC01"
+      ],
+      "before": {
+        "top4": [
+          "DCA10",
+          "VE04",
+          "VE06",
+          "J04"
+        ],
+        "hit": false
+      },
+      "new_retriever_same_corpus": {
+        "top4": [
+          "K03",
+          "N01",
+          "VE06",
+          "DCA03"
+        ],
+        "hit": true
+      },
+      "new_retriever_refined_corpus": {
+        "top4": [
+          "EXP-ASC01",
+          "K03",
+          "N01",
+          "VE06"
+        ],
+        "hit": true
+      }
+    },
+    {
+      "case": "准备方式",
+      "query": "两个人准备方法不一样，要统一排练吗？",
+      "expected_any": [
+        "QA12-D01",
+        "K11",
+        "J16"
+      ],
+      "before": {
+        "top4": [
+          "QA12-D01",
+          "VE10",
+          "QA12-I11",
+          "K11"
+        ],
+        "hit": true
+      },
+      "new_retriever_same_corpus": {
+        "top4": [
+          "QA12-D01",
+          "K11",
+          "J16",
+          "QA12-D02"
+        ],
+        "hit": true
+      },
+      "new_retriever_refined_corpus": {
+        "top4": [
+          "QA12-D01",
+          "EXP-DGA17B",
+          "K11",
+          "J16"
+        ],
+        "hit": true
+      }
+    },
+    {
+      "case": "声音",
+      "query": "配乐一响就很煽情，我又不想全去掉。",
+      "expected_any": [
+        "QA12-DB02",
+        "K10",
+        "DCA09"
+      ],
+      "before": {
+        "top4": [
+          "QA12-DB02",
+          "K10",
+          "DCA09",
+          "VE08"
+        ],
+        "hit": true
+      },
+      "new_retriever_same_corpus": {
+        "top4": [
+          "QA12-DB02",
+          "K10",
+          "DCA09",
+          "J06"
+        ],
+        "hit": true
+      },
+      "new_retriever_refined_corpus": {
+        "top4": [
+          "QA12-DB02",
+          "K10",
+          "DCA09",
+          "EXP-DGA17A"
+        ],
+        "hit": true
+      }
+    },
+    {
+      "case": "画外世界",
+      "query": "在一个房间里，怎么让观众感到外面的世界很大？",
+      "expected_any": [
+        "K05",
+        "DCA10",
+        "EXP-DGA12A"
+      ],
+      "before": {
+        "top4": [
+          "DCA02",
+          "J02",
+          "VE09",
+          "DCA05"
+        ],
+        "hit": false
+      },
+      "new_retriever_same_corpus": {
+        "top4": [
+          "DCA10",
+          "K05",
+          "J02",
+          "QA12-I03"
+        ],
+        "hit": true
+      },
+      "new_retriever_refined_corpus": {
+        "top4": [
+          "EXP-DGA12A",
+          "DCA10",
+          "K05",
+          "J02"
+        ],
+        "hit": true
+      }
+    }
+  ]
+}

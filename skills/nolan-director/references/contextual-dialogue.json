@@ -1,0 +1,1087 @@
+{
+  "version": "3.0.0",
+  "schema_version": "1.0",
+  "title": "有上下文的导演对话与条件判断研究卡",
+  "as_of": "2026-10-06",
+  "representation": "公开访谈的研究转述，非原话；顾问迁移为原创应用判断，非诺兰对新项目的意见。",
+  "input_datasets": [
+    {
+      "file": "interaction-research.json",
+      "cards": 12
+    },
+    {
+      "file": "decision-research.json",
+      "cards": 15
+    }
+  ],
+  "source_accounting": {
+    "input_cards": 27,
+    "deduplicated_cards": 25,
+    "merged_duplicate_pairs": 2,
+    "existing_sources_reread": 6,
+    "source_ids": [
+      "S04",
+      "S06",
+      "S07",
+      "S19",
+      "S21",
+      "S22"
+    ],
+    "new_unique_sources": 0,
+    "registry_entries_total": 64
+  },
+  "field_semantics": {
+    "speaker": "实际受访者；摄影师和剪辑师不改为导演。",
+    "question_context": "真实公开问题、主持人提示或编辑文章议题的中文转述；类型字段区分。",
+    "question_context_type": "editorial_article_context_reconstructed_not_recorded_question标明原文无保存问句。",
+    "answer_paraphrase_zh": "来源意思的简短研究归纳，非逐字引语。",
+    "response_move": "研究者观察的回应动作。",
+    "conditional_decision": "研究者带条件的原创迁移，不是受访者在新项目中的表态。",
+    "not_implied": "不能由这一案例推出的通法或事实。",
+    "input_card_ids": "原始研究卡标识，用于审计和合并复核。"
+  },
+  "deduplication": [
+    {
+      "kept_id": "QA12-D01",
+      "merged_inputs": [
+        "decision-research:D01",
+        "interaction-research:IR05"
+      ],
+      "reason": "同一DGA Insomnia演员排练方式问答，L118–120。"
+    },
+    {
+      "kept_id": "QA12-D03",
+      "merged_inputs": [
+        "decision-research:D03",
+        "interaction-research:IR07"
+      ],
+      "reason": "DGA单/多机与素材注意力问答重叠；保留决策卡的跨片素材比较。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S04",
+      "registry_status": "existing_source_reread",
+      "new_unique_source": false,
+      "reading_records": [
+        {
+          "input_file": "decision-research.json",
+          "title": "BAFTA A Life in Pictures: Christopher Nolan",
+          "author": "BAFTA；主持 Edith Bowman",
+          "participants": [
+            "Christopher Nolan"
+          ],
+          "source_url": "https://static.bafta.org/uploads_pre_202411/transcripts/baftaalifeinpictureschristophernolan.pdf",
+          "registry_url": "https://www.bafta.org/media-centre/press-releases/a-life-in-pictures-christopher-nolan/",
+          "source_date": "2017-12-01 活动；2017-12-02 网页发布",
+          "date_precision": "day",
+          "read_status": "targeted_transcript_passages_read",
+          "read_locator": "印刷第4–5页 L315–411；第12–13页 L1192–1306",
+          "not_read": "本轮未通读20页或核听整场视频；没有完整观看相关电影",
+          "registry_status": "already_in_v11_same_document_alternate_official_url",
+          "registry_id": "S04",
+          "direct_quote_words": 0
+        },
+        {
+          "input_file": "interaction-research.json",
+          "source_url": "https://static.bafta.org/uploads_pre_202411/transcripts/baftaalifeinpictureschristophernolan.pdf",
+          "source_date": "2017-12-01",
+          "title": "BAFTA A Life in Pictures: Christopher Nolan",
+          "read_status": "直接读官方20页PDF文字，未观看整段视频",
+          "v11_source_id": "S04",
+          "card_ids": [
+            "IR01",
+            "IR02",
+            "IR03",
+            "IR04"
+          ],
+          "reuse_note": "旧来源重新精读四个具体互动语境；没有把来源数增加4。"
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "registry_status": "existing_source_reread",
+      "new_unique_source": false,
+      "reading_records": [
+        {
+          "input_file": "decision-research.json",
+          "title": "Dream Thieves: Wally Pfister, ASC and Christopher Nolan on Inception",
+          "author": "American Cinematographer；页面作者链接未解析出姓名",
+          "participants": [
+            "Christopher Nolan",
+            "Wally Pfister"
+          ],
+          "source_url": "https://theasc.com/article/dream-thieves-wally-pfister-asc-and-christopher-nolan-on-inception/",
+          "source_date": "2010-07 原刊；2025-07-13 当前网页重刊",
+          "date_precision": "original_month_and_republish_day",
+          "read_status": "targeted_primary_passages_read",
+          "read_locator": "L192–214、253–265：格式、高速摄影、层级识别和后期；另读 L218–227、240–241、278–290",
+          "not_read": "L228–239 尚未逐段复读；嵌入影片、音视频及灯光图未独立检验",
+          "registry_status": "already_in_v11",
+          "registry_id": "S06",
+          "direct_quote_words": 0
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "registry_status": "existing_source_reread",
+      "new_unique_source": false,
+      "reading_records": [
+        {
+          "input_file": "interaction-research.json",
+          "source_url": "https://www.bfi.org.uk/sight-and-sound/interviews/christopher-nolan-showmans-odyssey-oppenheimer",
+          "source_date": "2024-02-14",
+          "title": "Christopher Nolan: a showman’s odyssey",
+          "read_status": "直接读BFI文字访谈，未观看整段视频",
+          "v11_source_id": "S07",
+          "card_ids": [
+            "IR09",
+            "IR10",
+            "IR11",
+            "IR12"
+          ],
+          "reuse_note": "IR09对应既有VP02的上下文细化；其余语境在v11表达卡中没有单独卡片。标题odyssey不是2026电影《The Odyssey》。"
+        }
+      ]
+    },
+    {
+      "id": "S19",
+      "registry_status": "existing_source_reread",
+      "new_unique_source": false,
+      "reading_records": [
+        {
+          "input_file": "decision-research.json",
+          "title": "Jennifer Lame interview | How to edit Oppenheimer (and win a BAFTA while you do it)",
+          "author": "James Harvey",
+          "participants": [
+            "Jennifer Lame"
+          ],
+          "source_url": "https://filmstories.co.uk/features/jennifer-lame-interview-how-to-edit-oppenheimer-without-breaking-your-brain/",
+          "source_date": "2024-02-19",
+          "date_precision": "day",
+          "read_status": "full_text_QA_read",
+          "read_locator": "L22–66：完整文字问答；重点 L42–44、56–62",
+          "not_read": "嵌入预告未观看；未把采访者的评论当剪辑师原话",
+          "registry_status": "already_in_v11",
+          "registry_id": "S19",
+          "direct_quote_words": 0
+        }
+      ]
+    },
+    {
+      "id": "S21",
+      "registry_status": "existing_source_reread",
+      "new_unique_source": false,
+      "reading_records": [
+        {
+          "input_file": "decision-research.json",
+          "title": "The Traditionalist",
+          "author": "Jeffrey Ressner",
+          "participants": [
+            "Christopher Nolan"
+          ],
+          "source_url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+          "source_date": "2012 春季",
+          "date_precision": "season",
+          "read_status": "targeted_primary_passages_read",
+          "read_locator": "L106–138：演员准备、补拍条数、素材量与单双机；本轮逐段复读",
+          "not_read": "未重新完整阅读其余格式、版权和穿衣问答；没有观看采访视频",
+          "registry_status": "already_in_v11",
+          "registry_id": "S21",
+          "direct_quote_words": 0
+        },
+        {
+          "input_file": "interaction-research.json",
+          "source_url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+          "source_date": "2012-Spring",
+          "title": "The Traditionalist",
+          "read_status": "直接读DGA文字问答，媒体编辑访谈，非原始未剪音频",
+          "v11_source_id": "S21",
+          "card_ids": [
+            "IR05",
+            "IR06",
+            "IR07",
+            "IR08"
+          ],
+          "reuse_note": "旧来源重新精读；所述工作习惯限于当时访谈语境。"
+        }
+      ]
+    },
+    {
+      "id": "S22",
+      "registry_status": "existing_source_reread",
+      "new_unique_source": false,
+      "reading_records": [
+        {
+          "input_file": "decision-research.json",
+          "title": "Lords of Illusion: The Prestige",
+          "author": "Jay Holben",
+          "participants": [
+            "Wally Pfister",
+            "Dan Sasaki"
+          ],
+          "source_url": "https://theasc.com/article/lords-of-illusion-the-prestige/",
+          "source_date": "2007-02 原刊；2022-10-31 重刊",
+          "date_precision": "original_month_and_republish_day",
+          "read_status": "article_body_read",
+          "read_locator": "L199–276：正文制作采访；重点 L200–205、227–230、252–259",
+          "not_read": "嵌入 Vimeo 视频未观看；未通过旧期刊扫描复核排版",
+          "registry_status": "already_in_v11",
+          "registry_id": "S22",
+          "direct_quote_words": 0
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "QA12-D01",
+      "source_id": "S21",
+      "speaker": "Christopher Nolan",
+      "question_context": "同片演员的排练习惯不同，如何协调？",
+      "question_context_type": "actual_interview_question_paraphrase",
+      "answer_paraphrase_zh": "《白夜追凶》中 Pacino 需细排和多条；Swank 少排练，保留首次表演。",
+      "response_move": "比较需要，再解释协调。",
+      "conditional_decision": "准备方法随演员需要调整。",
+      "not_implied": "没有固定的诺兰式排练次数。",
+      "locator": "L118–120；How do you accommodate actors...?",
+      "works": [
+        "Insomnia"
+      ],
+      "work_comparison": null,
+      "source_url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+      "source_date": "2012 春季",
+      "read_status": "targeted_primary_passages_read",
+      "input_card_ids": [
+        "decision-research:D01",
+        "interaction-research:IR05"
+      ],
+      "source_ids": [
+        "S21"
+      ],
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "representation": "问答为研究转述非原话；response_move与conditional_decision为研究者分析及应用推演",
+      "input_reading": "decision-research.json",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "merged_input_paraphrases": [
+        {
+          "id": "IR05",
+          "question_context": "被问同片演员的准备方式不同怎样协调。",
+          "answer_paraphrase_zh": "他比较Pacino仔细排练和Swank保留首拍能量的方式，强调双方都要有空间。",
+          "response_move": "用两个相反需求说明协调，不选唯一方法。",
+          "conditional_decision": "判断演员需要，再协调共同场面的排练。",
+          "not_implied": "演员偏好不是终身标签；不能照搬给未观察的人。",
+          "locator": "文字行118–120；Insomnia不同表演流程问答",
+          "source_url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+          "source_date": "2012-Spring"
+        }
+      ],
+      "merge_note": "相同来源同一制作语境的近重复卡，保留决策卡为主，互动卡措辞及来源定位附存；不另增加检索条目。",
+      "keywords": "表演 排练 演员准备 Pacino Swank 白夜追凶 相反需求 协调",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-D02",
+      "source_id": "S21",
+      "speaker": "Christopher Nolan",
+      "question_context": "早期拍片从演员身上学到什么？",
+      "question_context_type": "actual_interview_question_paraphrase",
+      "answer_paraphrase_zh": "《记忆碎片》中 Pearce 要求再来一条，结果超出导演预期；已布置完成后多拍一条的时间有限。",
+      "response_move": "讲犹豫、选择和结果。",
+      "conditional_decision": "演员看见新可能时，权衡补拍成本。",
+      "not_implied": "不证明无限重拍总有收益。",
+      "locator": "L113–117；What did you pick up...?",
+      "works": [
+        "Memento"
+      ],
+      "work_comparison": null,
+      "source_url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+      "source_date": "2012 春季",
+      "read_status": "targeted_primary_passages_read",
+      "input_card_ids": [
+        "decision-research:D02"
+      ],
+      "source_ids": [
+        "S21"
+      ],
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "representation": "问答为研究转述非原话；response_move与conditional_decision为研究者分析及应用推演",
+      "input_reading": "decision-research.json",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "keywords": "表演 再拍 Guy Pearce 记忆碎片 成本 犹豫 制作抉择",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-D03",
+      "source_id": "S21",
+      "speaker": "Christopher Nolan",
+      "question_context": "单机是否让剪辑更快？",
+      "question_context_type": "actual_interview_questions_combined",
+      "answer_paraphrase_zh": "他戏剧场面用单机，特技用多机；《崛起》的素材审看比《记忆碎片》更紧。",
+      "response_move": "加例外，比较素材负担。",
+      "conditional_decision": "机位数与注意力、审片时间一起考虑。",
+      "not_implied": "不意味着所有镜头必须单机。",
+      "locator": "L133–138；Does that mean... / Why do you prefer...?",
+      "works": [
+        "Memento",
+        "The Dark Knight Rises"
+      ],
+      "work_comparison": {
+        "kind": "explicit_cross_film",
+        "comparison_zh": "《记忆碎片》每拍摄日有更多剪辑时间；《崛起》素材量更大、时间更紧。",
+        "source_locator": "L134–135"
+      },
+      "source_url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+      "source_date": "2012 春季",
+      "read_status": "targeted_primary_passages_read",
+      "input_card_ids": [
+        "decision-research:D03",
+        "interaction-research:IR07"
+      ],
+      "source_ids": [
+        "S21"
+      ],
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "representation": "问答为研究转述非原话；response_move与conditional_decision为研究者分析及应用推演",
+      "input_reading": "decision-research.json",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "merged_input_paraphrases": [
+        {
+          "id": "IR07",
+          "question_context": "单机习惯受到追问：为什么不多机拍摄。",
+          "answer_paraphrase_zh": "他先说明特技仍用多机；戏剧段落单机让注意集中，并减少素材梳理负担。",
+          "response_move": "补上例外，再解释个人工作成本。",
+          "conditional_decision": "拍摄策略考虑现场注意和后期素材能力。",
+          "not_implied": "不是多机艺术质量低；例外不须抹掉。",
+          "locator": "文字行130–141，重点136–138；coverage之后的单机追问",
+          "source_url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+          "source_date": "2012-Spring"
+        }
+      ],
+      "merge_note": "相同来源同一制作语境的近重复卡，保留决策卡为主，互动卡措辞及来源定位附存；不另增加检索条目。",
+      "keywords": "单机 多机 特技 素材 审片 剪辑时间 记忆碎片 黑暗骑士崛起",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-DP01",
+      "source_id": "S22",
+      "speaker": "Wally Pfister",
+      "question_context": "新片为何不延续上一部的复杂制作方式？",
+      "question_context_type": "editorial_article_context_reconstructed_not_recorded_question",
+      "answer_paraphrase_zh": "《侠影之谜》需协调大型效果；《致命魔术》改为简化布光、少等待并快速跟拍。",
+      "response_move": "从项目负担说明改变。",
+      "conditional_decision": "让制作方式服从当前表演和节奏。",
+      "not_implied": "不是规模越小就越自然。",
+      "locator": "L200–202、227–230",
+      "works": [
+        "Batman Begins",
+        "The Prestige"
+      ],
+      "work_comparison": {
+        "kind": "explicit_cross_film",
+        "comparison_zh": "前片的大规模效果组织，对照后片的简化和演员移动。",
+        "source_locator": "L201"
+      },
+      "source_url": "https://theasc.com/article/lords-of-illusion-the-prestige/",
+      "source_date": "2007-02 原刊；2022-10-31 重刊",
+      "read_status": "article_body_read",
+      "input_card_ids": [
+        "decision-research:P01"
+      ],
+      "source_ids": [
+        "S22"
+      ],
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "representation": "问答为研究转述非原话；response_move与conditional_decision为研究者分析及应用推演",
+      "input_reading": "decision-research.json",
+      "question_context_note": "叙述式制作文章中的议题，由研究者重建；不是保存下来的采访者原问句。",
+      "keywords": "致命魔术 侠影之谜 制作规模 简化布光 表演 现场节奏 跟拍",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-DP02",
+      "source_id": "S22",
+      "speaker": "Wally Pfister",
+      "question_context": "仅用烛光的愿望能否成立？",
+      "question_context_type": "editorial_article_context_reconstructed_not_recorded_question",
+      "answer_paraphrase_zh": "烛光推片测试损失画质且不省钱，故放弃更激进推片；多数场面仍少量补光。",
+      "response_move": "愿望经测试后修订。",
+      "conditional_decision": "曝光办法同时检验画质和成本。",
+      "not_implied": "不应照抄推片数值到数字摄影。",
+      "locator": "L203–205、212–213、244–245",
+      "works": [
+        "The Prestige"
+      ],
+      "work_comparison": null,
+      "source_url": "https://theasc.com/article/lords-of-illusion-the-prestige/",
+      "source_date": "2007-02 原刊；2022-10-31 重刊",
+      "read_status": "article_body_read",
+      "input_card_ids": [
+        "decision-research:P02"
+      ],
+      "source_ids": [
+        "S22"
+      ],
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "representation": "问答为研究转述非原话；response_move与conditional_decision为研究者分析及应用推演",
+      "input_reading": "decision-research.json",
+      "question_context_note": "叙述式制作文章中的议题，由研究者重建；不是保存下来的采访者原问句。",
+      "keywords": "烛光 推片 测试 曝光 画质 补光 致命魔术 成本",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-DP03",
+      "source_id": "S22",
+      "speaker": "Wally Pfister",
+      "question_context": "少布光是否等于处处自由移动？",
+      "question_context_type": "editorial_article_context_reconstructed_not_recorded_question",
+      "answer_paraphrase_zh": "全片多让演员自由移动；博物馆争执戏因吊灯仅部分角度有效，改用走位点和单侧拍摄。",
+      "response_move": "以局部条件限定总原则。",
+      "conditional_decision": "自然光不足以覆盖各角度时控制走位。",
+      "not_implied": "不是不布光、无标记的统一方法。",
+      "locator": "L228–230、252–259",
+      "works": [
+        "The Prestige"
+      ],
+      "work_comparison": null,
+      "within_work_variation": "自由跟拍与吊灯场景的受控走位。",
+      "source_url": "https://theasc.com/article/lords-of-illusion-the-prestige/",
+      "source_date": "2007-02 原刊；2022-10-31 重刊",
+      "read_status": "article_body_read",
+      "input_card_ids": [
+        "decision-research:P03"
+      ],
+      "source_ids": [
+        "S22"
+      ],
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "representation": "问答为研究转述非原话；response_move与conditional_decision为研究者分析及应用推演",
+      "input_reading": "decision-research.json",
+      "question_context_note": "叙述式制作文章中的议题，由研究者重建；不是保存下来的采访者原问句。",
+      "keywords": "吊灯 机位 走位 标记 自然光 表演自由 受控角度 致命魔术",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-DI01",
+      "source_id": "S06",
+      "speaker": "Christopher Nolan / Wally Pfister",
+      "question_context": "为何尝试大画幅，却没有采用 IMAX 摄影？",
+      "question_context_type": "editorial_article_context_reconstructed_not_recorded_question",
+      "answer_paraphrase_zh": "《盗梦空间》大量狭窄空间手持，排除 IMAX，主用可控的35mm，并为部分场面混用较大格式。",
+      "response_move": "把格式收益与现场条件并列。",
+      "conditional_decision": "格式选择须满足空间、运动和负担。",
+      "not_implied": "不证明最高画幅永远最好。",
+      "locator": "L203–210",
+      "works": [
+        "The Dark Knight",
+        "Inception"
+      ],
+      "work_comparison": {
+        "kind": "explicit_cross_film",
+        "comparison_zh": "《黑暗骑士》的IMAX经验未直接变成《盗梦空间》的摄影配置。",
+        "source_locator": "L203–205"
+      },
+      "source_url": "https://theasc.com/article/dream-thieves-wally-pfister-asc-and-christopher-nolan-on-inception/",
+      "source_date": "2010-07 原刊；2025-07-13 当前网页重刊",
+      "read_status": "targeted_primary_passages_read",
+      "input_card_ids": [
+        "decision-research:I01"
+      ],
+      "source_ids": [
+        "S06"
+      ],
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "representation": "问答为研究转述非原话；response_move与conditional_decision为研究者分析及应用推演",
+      "input_reading": "decision-research.json",
+      "question_context_note": "叙述式制作文章中的议题，由研究者重建；不是保存下来的采访者原问句。",
+      "keywords": "盗梦空间 IMAX 35mm 狭窄空间 手持 大画幅 摄影格式 黑暗骑士",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-DI02",
+      "source_id": "S06",
+      "speaker": "Christopher Nolan",
+      "question_context": "为何改变以往少用高速摄影的习惯？",
+      "question_context_type": "editorial_article_context_reconstructed_not_recorded_question",
+      "answer_paraphrase_zh": "梦与清醒的时间关系使慢动作成为《盗梦空间》的叙事工具；他此前少用这种处理。",
+      "response_move": "说明破例的故事理由。",
+      "conditional_decision": "时间处理需传达本片具体关系。",
+      "not_implied": "不是所有情绪都该慢放。",
+      "locator": "L211–212",
+      "works": [
+        "Inception"
+      ],
+      "work_comparison": null,
+      "comparison_limit": "原文只称先前作品整体；未逐片指定，故不虚构对照片名。",
+      "source_url": "https://theasc.com/article/dream-thieves-wally-pfister-asc-and-christopher-nolan-on-inception/",
+      "source_date": "2010-07 原刊；2025-07-13 当前网页重刊",
+      "read_status": "targeted_primary_passages_read",
+      "input_card_ids": [
+        "decision-research:I02"
+      ],
+      "source_ids": [
+        "S06"
+      ],
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "representation": "问答为研究转述非原话；response_move与conditional_decision为研究者分析及应用推演",
+      "input_reading": "decision-research.json",
+      "question_context_note": "叙述式制作文章中的议题，由研究者重建；不是保存下来的采访者原问句。",
+      "keywords": "慢动作 高速摄影 时间 梦境 清醒 叙事工具 盗梦空间",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-DI03",
+      "source_id": "S06",
+      "speaker": "Christopher Nolan / Wally Pfister",
+      "question_context": "交叉剪辑怎样使观众仍辨明地点？",
+      "question_context_type": "editorial_article_context_reconstructed_not_recorded_question",
+      "answer_paraphrase_zh": "雪地、走廊、面包车用不同地点色调支持切换；差异来自地点设计，也由声音配合。",
+      "response_move": "由剪辑需要倒推美术摄影。",
+      "conditional_decision": "大量地点切换时建立可感知区别。",
+      "not_implied": "不等于每片都须多层交叉剪辑。",
+      "locator": "L253–255",
+      "works": [
+        "Inception"
+      ],
+      "work_comparison": null,
+      "source_url": "https://theasc.com/article/dream-thieves-wally-pfister-asc-and-christopher-nolan-on-inception/",
+      "source_date": "2010-07 原刊；2025-07-13 当前网页重刊",
+      "read_status": "targeted_primary_passages_read",
+      "input_card_ids": [
+        "decision-research:I03"
+      ],
+      "source_ids": [
+        "S06"
+      ],
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "representation": "问答为研究转述非原话；response_move与conditional_decision为研究者分析及应用推演",
+      "input_reading": "decision-research.json",
+      "question_context_note": "叙述式制作文章中的议题，由研究者重建；不是保存下来的采访者原问句。",
+      "keywords": "梦境层级 地点 色调 走廊 雪地 面包车 交叉剪辑 盗梦空间",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-DB01",
+      "source_id": "S04",
+      "speaker": "Christopher Nolan",
+      "question_context": "结构确定后怎样写作和审看素材？",
+      "question_context_type": "actual_interview_question_paraphrase",
+      "answer_paraphrase_zh": "《追随》重排后须大量重写；《记忆碎片》则坚持按观众接收信息的脚本次序审看。",
+      "response_move": "由前作困难解释新流程。",
+      "conditional_decision": "检验所选叙述顺序的实际体验。",
+      "not_implied": "不意味着影片都须倒序。",
+      "locator": "印刷第4页；L325–362",
+      "works": [
+        "Following",
+        "Memento"
+      ],
+      "work_comparison": {
+        "kind": "explicit_cross_film",
+        "comparison_zh": "《追随》的重排重写，对照《记忆碎片》的观众顺序审看。",
+        "source_locator": "L328–362"
+      },
+      "source_url": "https://static.bafta.org/uploads_pre_202411/transcripts/baftaalifeinpictureschristophernolan.pdf",
+      "source_date": "2017-12-01 活动；2017-12-02 网页发布",
+      "read_status": "targeted_transcript_passages_read",
+      "input_card_ids": [
+        "decision-research:B01"
+      ],
+      "source_ids": [
+        "S04"
+      ],
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "representation": "问答为研究转述非原话；response_move与conditional_decision为研究者分析及应用推演",
+      "input_reading": "decision-research.json",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "keywords": "剧本 顺序 追随 记忆碎片 重排 重写 信息限制 审看",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-DB02",
+      "source_id": "S04",
+      "speaker": "Christopher Nolan",
+      "question_context": "如何启动《星际穿越》的配乐合作？",
+      "question_context_type": "interview_context_paraphrase",
+      "answer_paraphrase_zh": "他先给 Zimmer 情感故事而非类型信息，希望配乐先抵达材料的情感中心，并用于写作。",
+      "response_move": "先情感目的，再说委托方式。",
+      "conditional_decision": "类型联想遮蔽情感时重写音乐任务。",
+      "not_implied": "不是每次都应隐瞒类型。",
+      "locator": "印刷第12–13页；L1192–1234",
+      "works": [
+        "Interstellar"
+      ],
+      "work_comparison": null,
+      "source_url": "https://static.bafta.org/uploads_pre_202411/transcripts/baftaalifeinpictureschristophernolan.pdf",
+      "source_date": "2017-12-01 活动；2017-12-02 网页发布",
+      "read_status": "targeted_transcript_passages_read",
+      "input_card_ids": [
+        "decision-research:B02"
+      ],
+      "source_ids": [
+        "S04"
+      ],
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "representation": "问答为研究转述非原话；response_move与conditional_decision为研究者分析及应用推演",
+      "input_reading": "decision-research.json",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "keywords": "配乐 委托 情感 类型 Hans Zimmer 星际穿越 音乐写作",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-DB03",
+      "source_id": "S04",
+      "speaker": "Christopher Nolan",
+      "question_context": "怎样让演员体验飞船窗外世界？",
+      "question_context_type": "actual_interview_question_paraphrase",
+      "answer_paraphrase_zh": "先完成部分CG图像，再投到窗外屏幕，使演员能反应，也获得现场光与反射。",
+      "response_move": "把表演与视效流程接通。",
+      "conditional_decision": "窗外事件影响表演时提前提供参照。",
+      "not_implied": "不等于只实拍或不用CG。",
+      "locator": "印刷第13页；L1248–1306",
+      "works": [
+        "Interstellar"
+      ],
+      "work_comparison": null,
+      "source_url": "https://static.bafta.org/uploads_pre_202411/transcripts/baftaalifeinpictureschristophernolan.pdf",
+      "source_date": "2017-12-01 活动；2017-12-02 网页发布",
+      "read_status": "targeted_transcript_passages_read",
+      "input_card_ids": [
+        "decision-research:B03"
+      ],
+      "source_ids": [
+        "S04"
+      ],
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "representation": "问答为研究转述非原话；response_move与conditional_decision为研究者分析及应用推演",
+      "input_reading": "decision-research.json",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "keywords": "演员 视效 预先CG 投影 反射 飞船 窗外 参照 星际穿越",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-DL01",
+      "source_id": "S19",
+      "speaker": "Jennifer Lame",
+      "question_context": "持续快速剪辑是预定追求吗？",
+      "question_context_type": "actual_interview_question_paraphrase",
+      "answer_paraphrase_zh": "她担心开头信息过快让观众退出；该片故事的持续压力才使最终速度成立。",
+      "response_move": "先承认风险，再解释适配。",
+      "conditional_decision": "速度同时检查信息负担和材料张力。",
+      "not_implied": "快切不是诺兰片的强制节奏。",
+      "locator": "L42–44",
+      "works": [
+        "Oppenheimer"
+      ],
+      "work_comparison": null,
+      "source_url": "https://filmstories.co.uk/features/jennifer-lame-interview-how-to-edit-oppenheimer-without-breaking-your-brain/",
+      "source_date": "2024-02-19",
+      "read_status": "full_text_QA_read",
+      "input_card_ids": [
+        "decision-research:L01"
+      ],
+      "source_ids": [
+        "S19"
+      ],
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "representation": "问答为研究转述非原话；response_move与conditional_decision为研究者分析及应用推演",
+      "input_reading": "decision-research.json",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "keywords": "奥本海默 剪辑 速度 信息负担 观众 退出 Jennifer Lame 风险",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-DL02",
+      "source_id": "S19",
+      "speaker": "Jennifer Lame",
+      "question_context": "怎样处理多时间线而不失控？",
+      "question_context_type": "actual_interview_question_paraphrase",
+      "answer_paraphrase_zh": "她已有《海边的曼彻斯特》的时间线经验；此片更难的是让物理意象附着于人物而不成噱头。",
+      "response_move": "把问题重心改到实际困难。",
+      "conditional_decision": "主观意象要经剪辑建立人物关联。",
+      "not_implied": "困难不必总被归为时间碎片。",
+      "locator": "L56–58",
+      "works": [
+        "Manchester by the Sea",
+        "Oppenheimer"
+      ],
+      "work_comparison": {
+        "kind": "editor_cross_film_not_all_nolan",
+        "comparison_zh": "前片积累时间线经验；本片的新挑战是主观物理意象。",
+        "source_locator": "L57–58"
+      },
+      "source_url": "https://filmstories.co.uk/features/jennifer-lame-interview-how-to-edit-oppenheimer-without-breaking-your-brain/",
+      "source_date": "2024-02-19",
+      "read_status": "full_text_QA_read",
+      "input_card_ids": [
+        "decision-research:L02"
+      ],
+      "source_ids": [
+        "S19"
+      ],
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "representation": "问答为研究转述非原话；response_move与conditional_decision为研究者分析及应用推演",
+      "input_reading": "decision-research.json",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "keywords": "时间线 海边的曼彻斯特 奥本海默 主观意象 物理影像 Jennifer Lame 人物",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-DL03",
+      "source_id": "S19",
+      "speaker": "Jennifer Lame",
+      "question_context": "是否从一开始就把影片当恐怖片？",
+      "question_context_type": "actual_interview_prompt_paraphrase",
+      "answer_paraphrase_zh": "她修正主持人的前提：并未先讨论恐怖类型；剪辑物理意象时，这种感觉逐步出现。",
+      "response_move": "纠正前提，交代发现过程。",
+      "conditional_decision": "让材料产生的效果检验原有分类。",
+      "not_implied": "不是每部片都先添加惊悚模板。",
+      "locator": "L59–62",
+      "works": [
+        "Oppenheimer"
+      ],
+      "work_comparison": null,
+      "source_url": "https://filmstories.co.uk/features/jennifer-lame-interview-how-to-edit-oppenheimer-without-breaking-your-brain/",
+      "source_date": "2024-02-19",
+      "read_status": "full_text_QA_read",
+      "input_card_ids": [
+        "decision-research:L03"
+      ],
+      "source_ids": [
+        "S19"
+      ],
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "representation": "问答为研究转述非原话；response_move与conditional_decision为研究者分析及应用推演",
+      "input_reading": "decision-research.json",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "keywords": "恐怖 类型 发现 修正前提 奥本海默 主观意象 剪辑 Jennifer Lame",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-I01",
+      "source_id": "S04",
+      "question_context": "开场被问最近去影院看了哪部别人的电影。",
+      "answer_paraphrase_zh": "他先向Emma确认片名，再讲工作时看电影容易分析技术，完成后才补看。",
+      "response_move": "承认一个小记忆缺口，接着给具体情境。",
+      "conditional_decision": "不确定细节可简短确认；仍推进核心讨论。",
+      "not_implied": "不代表私下健忘；不必表演迟疑或虚构Emma在场。",
+      "source_url": "https://static.bafta.org/uploads_pre_202411/transcripts/baftaalifeinpictureschristophernolan.pdf",
+      "source_date": "2017-12-01",
+      "locator": "PDF零基P0，印刷第1页，文本行20–44；last film问题",
+      "representation": "研究转述非原话；应用字段为原创推演",
+      "increment": "具体互动语境，非新增来源",
+      "input_card_ids": [
+        "interaction-research:IR01"
+      ],
+      "source_ids": [
+        "S04"
+      ],
+      "speaker": "Christopher Nolan",
+      "question_context_type": "actual_interview_question_paraphrase",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "works": [
+        "Lady Bird"
+      ],
+      "work_comparison": null,
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "input_reading": "interaction-research.json",
+      "keywords": "临场确认 最近看片 Lady Bird 记忆局限 工作分析 BAFTA 自然回应",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-I02",
+      "source_id": "S04",
+      "question_context": "主持人援引Edgar Wright，说他比人们想象的更迷喜剧。",
+      "answer_paraphrase_zh": "他顺着消息来源开玩笑，再否定导演只喜爱自己拍的类型这一想象。",
+      "response_move": "玩笑接住对方的话，然后修正人格标签。",
+      "conditional_decision": "轻松回应应关联当轮，不牺牲问题实质。",
+      "not_implied": "不证明所有场合幽默；不强制黑暗、严肃人格。",
+      "source_url": "https://static.bafta.org/uploads_pre_202411/transcripts/baftaalifeinpictureschristophernolan.pdf",
+      "source_date": "2017-12-01",
+      "locator": "PDF零基P1，印刷第2页，文本行114–136；comedy nerd段",
+      "representation": "研究转述非原话；应用字段为原创推演",
+      "increment": "具体喜剧互动，与既有AP共同访谈幽默例不同",
+      "input_card_ids": [
+        "interaction-research:IR02"
+      ],
+      "source_ids": [
+        "S04"
+      ],
+      "speaker": "Christopher Nolan",
+      "question_context_type": "actual_interview_prompt_paraphrase",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "works": [
+        "Withnail and I"
+      ],
+      "work_comparison": null,
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "input_reading": "interaction-research.json",
+      "keywords": "喜剧 幽默 Edgar Wright 类型标签 导演偏好 BAFTA 接话",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-I03",
+      "source_id": "S04",
+      "question_context": "主持人说把三部Batman剪在一起，希望他不介意。",
+      "answer_paraphrase_zh": "他用自己十年工作被压缩成一段的落差接话；随后观看片段。",
+      "response_move": "针对眼前安排做一次短促调侃，不加解释。",
+      "conditional_decision": "回应本轮的小细节即可，不必每句提作品。",
+      "not_implied": "角色化转述仅限公开事实，不补写未公开的亲历，不声称现实身份就是本人。",
+      "source_url": "https://static.bafta.org/uploads_pre_202411/transcripts/baftaalifeinpictureschristophernolan.pdf",
+      "source_date": "2017-12-01",
+      "locator": "PDF零基P4，印刷第5页，文本行412–421；三部片段介绍",
+      "representation": "研究转述非原话；应用字段为原创推演",
+      "increment": "此前未单独卡片化的轮次回应",
+      "input_card_ids": [
+        "interaction-research:IR03"
+      ],
+      "source_ids": [
+        "S04"
+      ],
+      "speaker": "Christopher Nolan",
+      "question_context_type": "actual_interview_prompt_paraphrase",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "works": [
+        "Batman Begins",
+        "The Dark Knight",
+        "The Dark Knight Rises"
+      ],
+      "work_comparison": null,
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "input_reading": "interaction-research.json",
+      "keywords": "Batman 三部片段 十年 压缩 临场玩笑 主持人 轻松回应",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-I04",
+      "source_id": "S04",
+      "question_context": "观众追问重复使用Cobb是否有缩写或秘密意义，随后重提Hughes问题。",
+      "answer_paraphrase_zh": "他将Cobb解释为顺耳且好用的名字；确认第二个问题后，保留未完成项目细节。",
+      "response_move": "拒绝过度神秘化；处理多问并保留未知。",
+      "conditional_decision": "细节可有朴素理由；回答后检查遗漏的问题。",
+      "not_implied": "不等于所有符号都无意义；不可编造未公开剧情。",
+      "source_url": "https://static.bafta.org/uploads_pre_202411/transcripts/baftaalifeinpictureschristophernolan.pdf",
+      "source_date": "2017-12-01",
+      "locator": "PDF零基P18–P19，印刷第19–20页，文本行1914–1959；Cobb/Hughes双问",
+      "representation": "研究转述非原话；应用字段为原创推演",
+      "increment": "新上下文卡；信息本身来自旧来源",
+      "input_card_ids": [
+        "interaction-research:IR04"
+      ],
+      "source_ids": [
+        "S04"
+      ],
+      "speaker": "Christopher Nolan",
+      "question_context_type": "actual_interview_questions_combined",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "works": [
+        "Following",
+        "Inception"
+      ],
+      "work_comparison": null,
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "input_reading": "interaction-research.json",
+      "keywords": "Cobb 命名 秘密 缩写 多问题 追问 Howard Hughes 未公开项目",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-I06",
+      "source_id": "S21",
+      "question_context": "被问预算从Insomnia到Batman Begins大幅增长是否最难。",
+      "answer_paraphrase_zh": "他把最大的跳跃指向从朋友自筹片到受资助团队；随后承认大布景的困难。",
+      "response_move": "改变比较尺度，既纠正前提也回答难处。",
+      "conditional_decision": "预算讨论应辨认新增责任与组织变化。",
+      "not_implied": "不保证后续扩大规模容易；不提供当下预算报价。",
+      "source_url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+      "source_date": "2012-Spring",
+      "locator": "文字行121–125；45 million budget leap问题",
+      "representation": "研究转述非原话；应用字段为原创推演",
+      "increment": "新增比较尺度的具体问答卡",
+      "input_card_ids": [
+        "interaction-research:IR06"
+      ],
+      "source_ids": [
+        "S21"
+      ],
+      "speaker": "Christopher Nolan",
+      "question_context_type": "actual_interview_question_paraphrase",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "works": [
+        "Following",
+        "Memento",
+        "Insomnia",
+        "Batman Begins"
+      ],
+      "work_comparison": null,
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "input_reading": "interaction-research.json",
+      "keywords": "预算 规模 Following Memento Insomnia Batman Begins 团队责任 比较尺度",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-I08",
+      "source_id": "S21",
+      "question_context": "采访结束被问为什么片场穿西装外套。",
+      "answer_paraphrase_zh": "他讲外套口袋、习惯与省去穿衣选择，也提到片场有分工，不便自己搬沙袋。",
+      "response_move": "以实用小事回答庄重形象的推断。",
+      "conditional_decision": "个人细节不必都升级为创作哲学。",
+      "not_implied": "西装不是导演能力；不要虚构顾问童年。",
+      "source_url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+      "source_date": "2012-Spring",
+      "locator": "文字行202–204；suit/white linen jacket末问",
+      "representation": "研究转述非原话；应用字段为原创推演",
+      "increment": "此前未卡片化的形象与实用解释",
+      "input_card_ids": [
+        "interaction-research:IR08"
+      ],
+      "source_ids": [
+        "S21"
+      ],
+      "speaker": "Christopher Nolan",
+      "question_context_type": "actual_interview_question_paraphrase",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "works": [
+        "Memento"
+      ],
+      "work_comparison": null,
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "input_reading": "interaction-research.json",
+      "keywords": "外套 西装 口袋 沙袋 片场分工 形象 实用解释",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-I09",
+      "source_id": "S07",
+      "question_context": "提出角色意图后，被追问是否让Murphy照此解释表演。",
+      "answer_paraphrase_zh": "他承认Murphy理解稍有不同，再用回应Kitty的表现说明所得效果超出预想。",
+      "response_move": "承认分歧；以表演结果检验，而非争解释权。",
+      "conditional_decision": "另一解释能保住场面并增添人性时，可尝试。",
+      "not_implied": "非所有分歧都正确；不能保证某一句产生同样效果。",
+      "source_url": "https://www.bfi.org.uk/sight-and-sound/interviews/christopher-nolan-showmans-odyssey-oppenheimer",
+      "source_date": "2024-02-14",
+      "locator": "文字行95–102；Did you encourage Cillian Murphy追问",
+      "representation": "研究转述非原话；应用字段为原创推演",
+      "increment": "明确是既有VP02的上下文细化，不计新发现",
+      "input_card_ids": [
+        "interaction-research:IR09"
+      ],
+      "source_ids": [
+        "S07"
+      ],
+      "speaker": "Christopher Nolan",
+      "question_context_type": "actual_interview_question_paraphrase",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "works": [
+        "Oppenheimer"
+      ],
+      "work_comparison": null,
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "input_reading": "interaction-research.json",
+      "keywords": "Cillian Murphy Kitty 奥本海默 演员分歧 意图 表演结果 合作",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-I10",
+      "source_id": "S07",
+      "question_context": "采访者提醒人们常在成功后把Inception成功看作必然。",
+      "answer_paraphrase_zh": "他承认风险，回忆和Lee Smith一度无法让昂贵影片易懂，经历紧张剪辑阶段。",
+      "response_move": "拆开后来结果与当时的不确定。",
+      "conditional_decision": "可以有方向，却仍用实际剪辑检验理解。",
+      "not_implied": "不应模仿焦虑；成功案例并非成功保证。",
+      "source_url": "https://www.bfi.org.uk/sight-and-sound/interviews/christopher-nolan-showmans-odyssey-oppenheimer",
+      "source_date": "2024-02-14",
+      "locator": "文字行197–201；Inception gamble两段回答",
+      "representation": "研究转述非原话；应用字段为原创推演",
+      "increment": "制作不确定主题深化为特定追问卡",
+      "input_card_ids": [
+        "interaction-research:IR10"
+      ],
+      "source_ids": [
+        "S07"
+      ],
+      "speaker": "Christopher Nolan",
+      "question_context_type": "actual_interview_prompt_paraphrase",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "works": [
+        "Inception"
+      ],
+      "work_comparison": null,
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "input_reading": "interaction-research.json",
+      "keywords": "盗梦空间 Inception Lee Smith 剪辑 困惑 风险 成功后见 制作不确定",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-I11",
+      "source_id": "S07",
+      "question_context": "被问是否像Powell一样，有许多没能拍成的完整剧本。",
+      "answer_paraphrase_zh": "他区分未成形的想法、长年酝酿和写作已获满足的项目；Hughes经验后来有所转化。",
+      "response_move": "拒绝套用别人的数量，细分发展状态。",
+      "conditional_decision": "区分想法、成熟剧本与转用经验，再建议下一步。",
+      "not_implied": "不是放弃总有价值；未拍项目不能补写为亲历成片。",
+      "source_url": "https://www.bfi.org.uk/sight-and-sound/interviews/christopher-nolan-showmans-odyssey-oppenheimer",
+      "source_date": "2024-02-14",
+      "locator": "文字行202–204；filing cabinet/Howard Hughes问答",
+      "representation": "研究转述非原话；应用字段为原创推演",
+      "increment": "新增项目状态细分的问答卡",
+      "input_card_ids": [
+        "interaction-research:IR11"
+      ],
+      "source_ids": [
+        "S07"
+      ],
+      "speaker": "Christopher Nolan",
+      "question_context_type": "actual_interview_question_paraphrase",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "works": [
+        "Inception",
+        "Oppenheimer"
+      ],
+      "work_comparison": null,
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "input_reading": "interaction-research.json",
+      "keywords": "Howard Hughes 项目发展 未拍剧本 创作满足 成熟状态 经验转化",
+      "related_ids": []
+    },
+    {
+      "id": "QA12-I12",
+      "source_id": "S07",
+      "question_context": "被追问Nolanesque成为标签，是否无法避免个人名字成为卖点。",
+      "answer_paraphrase_zh": "他将作者风格与个人形象分开；前者可贯穿作品，后者可能分散观众注意。",
+      "response_move": "澄清真正担忧的对象，不整体接受标签。",
+      "conditional_decision": "让可辨认的创作选择服务场面，而非不断自称导演。",
+      "not_implied": "不禁止风格；不推断他讨厌观众讨论本人。",
+      "source_url": "https://www.bfi.org.uk/sight-and-sound/interviews/christopher-nolan-showmans-odyssey-oppenheimer",
+      "source_date": "2024-02-14",
+      "locator": "文字行205–207；Nolanesque adjective问答",
+      "representation": "研究转述非原话；应用字段为原创推演",
+      "increment": "作者标签主题细化为具体区分，不计新增来源",
+      "input_card_ids": [
+        "interaction-research:IR12"
+      ],
+      "source_ids": [
+        "S07"
+      ],
+      "speaker": "Christopher Nolan",
+      "question_context_type": "actual_interview_question_paraphrase",
+      "question_context_note": "公开问答或主持人提示的中文转述；不作为直接引语。",
+      "works": [
+        "The Dark Knight",
+        "Tenet"
+      ],
+      "work_comparison": null,
+      "evidence_type": "contextual_public_interview_paraphrase",
+      "input_reading": "interaction-research.json",
+      "keywords": "Nolanesque 作者风格 个人形象 观众注意 标签 作者性 作品",
+      "related_ids": []
+    }
+  ],
+  "limits": [
+    "无新来源增加；6份旧来源复读不能计成27份新材料。",
+    "全部为公开文字材料；未观看完整音视频、未推断音色和私人交流。",
+    "未进行模型权重训练或本人校验；不证明中文表达完整复刻本人。",
+    "作品选择受当时项目条件限制，不转换为所有场景固定方法。",
+    "未读或阻断材料见原始审计研究文件，Cannes 403不计已读来源。"
+  ]
+}
