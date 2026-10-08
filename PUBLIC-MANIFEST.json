@@ -3,6 +3,12 @@
   "note": "Evaluation machine paths are redacted in public copies. Source hashes preserve the link to the original reviewed records; public hashes verify the distributed files. Dialogue wording and observed failures are otherwise unchanged.",
   "files": [
     {
+      "path": ".gitattributes",
+      "source_sha256": "19932997eb347cf7d92d77dfd8f32cf8c4e67fc2a355a69244002b3a2f20b063",
+      "public_sha256": "19932997eb347cf7d92d77dfd8f32cf8c4e67fc2a355a69244002b3a2f20b063",
+      "path_redacted": false
+    },
+    {
       "path": ".github/workflows/validate.yml",
       "source_sha256": "ddafc289f415b4a9baab90c57c388b075e24b14b43183e3bac43884f07ed683f",
       "public_sha256": "ddafc289f415b4a9baab90c57c388b075e24b14b43183e3bac43884f07ed683f",
@@ -172,8 +178,8 @@
     },
     {
       "path": "release-files.json",
-      "source_sha256": "a478dc13f35c39a472d19cdd2e50166313fa83893f777069e02a79def9041826",
-      "public_sha256": "a478dc13f35c39a472d19cdd2e50166313fa83893f777069e02a79def9041826",
+      "source_sha256": "c6c663414dc7da8429de3dd0bd8a5950a03759fe56fad80ff62ce1bae32b014f",
+      "public_sha256": "c6c663414dc7da8429de3dd0bd8a5950a03759fe56fad80ff62ce1bae32b014f",
       "path_redacted": false
     },
     {
@@ -2116,8 +2122,8 @@
     },
     {
       "path": "validation/release-4.1.2.json",
-      "source_sha256": "35ebb123b03774233bd0070389e1f3320b456bdd86d6b80d57d82a948a4d9bb1",
-      "public_sha256": "35ebb123b03774233bd0070389e1f3320b456bdd86d6b80d57d82a948a4d9bb1",
+      "source_sha256": "42b05b070d137d57ed546a98b1eab94407dbcac355c6834b1e40ddcdacbf6fa5",
+      "public_sha256": "42b05b070d137d57ed546a98b1eab94407dbcac355c6834b1e40ddcdacbf6fa5",
       "path_redacted": false
     },
     {
@@ -2140,8 +2146,8 @@
     },
     {
       "path": "validation/source-rebuild.json",
-      "source_sha256": "2b1889e333044aebb39d02d37d072a83982e561773b0c6fd77ec7de170980384",
-      "public_sha256": "2b1889e333044aebb39d02d37d072a83982e561773b0c6fd77ec7de170980384",
+      "source_sha256": "3863506ae4846c5ec0febf5573e528726675049fff41a8399c7267f155afa350",
+      "public_sha256": "3863506ae4846c5ec0febf5573e528726675049fff41a8399c7267f155afa350",
       "path_redacted": false
     },
     {

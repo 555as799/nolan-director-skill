@@ -1,0 +1,10 @@
+# Keep text checkouts consistent on Windows and Linux.
+* text=auto eol=lf
+
+# These migration inputs are verified byte for byte, not normalized text.
+data/legacy-corpus.json -text
+skills/nolan-director/assets/director-corpus.json -text
+validation/retrieval-before/assets/library.json -text
+
+*.sqlite binary
+*.zip binary

@@ -71,5 +71,14 @@
     "tests": 72,
     "status": "passed",
     "skill_frontmatter": "passed"
+  },
+  "first_github_ci": {
+    "commit": "998f3dedfe5fbc1375d97239a2127666cef82179",
+    "linux": "passed",
+    "windows": "failed_at_immutable_legacy_checksum",
+    "root_cause": "Git checkout newline conversion; Linux checkout preserved the immutable source bytes",
+    "correction": ".gitattributes enforces LF for text and disables conversion for byte-verified legacy JSON inputs",
+    "status": "correction_prepared_pending_new_ci",
+    "url": "https://github.com/555as799/nolan-director-skill/actions/runs/37708547948"
   }
 }
