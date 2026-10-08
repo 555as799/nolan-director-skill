@@ -1,6 +1,6 @@
 # 诺兰导演 Skill
 
-[English](README.en.md) · **4.1.1 release candidate** · CineMatrix
+[English](README.en.md) · **4.1.2 release candidate** · CineMatrix
 
 一个可以安装、持续交流的导演创作 Skill。它用第一人称和作者讨论剧本、表演、镜头、剪辑与声音，在相关时调用诺兰公开访谈和制作资料中的具体经验，把建议落实到眼前的作品。
 
@@ -8,15 +8,15 @@
 
 ## 给 WorkBuddy 用户
 
-取得 `dist/nolan-director-4.1.1-workbuddy.zip`，在 WorkBuddy 的技能页面选择“添加技能 → 上传技能”，导入后确认已经启用。打开新对话，明确调用：
+下载 [WorkBuddy 安装包](https://github.com/555as799/nolan-director-skill/raw/refs/heads/main/downloads/nolan-director-4.1.2-workbuddy.zip)（本地构建位于 `dist/`），在 WorkBuddy 的技能页面选择“添加技能 → 上传技能”，导入后确认已经启用。打开新对话，明确调用：
 
 > 使用“诺兰导演”技能，和我持续讨论这部作品。我想拍一个两分钟短片：一个人在海上漂流，感到自由和快乐。只有一位演员、一条小船。先和我聊开场，不急着列完整分镜。
 
-后续像正常对话一样补充材料、追问或否定建议，无需每句重复技能名称。新对话应重新选择或调用技能。安装方式依据 [WorkBuddy 官方技能说明](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market)。客户截图已证明 4.1.0 被实际调用，同时暴露了不合格的对话；4.1.1 修正相关规则，仍待同一宿主复验。
+后续像正常对话一样补充材料、追问或否定建议，无需每句重复技能名称。新对话应重新选择或调用技能。安装方式依据 [WorkBuddy 官方技能说明](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market)。客户截图已证明 4.1.0 被实际调用，同时暴露了不合格的对话；4.1.2 修正相关规则，仍待同一宿主复验。
 
 普通使用无需 Python、GPU、额外数据库服务或另配 API 密钥。模型与联网额度沿用 WorkBuddy 账号。完整步骤与故障排查见[给客户的安装说明](给客户的安装说明.txt)。
 
-支持本地 Skills 的其他宿主，可以导入 `dist/nolan-director-4.1.1-portable.zip` 内完整的 `nolan-director` 文件夹；具体安装目录由宿主决定。应保留整个文件夹，单独复制 `SKILL.md` 会丢失资料库。两种包是不同宿主的包装，不必同时安装。
+支持本地 Skills 的其他宿主，可以导入 [通用安装包](https://github.com/555as799/nolan-director-skill/raw/refs/heads/main/downloads/nolan-director-4.1.2-portable.zip) 内完整的 `nolan-director` 文件夹；具体安装目录由宿主决定。应保留整个文件夹，单独复制 `SKILL.md` 会丢失资料库。两种包是不同宿主的包装，不必同时安装。
 
 ## 它怎样工作
 
@@ -30,7 +30,7 @@
 
 ## 资料范围与核验
 
-4.1.1 的资料清单为 **202 张卡、73 个来源条目、13 个影片入口**。卡片分为 44 张诺兰公开经历、12 张合作者经历、89 张创作研究及 57 张原创示例。本轮有 35 张卡的相关来源段落已核读；其余继承材料保留逐卡核验状态。
+4.1.2 的资料清单为 **204 张卡、73 个来源条目、13 个影片入口**。卡片分为 46 张诺兰公开经历、12 张合作者经历、89 张创作研究及 57 张原创示例。本轮有 37 张卡的相关来源段落已核读；其余继承材料保留逐卡核验状态。
 
 这些计数可以在 [构建摘要](validation/build-summary.json) 和 [规范资料库](skills/nolan-director/assets/library.json) 中复查。卡之间可能讨论同一经历，来源条目也包括工程文档，因此卡数不是独立经历数，来源数不是采访数量。没有声称所有来源已经全文重读。
 
@@ -42,11 +42,11 @@
 
 这是可构建、可安装试用的**发布候选版**。工程检查、检索回归与小样本独立 AI 对话试用用于发现具体问题，不能证明所有问题都能答好，也不能证明已经复制真人的创作能力。
 
-4.1.1 根据真实客户反馈，取消创作回复中的自动身份开场，改为先发展作者提供的感受与画面，并明确主观联想不受未经核实的生理断言限制。资料库未在这次修订中扩充，也未训练模型权重。当前反馈和修复验证边界见 [宿主反馈摘要](validation/host-feedback-summary.json)；原始客户截图及创作内容不随公开源码分发。
+4.1.2 在取消自动身份开场的基础上，补入六项有据的常驻工作偏好，改善简短确认、局部修改、多方帮助及动作呼应。新增两张经核读的合作与观看经历卡。独立代理分别按原专家和新版完成同组八轮提问，盲版本评审均未发现实质违约，也没有认定新版整体胜出；细节与后续窄修见 [本版验证](validation/release-4.1.2.json)。仍未训练模型权重。原始客户截图及真实创作记录不随公开源码分发；发布评测使用合成题。
 
 | 已有证据 | 仍需验证 |
 |---|---|
-| 构建、资料关联、检索和打包的离线测试；4.1.0 客户调用截图 | 4.1.1 在客户 WorkBuddy 中的实际回复 |
+| 构建、资料关联、检索和打包的离线测试；4.1.0 客户调用截图 | 4.1.2 在客户 WorkBuddy 中的实际回复 |
 | 独立编写的检索压力问题，以及发现问题后的回归 | 客户所选模型下的多轮稳定性与速度 |
 | 保存真实输入输出的小样本 AI 对话试用及独立文本评审 | 人类创作者对实用性、自然度和长期协作的评价 |
 | 来源主体与原创示例分离 | 更广泛的一手资料逐项复核与覆盖扩展 |
@@ -97,5 +97,7 @@ python skills/nolan-director/scripts/recall.py --query "预算有限但想保住
 ## 开源方法与许可
 
 本项目吸收人物 Skill 的分层角色、按需资料读取、经验归属、持续会话和评估机制，独立实现本地检索与交付流程；没有把研究到的外部人物 Skill 实现代码整体打包进来。具体采用和拒绝的做法见[开源方案记录](research/方案与采用记录.md)与[运行机制审阅](research/runtime-adoption-review.md)。
+
+本轮还按固定提交复核了 [五类人物／导演框架](research/upstream-review-20261008.md)，以及 [RoleLLM 与 Character-LLM 的训练路径](research/distillation-decision-20261008.md)。采用有据的人物判断、证据分级和相关记忆组合；不把合成人物回忆当真实经验，不捆绑未验证的权重或训练环境。当前交付是可安装的 Skill，不是独立训练完成的诺兰模型。
 
 本项目原创代码、指令和编辑内容采用 [MIT License](LICENSE)。第三方电影、书籍、采访原文、名称及其他权利不因本仓库开放而获得授权，详见 [NOTICE.md](NOTICE.md)。数据与权限边界见 [SECURITY.md](SECURITY.md)。

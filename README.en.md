@@ -1,6 +1,6 @@
 # Nolan Director Skill
 
-[简体中文](README.md) · **4.1.1 release candidate** · CineMatrix
+[简体中文](README.md) · **4.1.2 release candidate** · CineMatrix
 
 An installable filmmaking conversation skill with a first-person creative persona, a portable research library, and workflows for discussing scripts, performance, camera placement, editing, and sound. It draws on relevant public accounts of Christopher Nolan's work and returns to the author's specific creative problem.
 
@@ -8,15 +8,15 @@ This is an **AI portrayal based on public sources**, not Christopher Nolan or an
 
 ## Use in WorkBuddy
 
-Import `dist/nolan-director-4.1.1-workbuddy.zip` through the Skills page: **Add Skill → Upload Skill**. Confirm that the skill is enabled, start a new conversation, and explicitly request it:
+Download the [WorkBuddy package](https://github.com/555as799/nolan-director-skill/raw/refs/heads/main/downloads/nolan-director-4.1.2-workbuddy.zip) and import it through the Skills page: **Add Skill → Upload Skill**. Local builds write this archive to `dist/`. Confirm that the skill is enabled, start a new conversation, and explicitly request it:
 
 > Use the Nolan Director skill for this ongoing creative conversation. I am making a two-minute short about someone drifting at sea, feeling free and happy. I have one performer and one small boat. Let's discuss the opening first, without producing a complete shot list.
 
-Continue with ordinary questions and revisions. Select or invoke the skill again in a new conversation. These instructions follow the [official WorkBuddy Skills documentation](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market). A customer screenshot confirms that version 4.1.0 was invoked in WorkBuddy and produced an unsatisfactory response. Version 4.1.1 still needs validation on that host.
+Continue with ordinary questions and revisions. Select or invoke the skill again in a new conversation. These instructions follow the [official WorkBuddy Skills documentation](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market). A customer screenshot confirms that version 4.1.0 was invoked in WorkBuddy and produced an unsatisfactory response. Version 4.1.2 still needs validation on that host.
 
 Ordinary use does not require Python, a GPU, a separate database service, or another API key. Host model and browsing usage follow the customer's account. See the [installation guide in Chinese](给客户的安装说明.txt).
 
-For another host supporting local Skills, use the complete `nolan-director` folder in `dist/nolan-director-4.1.1-portable.zip`, following that host's installation procedure. Copying only `SKILL.md` leaves out the library. Install the package appropriate to your host.
+For another host supporting local Skills, use the complete `nolan-director` folder in the [portable package](https://github.com/555as799/nolan-director-skill/raw/refs/heads/main/downloads/nolan-director-4.1.2-portable.zip), following that host's installation procedure. Copying only `SKILL.md` leaves out the library. Install the package appropriate to your host.
 
 ## Design
 
@@ -30,7 +30,7 @@ Hosts can read the text index and individual cards directly. Where Python is alr
 
 ## Corpus and evidence
 
-The 4.1.1 inventory contains **202 cards, 73 source entries, and 13 film entry points**: 44 Nolan experience cards, 12 collaborator cards, 89 craft/research cards, and 57 original examples. Relevant source passages for 35 cards were checked in this development round. Other inherited material retains its per-card review status.
+The 4.1.2 inventory contains **204 cards, 73 source entries, and 13 film entry points**: 46 Nolan experience cards, 12 collaborator cards, 89 craft/research cards, and 57 original examples. Relevant source passages for 37 cards were checked in this development round. Other inherited material retains its per-card review status.
 
 Verify counts in the [build summary](validation/build-summary.json) and [canonical library](skills/nolan-director/assets/library.json). Cards can overlap in facts; source entries include engineering documentation. These counts are not counts of unique experiences or interviews, and do not imply every source was reread in full.
 
@@ -42,7 +42,7 @@ Documented reading accounts now include *Waterland*, *A Tale of Two Cities*, *Am
 
 This is a **release candidate** with an installable package and reproducible source. Engineering tests, retrieval regression cases, and small independent AI conversation trials support specific findings. They do not establish human-equivalent directing ability or overall persona fidelity.
 
-Available evidence includes offline checks, independently authored retrieval stress cases, saved conversation outputs, and separate AI text reviews. Actual customer feedback rejected the 4.1.0 opening and creative stance. Version 4.1.1 removes the automatic identity preface from creative replies and develops the author's intended scene before critique. It preserves subjective association as a cinematic option. The corpus is unchanged; no weights were trained. See the [host feedback summary](validation/host-feedback-summary.json). Raw customer images and creative prompts are excluded from the public source package. The revised version's performance on the customer's selected model and broader human creative evaluation remain unverified.
+Version 4.1.2 adds six sourced working preferences to the session core and two reviewed experience cards. It addresses continuity, individual contributions, and local revision scope while preserving the removal of the automatic identity preface. Independent agents generated eight turns per configuration for the original expert and the revised Skill; a reviewer blind to version labels found no material requirement violation in either sample, without declaring a winner. See the [current release record](validation/release-4.1.2.json) for minor findings and narrow follow-up corrections. No weights were trained. Raw customer images and creative prompts are excluded from public source; release trials use synthetic scenarios. The revised version's performance on the customer's selected WorkBuddy model and broader human creative evaluation remain unverified.
 
 See the [readiness audit](validation/product-readiness.json), [validation report](validation/验收报告.md), [conversation trials](evals/independent-trials/), and [behavior cases](evals/behavior-cases.json). Once a case informs a fix, it is a regression case, not an untouched evaluation sample.
 
@@ -94,3 +94,5 @@ Rebuild after changing source material instead of editing only the generated dat
 The project independently implements mechanisms informed by public persona-skill projects: layered role instructions, on-demand references, attribution, continuity, and evaluation. External persona implementations are not vendored. Adoption decisions are recorded in [research notes](research/方案与采用记录.md) and the [runtime review](research/runtime-adoption-review.md).
 
 Original project code, instructions, and editorial material use the [MIT License](LICENSE). It does not grant rights in third-party films, books, interview originals, identities, or other protected material. See [NOTICE.md](NOTICE.md) and [SECURITY.md](SECURITY.md).
+
+Fixed-version research covers [five persona/director frameworks](research/upstream-review-20261008.md) and [RoleLLM / Character-LLM training approaches](research/distillation-decision-20261008.md). Selected mechanisms are independently implemented; upstream weights, synthetic memories, and training systems are not bundled or claimed as reproduced.

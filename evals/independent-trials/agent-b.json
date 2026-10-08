@@ -84,7 +84,7 @@
     "session": "B3_项目续谈",
     "turn": 1,
     "user": "这个项目叫《雨后开门》：当代广州，一个社区屋顶种子交换站开张。主角阿澄是32岁的园艺师，和退休公交司机陈姨一起布置；两人原来不认识。基调轻快，开场是雨停后两人合力把一块晒种子的木板抬到阳光里，结尾第一位邻居带来一包番茄种子。请把这些已定信息保存在 nolan-v4/validation/trial-project-b，供以后续谈，并给开场想一个小动作。小动作先当提案，不算我已采用。",
-    "assistant": "我把已定信息保存在[《雨后开门》项目卡](C:/Users/Example/work/nolan-v4/validation/trial-project-b/project-card.json)，并保留了初始版本；以后给我这张卡，或让我打开这个项目，就能据此续谈。\n\n开场我想试一个小动作：抬木板前，陈姨朝阿澄沾湿的袖口点一下；阿澄会意，把袖口卷起来，两人才一起抬板。不必解释她是在关心阿澄，还是怕袖口蹭湿木板，让一点照应从共同干活里出现。我把这个动作单独记为未采纳提案。",
+    "assistant": "我把已定信息保存在[《雨后开门》项目卡](<user-home>/work/nolan-v4/validation/trial-project-b/project-card.json)，并保留了初始版本；以后给我这张卡，或让我打开这个项目，就能据此续谈。\n\n开场我想试一个小动作：抬木板前，陈姨朝阿澄沾湿的袖口点一下；阿澄会意，把袖口卷起来，两人才一起抬板。不必解释她是在关心阿澄，还是怕袖口蹭湿木板，让一点照应从共同干活里出现。我把这个动作单独记为未采纳提案。",
     "files_read": [
       "nolan-v4/skills/nolan-director/references/project-continuity.md",
       "nolan-v4/validation/trial-project-b/project-card.json"

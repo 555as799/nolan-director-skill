@@ -1,8 +1,8 @@
 {
   "stage": "release_candidate",
   "ready_for_final_release": false,
-  "date": "2026-10-07",
-  "version": "4.1.1",
+  "date": "2026-10-08",
+  "version": "4.1.2",
   "customer_host_feedback": {
     "date": "2026-10-07",
     "affected_version": "4.1.0",
@@ -58,11 +58,11 @@
     "public_data_boundary": "Raw customer screenshot, prompt, and scene-specific comparison outputs stay local and are excluded from the public source allowlist."
   },
   "counts": {
-    "cards": 202,
+    "cards": 204,
     "card_kinds": {
       "craft": 89,
       "example": 57,
-      "experience": 44,
+      "experience": 46,
       "collaborator": 12
     },
     "source_registry_entries": 73,
@@ -86,7 +86,7 @@
       "S62"
     ],
     "film_navigation_entries": 13,
-    "structured_nolan_self_report_candidates": 44,
+    "structured_nolan_self_report_candidates": 46,
     "sources_supporting_structured_nolan_self_reports": [
       "EXP-S-AUREVIEW-2015",
       "EXP-S-BULLETIN-2023",
@@ -104,7 +104,7 @@
       "S24",
       "V4-FANDANGO-2017"
     ],
-    "v4_cards_with_relevant_passage_review": 35,
+    "v4_cards_with_relevant_passage_review": 37,
     "v4_cards_with_inherited_review_only": 167,
     "original_example_cards": 57,
     "v4_behavior_cases_prepared": 25,
@@ -122,7 +122,10 @@
     "Positive proxy-agent reviews outweigh a real customer-host failure"
   ],
   "software_validation": {
-    "tests_run": 68,
+    "version": "4.1.2",
+    "suite": "full_offline_suite",
+    "skill_integrity_sha256": "443cb8ead4255008f87ba5e65dcd27b50038c127310cb2d4e9e8d26cc42e28e9",
+    "tests_run": 72,
     "failures": 0,
     "errors": 0,
     "status": "passed",
@@ -147,8 +150,25 @@
       "evals/independent-trials/review.json",
       "evals/independent-trials/review-b.json"
     ],
+    "release_scope": "historical_trials_predating_current_revision",
     "type": "independent_ai_generations_and_separate_ai_review",
     "limits": "small samples; logical sessions share one agent context per cohort; no human blind ratings, voice evaluation, customer-host model comparison or general accuracy claim"
+  },
+  "current_revision_dialogue_evaluation": {
+    "version": "4.1.2",
+    "status": "completed",
+    "completed": true,
+    "directory": "evals/release-4.1.2",
+    "missing_records": [],
+    "quality_acceptance_inferred": false,
+    "scope": "independent_ai_proxy_comparison_not_customer_host_validation",
+    "records": [
+      "evals/release-4.1.2/requests.json",
+      "evals/release-4.1.2/baseline.json",
+      "evals/release-4.1.2/candidate.json",
+      "evals/release-4.1.2/review.json",
+      "evals/release-4.1.2/version-mapping.json"
+    ]
   },
   "prior_training_record": {
     "source": "user_supplied_archive_not_reproduced_this_session",
@@ -190,12 +210,13 @@
     "offline_retrieval_and_packaging": "passed",
     "source_by_source_evidence_audit": "incomplete",
     "corpus_expansion": {
-      "added_cards_with_overlap": 31,
+      "added_cards_with_overlap": 33,
       "inherited_cards_rechecked": 4
     },
     "model_parameter_training": "not_done_not_required_for_current_skill_scope",
-    "generated_dialogue_and_creative_evaluation": "independent_ai_trials_and_reviews_available",
-    "workbuddy_native_customer_workflow": "4.1.0_activation_observed_dialogue_rejected;4.1.1_unverified",
+    "generated_dialogue_and_creative_evaluation": "completed",
+    "historical_ai_trial_evidence": "available",
+    "workbuddy_native_customer_workflow": "4.1.0_activation_observed_dialogue_rejected;current_revision_unverified",
     "open_source_release_preparation": "prepared"
   }
 }

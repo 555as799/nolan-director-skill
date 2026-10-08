@@ -1,0 +1,75 @@
+{
+  "version": "4.1.2",
+  "date": "2026-10-08",
+  "timezone": "Asia/Shanghai",
+  "status": "release_candidate",
+  "delivery_scope": "portable_persona_skill_with_sourced_library",
+  "ready_for_final_customer_acceptance": false,
+  "implementation_changes": [
+    "Sourced working preferences in the always-read session core",
+    "Conditional scene development, local revision scope and contribution/prop continuity",
+    "Two passage-reviewed experience refinements",
+    "Narrow terminology and redundant-summary correction after blinded review",
+    "Current-version evidence binding and validated source export"
+  ],
+  "corpus": {
+    "cards": 204,
+    "sources": 73,
+    "nolan_self_report_candidates": 46,
+    "cards_with_passage_review": 37,
+    "new_cards_this_revision": 2,
+    "new_independent_interviews_this_revision": 0
+  },
+  "current_proxy_evaluation": {
+    "record": "evals/release-4.1.2/version-mapping.json",
+    "baseline_turns": 8,
+    "candidate_turns": 8,
+    "logical_sessions_per_configuration": 3,
+    "separate_generation_agents": true,
+    "shared_context_within_each_configuration": true,
+    "separate_ai_reviewer": true,
+    "version_labels_hidden_from_reviewer": true,
+    "both_samples_accepted": true,
+    "winner": null,
+    "post_review_runtime_change": "Terminology and repetitive-summary wording only; original comparison outputs preserved",
+    "followup_record": "evals/release-4.1.2/patch-check.json",
+    "scope": "Synthetic developer-selected tasks in proxy agents; not human ratings or target-host model benchmarking",
+    "followup_observation": "Two further proxy turns use explicit focal length, preserve the one-doorway scope, and answer the terminology-only follow-up without expanding the scene. Original trial wording remains unchanged."
+  },
+  "software_evidence": "validation/offline-tests.json",
+  "source_rebuild_evidence": "validation/source-rebuild.json; exact-archive report distributed separately with downloads",
+  "workbuddy": {
+    "prior_4_1_0_activation_observed": true,
+    "prior_4_1_0_quality": "user_rejected",
+    "current_revision_native_dialogue": "not_observed",
+    "local_file_installation_is_not_host_acceptance": true,
+    "local_file_installation": {
+      "status": "installed_files_verified",
+      "files_verified": 299,
+      "previous_installation_backed_up": true,
+      "directory_not_published": true
+    }
+  },
+  "training": {
+    "new_parameter_training": false,
+    "upstream_training_frameworks_executed": false,
+    "synthetic_examples_are_not_historical_memories": true
+  },
+  "upstream_research": [
+    "research/upstream-review-20261008.md",
+    "research/distillation-decision-20261008.md"
+  ],
+  "public_boundary": "Release allowlist and redacted proxy records only; no real customer scene transcripts, screenshots, local installation paths or credentials",
+  "remaining_limits": [
+    "No end-to-end creative acceptance in the customer WorkBuddy model",
+    "No overall superiority over the original expert established",
+    "Inherited source coverage is incomplete; no full book/film-shot analysis or complete reading history",
+    "No voice cloning or independently trained Nolan model"
+  ],
+  "software_result": {
+    "version": "4.1.2",
+    "tests": 72,
+    "status": "passed",
+    "skill_frontmatter": "passed"
+  }
+}

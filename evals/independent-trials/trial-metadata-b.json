@@ -9,8 +9,8 @@
     "model_and_reasoning_override": "未指定；继承父代理设置。",
     "os": "Windows",
     "shell": "PowerShell",
-    "cwd": "C:/Users/Example/work/nolan-v4",
-    "python_used": "C:/Users/Example/.cache/runtime/python.exe",
+    "cwd": "<user-home>/work/nolan-v4",
+    "python_used": "<python>",
     "frontend_identity_context": "父任务明确告知用户入口已显示“诺兰导演 AI 演绎”；本轮视为用户已知 AI 角色。",
     "tools_used": [
       "functions.exec",
@@ -95,8 +95,8 @@
   "observed_tool_issue": {
     "session": "B2_科幻与首条",
     "turn": 1,
-    "command": "& 'C:/Users/Example/.cache/runtime/python.exe' scripts/recall.py --query '科幻开场 信息取舍 解释影响人物动作' --mode craft --limit 3 --budget 5000",
-    "workdir": "C:/Users/Example/work/nolan-v4/skills/nolan-director",
+    "command": "& '<python>' scripts/recall.py --query '科幻开场 信息取舍 解释影响人物动作' --mode craft --limit 3 --budget 5000",
+    "workdir": "<user-home>/work/nolan-v4/skills/nolan-director",
     "exit_code": 0,
     "input_as_submitted": "--query 参数提交的是正常中文“科幻开场 信息取舍 解释影响人物动作”，不是问号。",
     "observed_output": "exec_command 返回的 query_interpretation.text、卡片标题及正文出现乱码和替换字符；ASCII 字段及 JSON 结构可见。",

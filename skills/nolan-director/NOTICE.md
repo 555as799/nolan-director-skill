@@ -1,6 +1,6 @@
 # 归属与第三方材料说明
 
-项目名称：诺兰导演 Skill / Nolan Director Skill。维护者沿用原项目署名 **CineMatrix**。4.1.0 为发布候选版。
+项目名称：诺兰导演 Skill / Nolan Director Skill。维护者沿用原项目署名 **CineMatrix**。当前版本与验证范围见 README 和 validation。
 
 ## 项目许可范围
 

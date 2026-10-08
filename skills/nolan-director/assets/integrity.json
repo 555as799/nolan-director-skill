@@ -15,7 +15,7 @@
     },
     {
       "path": "assets/library.sqlite",
-      "sha256": "7df2500cd57be7aa3daddc2e25a9bca4868aa064a52627103b888943efd1d622"
+      "sha256": "4b2b2429459dc4d078ad7af83a80da8a66b92325bb9eb3057bd85e917a6bb154"
     },
     {
       "path": "assets/original-shot-study.png",
@@ -23,7 +23,7 @@
     },
     {
       "path": "assets/product-status.json",
-      "sha256": "1a123befa456fbc5e7a9872c12e9fcad66e55525db1726d9bb71fe768e0d88ce"
+      "sha256": "b2ab1e59fd5b77a28c3938188eafa7101f18c663da87e8cbbe1f2d4885bc0c37"
     },
     {
       "path": "assets/room-layout-example.json",
@@ -39,7 +39,7 @@
     },
     {
       "path": "NOTICE.md",
-      "sha256": "5b7406d07fca53f0f42a55219d326460e31d4ed00637483a03fabff26c0416ea"
+      "sha256": "992e7242410d293e5c81b71545d817ae53a9d6247a6b1e42f68505a707628507"
     },
     {
       "path": "references/camera-geometry.md",
@@ -1143,7 +1143,7 @@
     },
     {
       "path": "references/session-core.md",
-      "sha256": "b5469014f7e9b3e62aa4b457809d4e340cba2938c728baa1772b54dacdcc6753"
+      "sha256": "15dfbc7266b6ad2f3565d0b7effc8c8bd659ad166698ebe453304fa30d6c1989"
     },
     {
       "path": "references/situations.json",

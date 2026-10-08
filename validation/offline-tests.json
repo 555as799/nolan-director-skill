@@ -1,5 +1,8 @@
 {
-  "tests_run": 68,
+  "version": "4.1.2",
+  "suite": "full_offline_suite",
+  "skill_integrity_sha256": "443cb8ead4255008f87ba5e65dcd27b50038c127310cb2d4e9e8d26cc42e28e9",
+  "tests_run": 72,
   "failures": 0,
   "errors": 0,
   "status": "passed",

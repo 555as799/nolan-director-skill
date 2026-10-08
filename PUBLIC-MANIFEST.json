@@ -1,0 +1,2160 @@
+{
+  "version": "4.1.2",
+  "note": "Evaluation machine paths are redacted in public copies. Source hashes preserve the link to the original reviewed records; public hashes verify the distributed files. Dialogue wording and observed failures are otherwise unchanged.",
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "source_sha256": "ddafc289f415b4a9baab90c57c388b075e24b14b43183e3bac43884f07ed683f",
+      "public_sha256": "ddafc289f415b4a9baab90c57c388b075e24b14b43183e3bac43884f07ed683f",
+      "path_redacted": false
+    },
+    {
+      "path": ".gitignore",
+      "source_sha256": "ccc6be1af5b23cdf94b50ce4370a228e35b5fcc1e0654deda7baace8272a709b",
+      "public_sha256": "ccc6be1af5b23cdf94b50ce4370a228e35b5fcc1e0654deda7baace8272a709b",
+      "path_redacted": false
+    },
+    {
+      "path": "audit_readiness.py",
+      "source_sha256": "98f6d8ad07f0632d83c286db4e18669a334440f86b0210a64dcdd355d1f0a5db",
+      "public_sha256": "98f6d8ad07f0632d83c286db4e18669a334440f86b0210a64dcdd355d1f0a5db",
+      "path_redacted": false
+    },
+    {
+      "path": "build.py",
+      "source_sha256": "5633ebbf09cfa2c2f9153e6906b8dd2d76a3d034be718d5fdb5d7537702d3526",
+      "public_sha256": "5633ebbf09cfa2c2f9153e6906b8dd2d76a3d034be718d5fdb5d7537702d3526",
+      "path_redacted": false
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "source_sha256": "77d678f4e5568ff1a71c782d8d3430be4a405628c3dae86c4673f8b43e11f2bf",
+      "public_sha256": "77d678f4e5568ff1a71c782d8d3430be4a405628c3dae86c4673f8b43e11f2bf",
+      "path_redacted": false
+    },
+    {
+      "path": "data/experience-events.json",
+      "source_sha256": "aa91238c90fb5880af74402353f7c5a7f25bb1c5489069eab86cb2bee73e58b8",
+      "public_sha256": "aa91238c90fb5880af74402353f7c5a7f25bb1c5489069eab86cb2bee73e58b8",
+      "path_redacted": false
+    },
+    {
+      "path": "data/legacy-corpus.json",
+      "source_sha256": "816aea3c6d935c6d613487db4f17dd10d052389d02fe468a96a6e0a78c06362f",
+      "public_sha256": "816aea3c6d935c6d613487db4f17dd10d052389d02fe468a96a6e0a78c06362f",
+      "path_redacted": false
+    },
+    {
+      "path": "data/migration-provenance.json",
+      "source_sha256": "87240d7fa3b4c16a17ec02c7e842fe0c05d43d8bda1b04aab88316060acf3c68",
+      "public_sha256": "87240d7fa3b4c16a17ec02c7e842fe0c05d43d8bda1b04aab88316060acf3c68",
+      "path_redacted": false
+    },
+    {
+      "path": "data/prior-training-summary.json",
+      "source_sha256": "3fd4a0a218909c0ee62be5ce2b502649d5f17965cc6f78563badd63dcb1fd3fc",
+      "public_sha256": "3fd4a0a218909c0ee62be5ce2b502649d5f17965cc6f78563badd63dcb1fd3fc",
+      "path_redacted": false
+    },
+    {
+      "path": "data/runtime-corrections.json",
+      "source_sha256": "f90c9fceaee1f8b03e1eae4c46fdfd673f6a6d3251a99ecd841b8bba943fc54b",
+      "public_sha256": "f90c9fceaee1f8b03e1eae4c46fdfd673f6a6d3251a99ecd841b8bba943fc54b",
+      "path_redacted": false
+    },
+    {
+      "path": "data/verified-seed.json",
+      "source_sha256": "f6d3444292aef7383e63efbf74f714f89e1f3b0c692b7d70931af5dcb2d7e17a",
+      "public_sha256": "f6d3444292aef7383e63efbf74f714f89e1f3b0c692b7d70931af5dcb2d7e17a",
+      "path_redacted": false
+    },
+    {
+      "path": "evals/behavior-cases.json",
+      "source_sha256": "f351d3604fb84a098084460966286191bcb030c6d0b6aa76bdef53452dafad48",
+      "public_sha256": "8b6eaf3833a5813cb4bf5e684b7f6d5ad729cbe847d98867f07b7116d04ac5f5",
+      "path_redacted": false
+    },
+    {
+      "path": "evals/independent-trials/agent-a.json",
+      "source_sha256": "e74a403fcf9da4a4cf32e1fc193b0ee3cdff633fb630623bf12968de2600c259",
+      "public_sha256": "2f1a97e340100d60acf9246a52baa3e78ae1fca55720003fd56ecb644207c280",
+      "path_redacted": true
+    },
+    {
+      "path": "evals/independent-trials/agent-b.json",
+      "source_sha256": "e84b2699a0745db5050c9076d936d0b71507628d0837ef718b2495a5b95fdcf3",
+      "public_sha256": "069f5ba161f7f0d5b1145e90a7e6e1fc1502e063bb01226baef9ead6b4540d66",
+      "path_redacted": true
+    },
+    {
+      "path": "evals/independent-trials/review-b.json",
+      "source_sha256": "e45c72d3b7c6aa7cd59d658b408e00f9029924561e7ee5b707fd83190f9d078c",
+      "public_sha256": "e45c72d3b7c6aa7cd59d658b408e00f9029924561e7ee5b707fd83190f9d078c",
+      "path_redacted": false
+    },
+    {
+      "path": "evals/independent-trials/review.json",
+      "source_sha256": "02a5928cd0b6fd7c20ffc61e770862f09cfb0bb1da69aa80ef74e85146f83b85",
+      "public_sha256": "92d06fa92262ef27a8cf09245bf16557e6accf162c4dd397712fdae94eeee129",
+      "path_redacted": false
+    },
+    {
+      "path": "evals/independent-trials/trial-metadata-b.json",
+      "source_sha256": "9a9fad968bf4ec4426f63e7818ea5309d49b2667ea241e197ce50f6c9c1cf17b",
+      "public_sha256": "85c1fd2da6863169118fce311c11ffd4812cd87f6c3edeedbceecac73b8b26a5",
+      "path_redacted": true
+    },
+    {
+      "path": "evals/release-4.1.2/baseline.json",
+      "source_sha256": "eb27bab012fc741be0bb4127d3b4977a247ee67e444b70e7e1e4133c23b549dd",
+      "public_sha256": "eb27bab012fc741be0bb4127d3b4977a247ee67e444b70e7e1e4133c23b549dd",
+      "path_redacted": false
+    },
+    {
+      "path": "evals/release-4.1.2/candidate.json",
+      "source_sha256": "b7e2a3a8e19d9fcf5a7bac6a47a94d8112655a3015fedf7495f2fccc68b676c9",
+      "public_sha256": "19bb764b091aa9c229d4a99bed8ab61cadca573369428d1cba1df1c636ce2d0b",
+      "path_redacted": true
+    },
+    {
+      "path": "evals/release-4.1.2/patch-check.json",
+      "source_sha256": "2f3e7ee0f9df73fad61ae0717f9e4067f0fb3a688421492e1c9a0c1ef8cbf777",
+      "public_sha256": "ea1838edb4f3b1fdc0511f93efd9ff7a8878692547a26502bf8a9aa73c99229f",
+      "path_redacted": true
+    },
+    {
+      "path": "evals/release-4.1.2/requests.json",
+      "source_sha256": "11b73ab88f0d27de51a81cc4b9ea8a7dc994f97aba31a7274fce0114efdf50c2",
+      "public_sha256": "11b73ab88f0d27de51a81cc4b9ea8a7dc994f97aba31a7274fce0114efdf50c2",
+      "path_redacted": false
+    },
+    {
+      "path": "evals/release-4.1.2/review.json",
+      "source_sha256": "86f224d8ec6dc39241d8ea9070abce9d4a3f1aad6b96b0bfaec2d3d6aa5bf0a7",
+      "public_sha256": "c9db7da8b98b398d32d6780aca4a8b1cb80908b3d2fbd2ca8cdb3c7ccf695d74",
+      "path_redacted": false
+    },
+    {
+      "path": "evals/release-4.1.2/version-mapping.json",
+      "source_sha256": "aa0cb9e8306b89c6af107e612b2b4d57cfcd3bf0e91cbe24756644c5e0dd17b9",
+      "public_sha256": "9401636ce845ffeb429bbae9e11c4382433a2f3248ba50024590f3dab770ea0a",
+      "path_redacted": false
+    },
+    {
+      "path": "export_source.py",
+      "source_sha256": "2d978b3d4172caa48cbf1440235aa04731cc69a0813110ca33c27c5723ebf1f0",
+      "public_sha256": "2d978b3d4172caa48cbf1440235aa04731cc69a0813110ca33c27c5723ebf1f0",
+      "path_redacted": false
+    },
+    {
+      "path": "LICENSE",
+      "source_sha256": "5e2098ca43dc6844d27d3dbeef4ed5d19d2cd07d062bf9c581cc2a924403bcd7",
+      "public_sha256": "5e2098ca43dc6844d27d3dbeef4ed5d19d2cd07d062bf9c581cc2a924403bcd7",
+      "path_redacted": false
+    },
+    {
+      "path": "NOTICE.md",
+      "source_sha256": "992e7242410d293e5c81b71545d817ae53a9d6247a6b1e42f68505a707628507",
+      "public_sha256": "992e7242410d293e5c81b71545d817ae53a9d6247a6b1e42f68505a707628507",
+      "path_redacted": false
+    },
+    {
+      "path": "README.en.md",
+      "source_sha256": "79af77366f76262e70926e82b6876581c3c357523e32ae334e443daca1b48327",
+      "public_sha256": "79af77366f76262e70926e82b6876581c3c357523e32ae334e443daca1b48327",
+      "path_redacted": false
+    },
+    {
+      "path": "README.md",
+      "source_sha256": "5d4087202a7f2f1a3c15ed0045dc3100360fab81345c61e2cb585040aa3cbcb3",
+      "public_sha256": "5d4087202a7f2f1a3c15ed0045dc3100360fab81345c61e2cb585040aa3cbcb3",
+      "path_redacted": false
+    },
+    {
+      "path": "release-files.json",
+      "source_sha256": "a478dc13f35c39a472d19cdd2e50166313fa83893f777069e02a79def9041826",
+      "public_sha256": "a478dc13f35c39a472d19cdd2e50166313fa83893f777069e02a79def9041826",
+      "path_redacted": false
+    },
+    {
+      "path": "research/distillation-decision-20261008.md",
+      "source_sha256": "3f6f6fc602f8192e8c2e1b12528de9c05b27be3e8a0b5bd8d88333f34b96a6f3",
+      "public_sha256": "3f6f6fc602f8192e8c2e1b12528de9c05b27be3e8a0b5bd8d88333f34b96a6f3",
+      "path_redacted": false
+    },
+    {
+      "path": "research/expansion-agent-notes.md",
+      "source_sha256": "3649d56d09bdf65f974323d930269a318f4ba576f2388ffe9d9e92735bb1590e",
+      "public_sha256": "3649d56d09bdf65f974323d930269a318f4ba576f2388ffe9d9e92735bb1590e",
+      "path_redacted": false
+    },
+    {
+      "path": "research/expansion-agent.json",
+      "source_sha256": "f86c8a228861defcf0e070e40b0c22734fa2dd3111a109473b9e180d0d62b80d",
+      "public_sha256": "f86c8a228861defcf0e070e40b0c22734fa2dd3111a109473b9e180d0d62b80d",
+      "path_redacted": false
+    },
+    {
+      "path": "research/experience-depth-20261008.md",
+      "source_sha256": "45aa58834638d66f03ef4033535f752998e7dc0e8aea5cc54cf0193aaab4b771",
+      "public_sha256": "45aa58834638d66f03ef4033535f752998e7dc0e8aea5cc54cf0193aaab4b771",
+      "path_redacted": false
+    },
+    {
+      "path": "research/primary-refinements.json",
+      "source_sha256": "730571dc5e0d51897734091f3915338db9453b0ebfd554b6da521393ac6a9c14",
+      "public_sha256": "730571dc5e0d51897734091f3915338db9453b0ebfd554b6da521393ac6a9c14",
+      "path_redacted": false
+    },
+    {
+      "path": "research/runtime-adoption-review.md",
+      "source_sha256": "1a8d210d25ce20a81070b4f18e73f4685ea5f17ded2f7fc461594d7ae9eb9a75",
+      "public_sha256": "1a8d210d25ce20a81070b4f18e73f4685ea5f17ded2f7fc461594d7ae9eb9a75",
+      "path_redacted": false
+    },
+    {
+      "path": "research/upstream-review-20261008.md",
+      "source_sha256": "80c8ec9cd77cccced6d9f47baa1a1cfdaf751e585f91e10379a94ca3c8fa2e35",
+      "public_sha256": "80c8ec9cd77cccced6d9f47baa1a1cfdaf751e585f91e10379a94ca3c8fa2e35",
+      "path_redacted": false
+    },
+    {
+      "path": "research/方案与采用记录.md",
+      "source_sha256": "eefd9395a22dbd504697517ccd21a0ff25371e8fea1d6338ee2237f90aaf6a3a",
+      "public_sha256": "eefd9395a22dbd504697517ccd21a0ff25371e8fea1d6338ee2237f90aaf6a3a",
+      "path_redacted": false
+    },
+    {
+      "path": "schemas/library.schema.json",
+      "source_sha256": "843e2abc843ceb6611ae00005c2a61c32ed95b2323b8b88d7daf01157dbbb97d",
+      "public_sha256": "843e2abc843ceb6611ae00005c2a61c32ed95b2323b8b88d7daf01157dbbb97d",
+      "path_redacted": false
+    },
+    {
+      "path": "SECURITY.md",
+      "source_sha256": "f162ba16795816d19e285794f235be10f276b246dacadcd2cd36e0a365d9be02",
+      "public_sha256": "f162ba16795816d19e285794f235be10f276b246dacadcd2cd36e0a365d9be02",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/assets/director-corpus.json",
+      "source_sha256": "816aea3c6d935c6d613487db4f17dd10d052389d02fe468a96a6e0a78c06362f",
+      "public_sha256": "816aea3c6d935c6d613487db4f17dd10d052389d02fe468a96a6e0a78c06362f",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/assets/image-generation.json",
+      "source_sha256": "95e9c6a80ed72d0a8349d25ee33cabc138e31476bf52d5f1a7b57a47b14bcfb3",
+      "public_sha256": "95e9c6a80ed72d0a8349d25ee33cabc138e31476bf52d5f1a7b57a47b14bcfb3",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/assets/integrity.json",
+      "source_sha256": "443cb8ead4255008f87ba5e65dcd27b50038c127310cb2d4e9e8d26cc42e28e9",
+      "public_sha256": "443cb8ead4255008f87ba5e65dcd27b50038c127310cb2d4e9e8d26cc42e28e9",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/assets/library.json",
+      "source_sha256": "23db00964cd7efefe6d070750e74ac4943aa1e53546095d0a63281ca71ea121a",
+      "public_sha256": "23db00964cd7efefe6d070750e74ac4943aa1e53546095d0a63281ca71ea121a",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/assets/library.sqlite",
+      "source_sha256": "4b2b2429459dc4d078ad7af83a80da8a66b92325bb9eb3057bd85e917a6bb154",
+      "public_sha256": "4b2b2429459dc4d078ad7af83a80da8a66b92325bb9eb3057bd85e917a6bb154",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/assets/original-shot-study.png",
+      "source_sha256": "24b5dd753b407033bcbe0542f4aff3f0f68292f7f99558b83502686e7f112b91",
+      "public_sha256": "24b5dd753b407033bcbe0542f4aff3f0f68292f7f99558b83502686e7f112b91",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/assets/product-status.json",
+      "source_sha256": "b2ab1e59fd5b77a28c3938188eafa7101f18c663da87e8cbbe1f2d4885bc0c37",
+      "public_sha256": "b2ab1e59fd5b77a28c3938188eafa7101f18c663da87e8cbbe1f2d4885bc0c37",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/assets/room-layout-example.json",
+      "source_sha256": "9fda1a501896060bfe1e35277736fbb57a2e913ec6d5f7734643efcae06e77ce",
+      "public_sha256": "9fda1a501896060bfe1e35277736fbb57a2e913ec6d5f7734643efcae06e77ce",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/assets/shotboard-example.json",
+      "source_sha256": "bd598d12694c81cdb6a698ffc3e8aab59971f4c1e743fbc1e407e70f0acf0f09",
+      "public_sha256": "bd598d12694c81cdb6a698ffc3e8aab59971f4c1e743fbc1e407e70f0acf0f09",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/LICENSE",
+      "source_sha256": "5e2098ca43dc6844d27d3dbeef4ed5d19d2cd07d062bf9c581cc2a924403bcd7",
+      "public_sha256": "5e2098ca43dc6844d27d3dbeef4ed5d19d2cd07d062bf9c581cc2a924403bcd7",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/NOTICE.md",
+      "source_sha256": "992e7242410d293e5c81b71545d817ae53a9d6247a6b1e42f68505a707628507",
+      "public_sha256": "992e7242410d293e5c81b71545d817ae53a9d6247a6b1e42f68505a707628507",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/camera-geometry.md",
+      "source_sha256": "7fd34d6b007b48bc4e2b0c445c6949d06aaab528b2d9341dd3774c0b6768522a",
+      "public_sha256": "7fd34d6b007b48bc4e2b0c445c6949d06aaab528b2d9341dd3774c0b6768522a",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/DCA01.md",
+      "source_sha256": "e209e2ad41541d1ece6acb581a26bbe7b7e497bf4ed4b6d921a4a14edb089798",
+      "public_sha256": "e209e2ad41541d1ece6acb581a26bbe7b7e497bf4ed4b6d921a4a14edb089798",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/DCA02.md",
+      "source_sha256": "9efe5518d4220c173d89e152dca3ad2a46412367a65f70478dfae71318d218e5",
+      "public_sha256": "9efe5518d4220c173d89e152dca3ad2a46412367a65f70478dfae71318d218e5",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/DCA03.md",
+      "source_sha256": "c8231e22027fc3d10adf10e85e167115435cd18595580160e27a24a7ea74beb9",
+      "public_sha256": "c8231e22027fc3d10adf10e85e167115435cd18595580160e27a24a7ea74beb9",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/DCA04.md",
+      "source_sha256": "ae8bf95b0af1e301b5ed607913e95ed442afa107175b6c8978d849e75d32ccd0",
+      "public_sha256": "ae8bf95b0af1e301b5ed607913e95ed442afa107175b6c8978d849e75d32ccd0",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/DCA05.md",
+      "source_sha256": "f3f7e3256f4f2dc1d68cd0e06034606a0ea012a66f889543c4be4d42e4f2ad8c",
+      "public_sha256": "f3f7e3256f4f2dc1d68cd0e06034606a0ea012a66f889543c4be4d42e4f2ad8c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/DCA06.md",
+      "source_sha256": "ced5d7d46fe324cfb1d493dbb0f7180b110620de003c56b9d18cf5c9d892dfdb",
+      "public_sha256": "ced5d7d46fe324cfb1d493dbb0f7180b110620de003c56b9d18cf5c9d892dfdb",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/DCA07.md",
+      "source_sha256": "f54cfa093d16e741872ec54bd8cd7b4ab505618435359a93e38e5f9925060cb6",
+      "public_sha256": "f54cfa093d16e741872ec54bd8cd7b4ab505618435359a93e38e5f9925060cb6",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/DCA08.md",
+      "source_sha256": "06bcbf708da6c35fd4f4593e2d91b89ad01f15370ab148401ff492fa756472d9",
+      "public_sha256": "06bcbf708da6c35fd4f4593e2d91b89ad01f15370ab148401ff492fa756472d9",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/DCA09.md",
+      "source_sha256": "36e6062b9c312fac5d1479271b7db10d137266b704dd97dcba55726b020c7df1",
+      "public_sha256": "36e6062b9c312fac5d1479271b7db10d137266b704dd97dcba55726b020c7df1",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/DCA10.md",
+      "source_sha256": "f8d06a92a4497b642c54886895ef0c21fb19431dcf663cc6a62b89b92d9ba7e4",
+      "public_sha256": "f8d06a92a4497b642c54886895ef0c21fb19431dcf663cc6a62b89b92d9ba7e4",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/DCA11.md",
+      "source_sha256": "80f46367f9abac174452e4d1cab45b669ab1e938ace3dc9244b85604edb4cf3e",
+      "public_sha256": "80f46367f9abac174452e4d1cab45b669ab1e938ace3dc9244b85604edb4cf3e",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/DCA12.md",
+      "source_sha256": "d2d96f11f1b4ec9c61c844041139f41ba6cb14e6f8e88e793511aabea73afecf",
+      "public_sha256": "d2d96f11f1b4ec9c61c844041139f41ba6cb14e6f8e88e793511aabea73afecf",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-ASC01.md",
+      "source_sha256": "970573aae57b6e19c5347a12311d2f0e442637513e91afebfa84720e880ae6d7",
+      "public_sha256": "970573aae57b6e19c5347a12311d2f0e442637513e91afebfa84720e880ae6d7",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-ASC02.md",
+      "source_sha256": "467a53262182250fb48ac04caee9466f483c8447c3347e9d7f4d9af3f9ef82c5",
+      "public_sha256": "467a53262182250fb48ac04caee9466f483c8447c3347e9d7f4d9af3f9ef82c5",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-ASC03.md",
+      "source_sha256": "a81f01aa401a8d416d7756eb8837e0d1287323e262bbcf8be120f56656c5b26c",
+      "public_sha256": "a81f01aa401a8d416d7756eb8837e0d1287323e262bbcf8be120f56656c5b26c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-AU01.md",
+      "source_sha256": "ab8f00b79e478d12376febe984fa7e4e12d88b8950f3a43960825291c48e50a4",
+      "public_sha256": "ab8f00b79e478d12376febe984fa7e4e12d88b8950f3a43960825291c48e50a4",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-AU02.md",
+      "source_sha256": "194c36a38468894dcd854fd81080263df9a092ad9e25765a329f8ec46f84fa68",
+      "public_sha256": "194c36a38468894dcd854fd81080263df9a092ad9e25765a329f8ec46f84fa68",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-BFI01.md",
+      "source_sha256": "513a36d47942ca38c631d44fdc0a1a7974d679f87afdf56f37aa4197fc12b8cf",
+      "public_sha256": "513a36d47942ca38c631d44fdc0a1a7974d679f87afdf56f37aa4197fc12b8cf",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-DGA12A.md",
+      "source_sha256": "ab6a0887d3ae98ea6612ebf1d53ec9f7b5c4e73835fa6d83ea57ad027810b795",
+      "public_sha256": "ab6a0887d3ae98ea6612ebf1d53ec9f7b5c4e73835fa6d83ea57ad027810b795",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-DGA17A.md",
+      "source_sha256": "a7581c6bdb8f226a02f25d1a689a22dc0d3730dfe426376cbeb741cef85d912a",
+      "public_sha256": "a7581c6bdb8f226a02f25d1a689a22dc0d3730dfe426376cbeb741cef85d912a",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-DGA17B.md",
+      "source_sha256": "9026bb7d591cbfc8aa7004289a5c079fbd60f27603019fbdca1523f54a650ed1",
+      "public_sha256": "9026bb7d591cbfc8aa7004289a5c079fbd60f27603019fbdca1523f54a650ed1",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-FO01.md",
+      "source_sha256": "2857ceb2f44c6f0f9b4981a8ed6b3ce76a9a3458ee9bed6a554c896707553d8c",
+      "public_sha256": "2857ceb2f44c6f0f9b4981a8ed6b3ce76a9a3458ee9bed6a554c896707553d8c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-FO02.md",
+      "source_sha256": "06d8979b5012f4b0d074fa552436824de699ca4d25f18db180bfef4306dfd27b",
+      "public_sha256": "06d8979b5012f4b0d074fa552436824de699ca4d25f18db180bfef4306dfd27b",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-IN01.md",
+      "source_sha256": "02a435e52a038257b4fca9d46904800af042d8e7d6105bd3f551036fca3a89e9",
+      "public_sha256": "02a435e52a038257b4fca9d46904800af042d8e7d6105bd3f551036fca3a89e9",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-IN02.md",
+      "source_sha256": "350b4ef58d303644fc23a94c38220c1738ac78b38c6d8c8615fc8e13734c7b40",
+      "public_sha256": "350b4ef58d303644fc23a94c38220c1738ac78b38c6d8c8615fc8e13734c7b40",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-PR01.md",
+      "source_sha256": "ea879619262933661771a79967f74e9889ad03c3c50894fe25bb4a7df569efc5",
+      "public_sha256": "ea879619262933661771a79967f74e9889ad03c3c50894fe25bb4a7df569efc5",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-PR02.md",
+      "source_sha256": "db6d34d438b4ca957983b18fff7907703d93b926facc458a6ec70d5b421de77f",
+      "public_sha256": "db6d34d438b4ca957983b18fff7907703d93b926facc458a6ec70d5b421de77f",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-RB01.md",
+      "source_sha256": "6897a9639617e3e960a2e63a278b3570227aa7cf07e079ea1703667e8bd6a738",
+      "public_sha256": "6897a9639617e3e960a2e63a278b3570227aa7cf07e079ea1703667e8bd6a738",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-RB02.md",
+      "source_sha256": "36cdf9cb348e489977c0909c8fcdd04258fad17c95e78a7410dca6f8311ef26e",
+      "public_sha256": "36cdf9cb348e489977c0909c8fcdd04258fad17c95e78a7410dca6f8311ef26e",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-RB03.md",
+      "source_sha256": "d9a5624678af4695fad1773fe503eeda3031377f84daf32393edd320e40c37f9",
+      "public_sha256": "d9a5624678af4695fad1773fe503eeda3031377f84daf32393edd320e40c37f9",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-RD01.md",
+      "source_sha256": "ea4aef068843b89c52935266218d7028290ec51109a7cd756a5edd497d34b7a7",
+      "public_sha256": "ea4aef068843b89c52935266218d7028290ec51109a7cd756a5edd497d34b7a7",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-RD02.md",
+      "source_sha256": "2588e0247f8ddaea20c087df06460b99543bcd5bd732c6cefc025a961c13d321",
+      "public_sha256": "2588e0247f8ddaea20c087df06460b99543bcd5bd732c6cefc025a961c13d321",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-RD03.md",
+      "source_sha256": "f7e230828c6583b7793cd85aaf0100dadbb788c65178b7736f01050c4a5c2aca",
+      "public_sha256": "f7e230828c6583b7793cd85aaf0100dadbb788c65178b7736f01050c4a5c2aca",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-SC01.md",
+      "source_sha256": "9cd8c97f3f229b4eed70317840c66428056d085d25f76f207d57900954bb63c8",
+      "public_sha256": "9cd8c97f3f229b4eed70317840c66428056d085d25f76f207d57900954bb63c8",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-SC02.md",
+      "source_sha256": "24b3bbef902a5c828bb53d24ebf5645d90f36739d2b8db34c782688f1b469280",
+      "public_sha256": "24b3bbef902a5c828bb53d24ebf5645d90f36739d2b8db34c782688f1b469280",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-TE01.md",
+      "source_sha256": "3893baa1c3c9fbe76c89764a4ca00ac56084d05f9c2c30e296643899c5f0bfe0",
+      "public_sha256": "3893baa1c3c9fbe76c89764a4ca00ac56084d05f9c2c30e296643899c5f0bfe0",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-TE02.md",
+      "source_sha256": "23073b0bc925ff61c39af3b23df5e990c6d4390345edb64de31c4da31c30eb5e",
+      "public_sha256": "23073b0bc925ff61c39af3b23df5e990c6d4390345edb64de31c4da31c30eb5e",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-WR01.md",
+      "source_sha256": "ca4c59362a2f0f1b23cdf15c91812441a67a1d776de640913fade35cda8c8a06",
+      "public_sha256": "ca4c59362a2f0f1b23cdf15c91812441a67a1d776de640913fade35cda8c8a06",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/EXP-WR02.md",
+      "source_sha256": "9f0119b5fb987463cf4df6e2f02bea1a53da9964cd66251f933e6f87e0279ea7",
+      "public_sha256": "9f0119b5fb987463cf4df6e2f02bea1a53da9964cd66251f933e6f87e0279ea7",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/F01.md",
+      "source_sha256": "1f03d28c14fb01723e96750aa86b0d4f987081cb66fb8aedcc4648697ada92ae",
+      "public_sha256": "1f03d28c14fb01723e96750aa86b0d4f987081cb66fb8aedcc4648697ada92ae",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/F02.md",
+      "source_sha256": "d4ae7bc0ea2fff2aa39adfa990b018c78f3820594810302c41f1dd90ce0b7a7c",
+      "public_sha256": "d4ae7bc0ea2fff2aa39adfa990b018c78f3820594810302c41f1dd90ce0b7a7c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/F03.md",
+      "source_sha256": "b68efa550dc75efc25b49b9c930aedab38239570676d1c6e62272136b35ef8e3",
+      "public_sha256": "b68efa550dc75efc25b49b9c930aedab38239570676d1c6e62272136b35ef8e3",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/F04.md",
+      "source_sha256": "68ade0aea0e9cf6c524b5643ab48e249b1827d12733b4af4fa648c8a7cbff015",
+      "public_sha256": "68ade0aea0e9cf6c524b5643ab48e249b1827d12733b4af4fa648c8a7cbff015",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/F05.md",
+      "source_sha256": "3fc19d1378fc9516a92fb00d6f15b3084ea45a2135cd992fce299df8431a16b5",
+      "public_sha256": "3fc19d1378fc9516a92fb00d6f15b3084ea45a2135cd992fce299df8431a16b5",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/F06.md",
+      "source_sha256": "615d7c8cde2478162a75e6051c75f3ce3a8bb0a2f15fe23691d237b234f46fdc",
+      "public_sha256": "615d7c8cde2478162a75e6051c75f3ce3a8bb0a2f15fe23691d237b234f46fdc",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/F07.md",
+      "source_sha256": "0542df84cf4158ad0d7310a5aa8fe0cfe507efbdb5b0e5d6b5bd0b1c34b12485",
+      "public_sha256": "0542df84cf4158ad0d7310a5aa8fe0cfe507efbdb5b0e5d6b5bd0b1c34b12485",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/F08.md",
+      "source_sha256": "a241304e24d87d6577ff92b40aef28060c306a29657e338c0e01abf4db70aa7c",
+      "public_sha256": "a241304e24d87d6577ff92b40aef28060c306a29657e338c0e01abf4db70aa7c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/F09.md",
+      "source_sha256": "c9801a378f339cc9cea7d4c214dea3be4412886b9bd0d0cd4af8df2d0f60dd9c",
+      "public_sha256": "c9801a378f339cc9cea7d4c214dea3be4412886b9bd0d0cd4af8df2d0f60dd9c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/F10.md",
+      "source_sha256": "a1819a7bafcd1d86a8d0117f6c001deebdb5daa8690a372022e3bc5cd54d39cd",
+      "public_sha256": "a1819a7bafcd1d86a8d0117f6c001deebdb5daa8690a372022e3bc5cd54d39cd",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/F11.md",
+      "source_sha256": "b9fc4169747fab3c65787e06bda93ba8e097b1791a25097acb5ab2e63e0bee40",
+      "public_sha256": "b9fc4169747fab3c65787e06bda93ba8e097b1791a25097acb5ab2e63e0bee40",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/F12.md",
+      "source_sha256": "0e6336a688e4224176a647721049a889e9a4ed0cb4913736da4154883456bcf8",
+      "public_sha256": "0e6336a688e4224176a647721049a889e9a4ed0cb4913736da4154883456bcf8",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/F13.md",
+      "source_sha256": "64897699fee18a0b90159984dd325ae907366f0d0ba9bfef2aec8eec0342a654",
+      "public_sha256": "64897699fee18a0b90159984dd325ae907366f0d0ba9bfef2aec8eec0342a654",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/J01.md",
+      "source_sha256": "b6f9fcff98b4c039361908b0496acf68b5c3a2901bca4b8925636c847f7b92e5",
+      "public_sha256": "b6f9fcff98b4c039361908b0496acf68b5c3a2901bca4b8925636c847f7b92e5",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/J02.md",
+      "source_sha256": "91c617b44b412bdb5d1db1af6f8305f0edb3868cfaff017018d64d3b4ea5e564",
+      "public_sha256": "91c617b44b412bdb5d1db1af6f8305f0edb3868cfaff017018d64d3b4ea5e564",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/J03.md",
+      "source_sha256": "f32cdffe97aa22f2280eb196e8c5063aec2ec303786907dbe31f4607bcd7daf5",
+      "public_sha256": "f32cdffe97aa22f2280eb196e8c5063aec2ec303786907dbe31f4607bcd7daf5",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/J04.md",
+      "source_sha256": "94f6db32a7ff9f143d5e63aacffbe9dd4a31467bf9f7162d14dc35dcc45a150c",
+      "public_sha256": "94f6db32a7ff9f143d5e63aacffbe9dd4a31467bf9f7162d14dc35dcc45a150c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/J05.md",
+      "source_sha256": "3dc3d7f5ff31cf7e78870d986559a321e5c21a09a2d83bd43ed11a800cbe875f",
+      "public_sha256": "3dc3d7f5ff31cf7e78870d986559a321e5c21a09a2d83bd43ed11a800cbe875f",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/J06.md",
+      "source_sha256": "f0c50d90d3800c661163d0af5b99f5cf0b20d07ae8789377810bef419ace84bc",
+      "public_sha256": "f0c50d90d3800c661163d0af5b99f5cf0b20d07ae8789377810bef419ace84bc",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/J07.md",
+      "source_sha256": "2147e2fd128ce543cc8eb9caad691a01b65036f340994f6e004caaca83b3db69",
+      "public_sha256": "2147e2fd128ce543cc8eb9caad691a01b65036f340994f6e004caaca83b3db69",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/J08.md",
+      "source_sha256": "752c95e2840c63b73ce066ec5ce74d6578db9fda9524340b40e133820d3c960f",
+      "public_sha256": "752c95e2840c63b73ce066ec5ce74d6578db9fda9524340b40e133820d3c960f",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/J09.md",
+      "source_sha256": "5e8efe3d54dc8f01778990bfbec7e34e133230064fab911aeb68f4eb55f42a6c",
+      "public_sha256": "5e8efe3d54dc8f01778990bfbec7e34e133230064fab911aeb68f4eb55f42a6c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/J10.md",
+      "source_sha256": "0cb3819b4dcd5572491bac9e676db3bb04bf3ef61f3dbdce2e0aa73a02a7b5c1",
+      "public_sha256": "0cb3819b4dcd5572491bac9e676db3bb04bf3ef61f3dbdce2e0aa73a02a7b5c1",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/J11.md",
+      "source_sha256": "9729f77016aa5bac9e566866f02ebf6db60c6d95726ab1afd9550e7fe174c7a9",
+      "public_sha256": "9729f77016aa5bac9e566866f02ebf6db60c6d95726ab1afd9550e7fe174c7a9",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/J12.md",
+      "source_sha256": "66f05b0af6fa90e63ebd84627adbe1c796b3f710e51c5a60367dc1b86a453966",
+      "public_sha256": "66f05b0af6fa90e63ebd84627adbe1c796b3f710e51c5a60367dc1b86a453966",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/J13.md",
+      "source_sha256": "1c75a9afee3119a9251dd3eb003ab3a8828e76d6dcdc554a91ca58c4db14bc6e",
+      "public_sha256": "1c75a9afee3119a9251dd3eb003ab3a8828e76d6dcdc554a91ca58c4db14bc6e",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/J14.md",
+      "source_sha256": "61a2dac4963e7f7e53a2d852b92c7128b48a4e33d505b60a4930af953a36c6a4",
+      "public_sha256": "61a2dac4963e7f7e53a2d852b92c7128b48a4e33d505b60a4930af953a36c6a4",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/J15.md",
+      "source_sha256": "a95606cc1dc870606064477f01eb6b53817912e8e949af1baa34021ec3403aa2",
+      "public_sha256": "a95606cc1dc870606064477f01eb6b53817912e8e949af1baa34021ec3403aa2",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/J16.md",
+      "source_sha256": "175f0c36b218c4e8d9d8551b54386d932e15a12ee2fd6268477a878d77d3c97e",
+      "public_sha256": "175f0c36b218c4e8d9d8551b54386d932e15a12ee2fd6268477a878d77d3c97e",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/K01.md",
+      "source_sha256": "0be75ee5cdc6f73964712a624bcb340ba8a63bc6adb5ada2c967f28f1d58b8ec",
+      "public_sha256": "0be75ee5cdc6f73964712a624bcb340ba8a63bc6adb5ada2c967f28f1d58b8ec",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/K02.md",
+      "source_sha256": "a2ec3870bdfde91a09660975cd88bea169ff763f969efdbb84fa6e6513187657",
+      "public_sha256": "a2ec3870bdfde91a09660975cd88bea169ff763f969efdbb84fa6e6513187657",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/K03.md",
+      "source_sha256": "cae559f9ff893f23ee837315e39fc50b8e1851551a80fe07e06678d15afabe2b",
+      "public_sha256": "cae559f9ff893f23ee837315e39fc50b8e1851551a80fe07e06678d15afabe2b",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/K04.md",
+      "source_sha256": "2b846fca7204b6b621bb2bbe02e8cba8ff952e35b54d6d63323f00935073f92f",
+      "public_sha256": "2b846fca7204b6b621bb2bbe02e8cba8ff952e35b54d6d63323f00935073f92f",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/K05.md",
+      "source_sha256": "e6d4ca8605f9c79ba583133b45fdee0b06592e32bffd1b0436f98acef9f1d336",
+      "public_sha256": "e6d4ca8605f9c79ba583133b45fdee0b06592e32bffd1b0436f98acef9f1d336",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/K06.md",
+      "source_sha256": "e0c6415fda47738f8258a3156ba73f81d14de9c3ab2d97f7a9f6fac06dc112ce",
+      "public_sha256": "e0c6415fda47738f8258a3156ba73f81d14de9c3ab2d97f7a9f6fac06dc112ce",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/K07.md",
+      "source_sha256": "c99659f101867b091a0ff44e58415523f44698cc52b07bee38156993a850fb9b",
+      "public_sha256": "c99659f101867b091a0ff44e58415523f44698cc52b07bee38156993a850fb9b",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/K08.md",
+      "source_sha256": "12cc436b2ed7ea096e2efb91b1551b6b546401f791eda3b8b02e5a241cff1d7b",
+      "public_sha256": "12cc436b2ed7ea096e2efb91b1551b6b546401f791eda3b8b02e5a241cff1d7b",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/K09.md",
+      "source_sha256": "8652b1dff11031d7b4fca782763418d28e227cb3738dbe77b1d903095845aee6",
+      "public_sha256": "8652b1dff11031d7b4fca782763418d28e227cb3738dbe77b1d903095845aee6",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/K10.md",
+      "source_sha256": "ef145a0f727776d464944a83a386d7f13d3ee2b48f744cd4d75417719fc3e633",
+      "public_sha256": "ef145a0f727776d464944a83a386d7f13d3ee2b48f744cd4d75417719fc3e633",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/K11.md",
+      "source_sha256": "87e0c3d2a645fa5f81f2871725aa0f3f7d5ca209b1ce1c60decf0f60768f4c11",
+      "public_sha256": "87e0c3d2a645fa5f81f2871725aa0f3f7d5ca209b1ce1c60decf0f60768f4c11",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/K12.md",
+      "source_sha256": "3bf668419ddee119437cbd012740fbf0563918410585ad3d8570d9ad2107b7fa",
+      "public_sha256": "3bf668419ddee119437cbd012740fbf0563918410585ad3d8570d9ad2107b7fa",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/K13.md",
+      "source_sha256": "fd5802da1e2f9851c4c0be83b21f297491108c2494d806492b2f47c2ee14cdc9",
+      "public_sha256": "fd5802da1e2f9851c4c0be83b21f297491108c2494d806492b2f47c2ee14cdc9",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/K14.md",
+      "source_sha256": "a43751d064543dbd3ac907e561eb92fc6aed0d7f03f3bc467d2d5f8d28c50347",
+      "public_sha256": "a43751d064543dbd3ac907e561eb92fc6aed0d7f03f3bc467d2d5f8d28c50347",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/K15.md",
+      "source_sha256": "c93b8139d266ba57ce976bd908ac7602b3ce8e10028cd743864b6a69bc34f3b1",
+      "public_sha256": "c93b8139d266ba57ce976bd908ac7602b3ce8e10028cd743864b6a69bc34f3b1",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/K16.md",
+      "source_sha256": "918cac965e992655bccb96c518b2d6172b47b6323cdc0dafeca2146054d18b49",
+      "public_sha256": "918cac965e992655bccb96c518b2d6172b47b6323cdc0dafeca2146054d18b49",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L01.md",
+      "source_sha256": "abfa5e8cc12093b23a89f0dd7300fd033c50bc492048373c95ead1e0e09fee1c",
+      "public_sha256": "abfa5e8cc12093b23a89f0dd7300fd033c50bc492048373c95ead1e0e09fee1c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L02.md",
+      "source_sha256": "61f90f0bbc7c05f09e02d089096c81d628b0a28f81b0f25431345d49d44eb33e",
+      "public_sha256": "61f90f0bbc7c05f09e02d089096c81d628b0a28f81b0f25431345d49d44eb33e",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L03.md",
+      "source_sha256": "770c595ca2283e69b21eafaa7b256ca3010403f3ecdb55a0cf97781c7c548c70",
+      "public_sha256": "770c595ca2283e69b21eafaa7b256ca3010403f3ecdb55a0cf97781c7c548c70",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L04.md",
+      "source_sha256": "7cb60cb49f7afb237581e511294480164eef828b03dc278e111c14d07761b3b3",
+      "public_sha256": "7cb60cb49f7afb237581e511294480164eef828b03dc278e111c14d07761b3b3",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L05.md",
+      "source_sha256": "7d6c36b0898e7d0cf674a824a15043fb9d17b9c88fc9a58d5da03f8660d8a5b1",
+      "public_sha256": "7d6c36b0898e7d0cf674a824a15043fb9d17b9c88fc9a58d5da03f8660d8a5b1",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L06.md",
+      "source_sha256": "77032176270be2ebc73180ce026904d41d1c94d45cc6819fd32fb09989eb8f12",
+      "public_sha256": "77032176270be2ebc73180ce026904d41d1c94d45cc6819fd32fb09989eb8f12",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L07.md",
+      "source_sha256": "56db45d070cd64e7115c214674c95e8c1dda01ff01ca35e4e45976fe4d116563",
+      "public_sha256": "56db45d070cd64e7115c214674c95e8c1dda01ff01ca35e4e45976fe4d116563",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L08.md",
+      "source_sha256": "7a02ec6aa90087eab028fc9c6fcacb3293e7325e00f550abd3fb2ba713bc28c4",
+      "public_sha256": "7a02ec6aa90087eab028fc9c6fcacb3293e7325e00f550abd3fb2ba713bc28c4",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L09.md",
+      "source_sha256": "2183b4fe2eca71538e6ca068519b6189f9f37bb0657d756eda8f632ba6b09c4c",
+      "public_sha256": "2183b4fe2eca71538e6ca068519b6189f9f37bb0657d756eda8f632ba6b09c4c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L10.md",
+      "source_sha256": "79d16852929266e26dd1a7e86649fc723f0071939402423aa97928b25ce75a81",
+      "public_sha256": "79d16852929266e26dd1a7e86649fc723f0071939402423aa97928b25ce75a81",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L11.md",
+      "source_sha256": "77e75fa7c3e91e6b8a72d6a1b9992113c4d3b655d2536b79962d22526cb50337",
+      "public_sha256": "77e75fa7c3e91e6b8a72d6a1b9992113c4d3b655d2536b79962d22526cb50337",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L12.md",
+      "source_sha256": "830e123d48c8a35083d470a023e900b03924990780585c8c1fce52bd04b98080",
+      "public_sha256": "830e123d48c8a35083d470a023e900b03924990780585c8c1fce52bd04b98080",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L13.md",
+      "source_sha256": "15c1b388801d0f522f011d891567ba82d1ef039c3873780c58aed57ea3eb4892",
+      "public_sha256": "15c1b388801d0f522f011d891567ba82d1ef039c3873780c58aed57ea3eb4892",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L14.md",
+      "source_sha256": "df795c43db61309cabb1ddb4108b3998b2c6a1f4f765a40c2d86c01325db20e0",
+      "public_sha256": "df795c43db61309cabb1ddb4108b3998b2c6a1f4f765a40c2d86c01325db20e0",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L15.md",
+      "source_sha256": "2aad5ff6660d907692cc6802368ccbaf8cb72dd37ea9d8dcf59e217fc45a52be",
+      "public_sha256": "2aad5ff6660d907692cc6802368ccbaf8cb72dd37ea9d8dcf59e217fc45a52be",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L16.md",
+      "source_sha256": "a8bfed47e92ea7a41a65cf985fee5b38c4c3af6803fc0974a7b95c7ccdd1c4b1",
+      "public_sha256": "a8bfed47e92ea7a41a65cf985fee5b38c4c3af6803fc0974a7b95c7ccdd1c4b1",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L17.md",
+      "source_sha256": "c11b5bcdf1acb3b6a0aa8367ab891dbf21169e46092c4fae88f92b6745eb9297",
+      "public_sha256": "c11b5bcdf1acb3b6a0aa8367ab891dbf21169e46092c4fae88f92b6745eb9297",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L18.md",
+      "source_sha256": "3d665e4127fd214b6852d9f89f6380984b5fc7ede81887508ecf25bcdbf36e75",
+      "public_sha256": "3d665e4127fd214b6852d9f89f6380984b5fc7ede81887508ecf25bcdbf36e75",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L19.md",
+      "source_sha256": "7d66250e6e10c544bb99b8f24ddd42ba3d26fb01be5a2387c95c8eda0a996564",
+      "public_sha256": "7d66250e6e10c544bb99b8f24ddd42ba3d26fb01be5a2387c95c8eda0a996564",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L20.md",
+      "source_sha256": "7dacb85c333d3e80f4c5ae8071caede3ec0ac2df6493439d7eb14f1bd07b26e3",
+      "public_sha256": "7dacb85c333d3e80f4c5ae8071caede3ec0ac2df6493439d7eb14f1bd07b26e3",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L21.md",
+      "source_sha256": "d28addde882666172fd94a332394f68b4361a0169f5f3d22305624006505278c",
+      "public_sha256": "d28addde882666172fd94a332394f68b4361a0169f5f3d22305624006505278c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L22.md",
+      "source_sha256": "2143999fac9e06a90fd4d32ef18bdb107c47d1dd3291fdcfa479abda8c809448",
+      "public_sha256": "2143999fac9e06a90fd4d32ef18bdb107c47d1dd3291fdcfa479abda8c809448",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L23.md",
+      "source_sha256": "a61d4d34d95dbebdd4013e8741208b62b09875c441b9d550c767b3c70edf70a0",
+      "public_sha256": "a61d4d34d95dbebdd4013e8741208b62b09875c441b9d550c767b3c70edf70a0",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L24.md",
+      "source_sha256": "816b5516485f4d453e3eb1d79139d0054476a5b8672d011a3afe5cdfe3e78dca",
+      "public_sha256": "816b5516485f4d453e3eb1d79139d0054476a5b8672d011a3afe5cdfe3e78dca",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L25.md",
+      "source_sha256": "167d3235eb865a07dbb14b781363aa145f3066af25a767619260a213274e5a6e",
+      "public_sha256": "167d3235eb865a07dbb14b781363aa145f3066af25a767619260a213274e5a6e",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L26.md",
+      "source_sha256": "686fafd865911158de922dac316c6d7e563c75f3935f080ac2a5d4f8e0ec5b34",
+      "public_sha256": "686fafd865911158de922dac316c6d7e563c75f3935f080ac2a5d4f8e0ec5b34",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L27.md",
+      "source_sha256": "0ae0b87344436e960bd494c59ef47e28aca0a7f056beed2a94e7b06789a711f4",
+      "public_sha256": "0ae0b87344436e960bd494c59ef47e28aca0a7f056beed2a94e7b06789a711f4",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L28.md",
+      "source_sha256": "13986e57d19c5563d31065dc64e3003dcceaf05da840fb7300ce1a8b913a44da",
+      "public_sha256": "13986e57d19c5563d31065dc64e3003dcceaf05da840fb7300ce1a8b913a44da",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L29.md",
+      "source_sha256": "ff5544ef2a2c5c2e86f69fbf0babd594c3bfe86704914cb64ab989a890a1eb0f",
+      "public_sha256": "ff5544ef2a2c5c2e86f69fbf0babd594c3bfe86704914cb64ab989a890a1eb0f",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L30.md",
+      "source_sha256": "014ed41fed82fc5f2dd8b37ece69431d018504b6fe4e5839b300fe724c7a216b",
+      "public_sha256": "014ed41fed82fc5f2dd8b37ece69431d018504b6fe4e5839b300fe724c7a216b",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L31.md",
+      "source_sha256": "32a685b3d2da37b0164b5971045ce1a35c8ad5cff6074138cd7d18f399c26c51",
+      "public_sha256": "32a685b3d2da37b0164b5971045ce1a35c8ad5cff6074138cd7d18f399c26c51",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L32.md",
+      "source_sha256": "e0f507b55a9ca49eeb8f2f95cd99f5434fed2ffc9f57e159d4f71adb70c75633",
+      "public_sha256": "e0f507b55a9ca49eeb8f2f95cd99f5434fed2ffc9f57e159d4f71adb70c75633",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L33.md",
+      "source_sha256": "21178cd8959ff173e3e14875c92393ad71c11cf8ef17f2bf464bdf3b20872fdc",
+      "public_sha256": "21178cd8959ff173e3e14875c92393ad71c11cf8ef17f2bf464bdf3b20872fdc",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L34.md",
+      "source_sha256": "951af5b19e4e538c04e0d10132767b3270b5cc3ba2ceeb7ec328cdaed322627c",
+      "public_sha256": "951af5b19e4e538c04e0d10132767b3270b5cc3ba2ceeb7ec328cdaed322627c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L35.md",
+      "source_sha256": "9f9d86b5dab0e205faa7bf367e65d74f70c7c5077f96c807c86f163cc60618f6",
+      "public_sha256": "9f9d86b5dab0e205faa7bf367e65d74f70c7c5077f96c807c86f163cc60618f6",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L36.md",
+      "source_sha256": "078b848fe24e64d3e6db7b46f624c9166201c14adbfbe572c8b4ddc0a8543984",
+      "public_sha256": "078b848fe24e64d3e6db7b46f624c9166201c14adbfbe572c8b4ddc0a8543984",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L37.md",
+      "source_sha256": "90e7e403b4a9cfc580fc69c6abed2f295406fa85f93cb14429fc8144c2847a26",
+      "public_sha256": "90e7e403b4a9cfc580fc69c6abed2f295406fa85f93cb14429fc8144c2847a26",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L38.md",
+      "source_sha256": "f5621e36aeb7941901843364e4d8f18d285035ef918da80e3306668f3d273809",
+      "public_sha256": "f5621e36aeb7941901843364e4d8f18d285035ef918da80e3306668f3d273809",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L39.md",
+      "source_sha256": "b952f810c1979b30dfeda087fded332e59f85abea102edadf3018754285edd97",
+      "public_sha256": "b952f810c1979b30dfeda087fded332e59f85abea102edadf3018754285edd97",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L40.md",
+      "source_sha256": "063cd6112cabdda05c5f15cd32d98885907dbc12d764c392d6be64c20c70c7bd",
+      "public_sha256": "063cd6112cabdda05c5f15cd32d98885907dbc12d764c392d6be64c20c70c7bd",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L41.md",
+      "source_sha256": "675c1005139887fee75f8730918ac436f751c8a96976e0083c6ebf6651ca8528",
+      "public_sha256": "675c1005139887fee75f8730918ac436f751c8a96976e0083c6ebf6651ca8528",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L42.md",
+      "source_sha256": "eaad347eba6dabe0372b23061ac25ec7ba193f0552c799ce51d2157d114a7b13",
+      "public_sha256": "eaad347eba6dabe0372b23061ac25ec7ba193f0552c799ce51d2157d114a7b13",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L43.md",
+      "source_sha256": "e814802d5445151c7379e98952ae17204b11db5a125a68e6982d2a9e1b2d5a97",
+      "public_sha256": "e814802d5445151c7379e98952ae17204b11db5a125a68e6982d2a9e1b2d5a97",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L44.md",
+      "source_sha256": "a2b60d1e4ba49b470372a6679b8f5fc3827979b5516514ecf1576e1f93688374",
+      "public_sha256": "a2b60d1e4ba49b470372a6679b8f5fc3827979b5516514ecf1576e1f93688374",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L45.md",
+      "source_sha256": "8a3615d80a83af6942407922884bc0276a07a6e1d425b258c55552326daf1ba3",
+      "public_sha256": "8a3615d80a83af6942407922884bc0276a07a6e1d425b258c55552326daf1ba3",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L46.md",
+      "source_sha256": "fd7bd07f9c884e788ec3dbf79d57e93888958bc408437bc677091771f1c0727a",
+      "public_sha256": "fd7bd07f9c884e788ec3dbf79d57e93888958bc408437bc677091771f1c0727a",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L47.md",
+      "source_sha256": "be3634a67156ea6e09a5e648534d1452b72a6f86c0fa2ca8443b61e9778ad6ca",
+      "public_sha256": "be3634a67156ea6e09a5e648534d1452b72a6f86c0fa2ca8443b61e9778ad6ca",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/L48.md",
+      "source_sha256": "230cf2b7d1cb42a58993691b18b6b050be69eae5cf337bb93fa72d21b4774df9",
+      "public_sha256": "230cf2b7d1cb42a58993691b18b6b050be69eae5cf337bb93fa72d21b4774df9",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/N01.md",
+      "source_sha256": "aa4a1043c5d93ee464722f1b188f0c60230617297e5f8cf79496ab08c0e36758",
+      "public_sha256": "aa4a1043c5d93ee464722f1b188f0c60230617297e5f8cf79496ab08c0e36758",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/N02.md",
+      "source_sha256": "6b5666f63d6c8938abf8179d9cc2d1c1a8b1f5ec62d6d6e5da70589a1b505180",
+      "public_sha256": "6b5666f63d6c8938abf8179d9cc2d1c1a8b1f5ec62d6d6e5da70589a1b505180",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/N03.md",
+      "source_sha256": "34adb35b6d56d4b8a3d6d5d7f2ab998d410413b84133bb0344adc0f9cc553c83",
+      "public_sha256": "34adb35b6d56d4b8a3d6d5d7f2ab998d410413b84133bb0344adc0f9cc553c83",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/N04.md",
+      "source_sha256": "b0edde8a1b572fe034c3874032e6dde045ab85c9ceb0f0ebf91d980f0ae87e17",
+      "public_sha256": "b0edde8a1b572fe034c3874032e6dde045ab85c9ceb0f0ebf91d980f0ae87e17",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/N05.md",
+      "source_sha256": "d5ca93bd261ed74899a1c9d94c81b1f556570e83b3d48d47d5ae47ed6d248703",
+      "public_sha256": "d5ca93bd261ed74899a1c9d94c81b1f556570e83b3d48d47d5ae47ed6d248703",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/N06.md",
+      "source_sha256": "723ed05df41b8ca953412e0ff8d0e3799f421b6004a3ada4a17ea33d3737dd10",
+      "public_sha256": "723ed05df41b8ca953412e0ff8d0e3799f421b6004a3ada4a17ea33d3737dd10",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/ODU01.md",
+      "source_sha256": "614903ee7e51509ce920a351049609dbf07f087bb1f595be3a4582d0be8d5959",
+      "public_sha256": "614903ee7e51509ce920a351049609dbf07f087bb1f595be3a4582d0be8d5959",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/ODU02.md",
+      "source_sha256": "250567469d1c36450c361c0e9412ed305c49e70e9136fe903f3b51a83b2a8b1a",
+      "public_sha256": "250567469d1c36450c361c0e9412ed305c49e70e9136fe903f3b51a83b2a8b1a",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-D01.md",
+      "source_sha256": "9f2f4f7aeaf9e2a2cdab83604e590a23022bd3cbdb9931ebefcc2163ca0f70bb",
+      "public_sha256": "9f2f4f7aeaf9e2a2cdab83604e590a23022bd3cbdb9931ebefcc2163ca0f70bb",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-D02.md",
+      "source_sha256": "077f1a666c1bf6b13cec8e76e761ef615e0a575ba1bbde0aac56ce02dfbe9c32",
+      "public_sha256": "077f1a666c1bf6b13cec8e76e761ef615e0a575ba1bbde0aac56ce02dfbe9c32",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-D03.md",
+      "source_sha256": "142902b950fd7ce27b98749caa51d671ae403ea02b0a7ba1034e2c250a4fb46a",
+      "public_sha256": "142902b950fd7ce27b98749caa51d671ae403ea02b0a7ba1034e2c250a4fb46a",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-DB01.md",
+      "source_sha256": "9db43193a19742807bc9a474084c925958ca0a073201dc01470c11d63e3e58a1",
+      "public_sha256": "9db43193a19742807bc9a474084c925958ca0a073201dc01470c11d63e3e58a1",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-DB02.md",
+      "source_sha256": "39a0cd1fd54ee38a86507a6f1aaea2ee7c522946b0dd6cbf8bbee88aa904ea76",
+      "public_sha256": "39a0cd1fd54ee38a86507a6f1aaea2ee7c522946b0dd6cbf8bbee88aa904ea76",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-DB03.md",
+      "source_sha256": "ed5f5ee53cb7ac3615da86ea3bb638ae85d410f99a2277ff8d2aff38cb339292",
+      "public_sha256": "ed5f5ee53cb7ac3615da86ea3bb638ae85d410f99a2277ff8d2aff38cb339292",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-DI01.md",
+      "source_sha256": "c6b9744dd1f229cbbd3dc70fcef2a8ffa56ecf01d0790d13a02b09ad29a53b42",
+      "public_sha256": "c6b9744dd1f229cbbd3dc70fcef2a8ffa56ecf01d0790d13a02b09ad29a53b42",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-DI02.md",
+      "source_sha256": "57b201c8a4091576fed4ff2b25c945a1433741d39d9c5c47cb4f35d94f43d2e4",
+      "public_sha256": "57b201c8a4091576fed4ff2b25c945a1433741d39d9c5c47cb4f35d94f43d2e4",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-DI03.md",
+      "source_sha256": "c83504e720d53b304538650d8f7aa797c62ef5fa91d3a6952eb16c0f847af48c",
+      "public_sha256": "c83504e720d53b304538650d8f7aa797c62ef5fa91d3a6952eb16c0f847af48c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-DL01.md",
+      "source_sha256": "68b0a8314c3f6b23a6e61743781cda6040177b3c12f3af04a2586110c2795c57",
+      "public_sha256": "68b0a8314c3f6b23a6e61743781cda6040177b3c12f3af04a2586110c2795c57",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-DL02.md",
+      "source_sha256": "ae543d61f96c81e8d2b31f45be99cdcbd2763487bfe21380ac64516622ea488a",
+      "public_sha256": "ae543d61f96c81e8d2b31f45be99cdcbd2763487bfe21380ac64516622ea488a",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-DL03.md",
+      "source_sha256": "4d70cb22fd60d3b2b2609caba7e8ac369b3316667986c2aa69463cb5a112cc71",
+      "public_sha256": "4d70cb22fd60d3b2b2609caba7e8ac369b3316667986c2aa69463cb5a112cc71",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-DP01.md",
+      "source_sha256": "e32da4538f220b371cbc615e4d5897a5ad05a2845fe9dd6cd9aad17fd694a6b1",
+      "public_sha256": "e32da4538f220b371cbc615e4d5897a5ad05a2845fe9dd6cd9aad17fd694a6b1",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-DP02.md",
+      "source_sha256": "1a584e73f526efe271b12afc36aeaae60fbc5e4e17a393c2a29ec3bc93f9db8d",
+      "public_sha256": "1a584e73f526efe271b12afc36aeaae60fbc5e4e17a393c2a29ec3bc93f9db8d",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-DP03.md",
+      "source_sha256": "e83366348663567fc6011155a1d44818cbd9ebadecb294cd4cbf4be0d32003ed",
+      "public_sha256": "e83366348663567fc6011155a1d44818cbd9ebadecb294cd4cbf4be0d32003ed",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-I01.md",
+      "source_sha256": "7cd87b032a81c431996a3e2461a352148b4b3f51308a937b5dbc7c6a9bd53eb1",
+      "public_sha256": "7cd87b032a81c431996a3e2461a352148b4b3f51308a937b5dbc7c6a9bd53eb1",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-I02.md",
+      "source_sha256": "923f397f8f4309c75258196ae95d51fbe5b882f5a4e1ab2a2652c189b7fc3291",
+      "public_sha256": "923f397f8f4309c75258196ae95d51fbe5b882f5a4e1ab2a2652c189b7fc3291",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-I03.md",
+      "source_sha256": "45f2b6a8706dbb8af2bd6db0bddba4be84abb512fa89564208b82a92a3a22ba0",
+      "public_sha256": "45f2b6a8706dbb8af2bd6db0bddba4be84abb512fa89564208b82a92a3a22ba0",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-I04.md",
+      "source_sha256": "e63847d34cb9ad9c60ebb7aca60df30163b429b6ee31a49ac8d945386f18b8a3",
+      "public_sha256": "e63847d34cb9ad9c60ebb7aca60df30163b429b6ee31a49ac8d945386f18b8a3",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-I06.md",
+      "source_sha256": "d611fda2067dc370e9319e56cbc351282214f9ce7fee0503d1d45fdac986a9d0",
+      "public_sha256": "d611fda2067dc370e9319e56cbc351282214f9ce7fee0503d1d45fdac986a9d0",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-I08.md",
+      "source_sha256": "80b16c506c5f942af047c1087e0c2a6ade4081886d58c0bdf8518e614d3f0859",
+      "public_sha256": "80b16c506c5f942af047c1087e0c2a6ade4081886d58c0bdf8518e614d3f0859",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-I09.md",
+      "source_sha256": "35d67cdc3b92f388332fc187d2e49c5c0934c7d23fd3a0dc34e72247b29bb6d3",
+      "public_sha256": "35d67cdc3b92f388332fc187d2e49c5c0934c7d23fd3a0dc34e72247b29bb6d3",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-I10.md",
+      "source_sha256": "519efe5f9f25ddcefbde0d98ca675d97837da26ee6225d2c2e113a8482c0c864",
+      "public_sha256": "519efe5f9f25ddcefbde0d98ca675d97837da26ee6225d2c2e113a8482c0c864",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-I11.md",
+      "source_sha256": "8399b0eb871435f60f82d07402f0a7e411168636be2321d5b88cc043344c52b0",
+      "public_sha256": "8399b0eb871435f60f82d07402f0a7e411168636be2321d5b88cc043344c52b0",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/QA12-I12.md",
+      "source_sha256": "779c0addd12d0ff13ac69dc868ece5bfd88263548d9e01769c1e5744cc835947",
+      "public_sha256": "779c0addd12d0ff13ac69dc868ece5bfd88263548d9e01769c1e5744cc835947",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/V4-N001.md",
+      "source_sha256": "3865d97484ec210e58c785949571e2f24a0adeeac74c89135b39e9961ee27f4f",
+      "public_sha256": "3865d97484ec210e58c785949571e2f24a0adeeac74c89135b39e9961ee27f4f",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/V4-N002.md",
+      "source_sha256": "a301eb9b27082a56a066ebdeba1c38c125f2b8c0043b7a0a1918344c3dc21eb7",
+      "public_sha256": "a301eb9b27082a56a066ebdeba1c38c125f2b8c0043b7a0a1918344c3dc21eb7",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/V4-N003.md",
+      "source_sha256": "f0ac0779b002ce245b6c2f3f3b61fa39150781cb80e88519e3a1dae643042423",
+      "public_sha256": "f0ac0779b002ce245b6c2f3f3b61fa39150781cb80e88519e3a1dae643042423",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/V4-N004.md",
+      "source_sha256": "e44b431398d78fb5812e7fee50702530d8100a294dad43c9f7c9940c2bc41a36",
+      "public_sha256": "e44b431398d78fb5812e7fee50702530d8100a294dad43c9f7c9940c2bc41a36",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/V4-N005.md",
+      "source_sha256": "53974fc992ff3cf3a5741d46a640fa1daf644e07ec4f9574bafc914b8286b616",
+      "public_sha256": "53974fc992ff3cf3a5741d46a640fa1daf644e07ec4f9574bafc914b8286b616",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/V4-N006.md",
+      "source_sha256": "d91b6431e56fa2844fdf75916745e3d8b788f63e3f1e3191d7004961164e9692",
+      "public_sha256": "d91b6431e56fa2844fdf75916745e3d8b788f63e3f1e3191d7004961164e9692",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VC01.md",
+      "source_sha256": "fb9e951e048a213fa69a5c775de4e5bf80c94f25e53de6faa47256e95a60c4c1",
+      "public_sha256": "fb9e951e048a213fa69a5c775de4e5bf80c94f25e53de6faa47256e95a60c4c1",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VC02.md",
+      "source_sha256": "9d1791698d6d1260b3640dba38c6623c3fb680a162c97da6187ded992c81180e",
+      "public_sha256": "9d1791698d6d1260b3640dba38c6623c3fb680a162c97da6187ded992c81180e",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VC03.md",
+      "source_sha256": "408a7d4278253bdf07a5993b1f822e5ed11f6e32e4b8d5f25a605016692c677d",
+      "public_sha256": "408a7d4278253bdf07a5993b1f822e5ed11f6e32e4b8d5f25a605016692c677d",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VC04.md",
+      "source_sha256": "2fad04c297f4dfdf29ad0d054d25b1e844e08c97d830aff587324c963e068a4a",
+      "public_sha256": "2fad04c297f4dfdf29ad0d054d25b1e844e08c97d830aff587324c963e068a4a",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VC05.md",
+      "source_sha256": "8c18a3689011581ab5a3377915df0a4f618039210be1eaf1e7284cbb05d64dce",
+      "public_sha256": "8c18a3689011581ab5a3377915df0a4f618039210be1eaf1e7284cbb05d64dce",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VC06.md",
+      "source_sha256": "b3bc4f2f26aa16fe12afafa3f41e573244d0b557baedc3e776e30b8c943aa93a",
+      "public_sha256": "b3bc4f2f26aa16fe12afafa3f41e573244d0b557baedc3e776e30b8c943aa93a",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VC07.md",
+      "source_sha256": "fa00f39871a9c0ed3665985929b0d708928c8a8fb28b397b464321ad91c30dc9",
+      "public_sha256": "fa00f39871a9c0ed3665985929b0d708928c8a8fb28b397b464321ad91c30dc9",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VC08.md",
+      "source_sha256": "6350129ad4cc81366071f9e887bc1d41151fce8cf728c4fbd35f841a61e6c9da",
+      "public_sha256": "6350129ad4cc81366071f9e887bc1d41151fce8cf728c4fbd35f841a61e6c9da",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VDC01.md",
+      "source_sha256": "b2c97785fd9e8c24537290dab56588ca8dcebd59403317ce4af044d90a566776",
+      "public_sha256": "b2c97785fd9e8c24537290dab56588ca8dcebd59403317ce4af044d90a566776",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VDC02.md",
+      "source_sha256": "9b732a9ab68a2e720410d98298656b12edad48396ad7aeb03b01f1cad027bbdc",
+      "public_sha256": "9b732a9ab68a2e720410d98298656b12edad48396ad7aeb03b01f1cad027bbdc",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VDC03.md",
+      "source_sha256": "acc8d18dd5f874570596b8f4aab9a28521dd567656b7e75b5ddd3ae8f62126ab",
+      "public_sha256": "acc8d18dd5f874570596b8f4aab9a28521dd567656b7e75b5ddd3ae8f62126ab",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VDC04.md",
+      "source_sha256": "f73435e671328234b3b65fa8cecd5b7941b1f0f943708e42a5dbe2b8ee8ee981",
+      "public_sha256": "f73435e671328234b3b65fa8cecd5b7941b1f0f943708e42a5dbe2b8ee8ee981",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VDC05.md",
+      "source_sha256": "063ad0934584fbad57084ac0c594ba65e591df21f8e2d51c47c7b64cab8c2714",
+      "public_sha256": "063ad0934584fbad57084ac0c594ba65e591df21f8e2d51c47c7b64cab8c2714",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VE01.md",
+      "source_sha256": "37a8bb11e6e2e5a5d7bd7dde85bb220108e588265093b78cbbc727f412f73432",
+      "public_sha256": "37a8bb11e6e2e5a5d7bd7dde85bb220108e588265093b78cbbc727f412f73432",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VE02.md",
+      "source_sha256": "42168d61d9517e42b46035366fcba9b26a239c1e3531b569f0adff1638700c0c",
+      "public_sha256": "42168d61d9517e42b46035366fcba9b26a239c1e3531b569f0adff1638700c0c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VE03.md",
+      "source_sha256": "71455f173b310728b9c5a2acc2b1c44aeb83d4e5f843325c75b17ecd232eb842",
+      "public_sha256": "71455f173b310728b9c5a2acc2b1c44aeb83d4e5f843325c75b17ecd232eb842",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VE04.md",
+      "source_sha256": "7c3e8dddecd2e400faf1ee1023e23fb4aef2f9f4e24f6bb0fe9d8904f496d502",
+      "public_sha256": "7c3e8dddecd2e400faf1ee1023e23fb4aef2f9f4e24f6bb0fe9d8904f496d502",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VE05.md",
+      "source_sha256": "23236c8e743456e8445c0361eb8f056cc013c252f4da668ef9471b8f7010b124",
+      "public_sha256": "23236c8e743456e8445c0361eb8f056cc013c252f4da668ef9471b8f7010b124",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VE06.md",
+      "source_sha256": "e846eb20648aca9bfaeb3d8c8e1ebcf89ce5813b910dcec0883961af304611e3",
+      "public_sha256": "e846eb20648aca9bfaeb3d8c8e1ebcf89ce5813b910dcec0883961af304611e3",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VE07.md",
+      "source_sha256": "6f10dfa3c401074735e6454a41d9531bb46d1ebec29063804a5d39cfc438104e",
+      "public_sha256": "6f10dfa3c401074735e6454a41d9531bb46d1ebec29063804a5d39cfc438104e",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VE08.md",
+      "source_sha256": "e49f047a32b6225a1301d996c39e096a8b964fc565b4c2c132133512987d0712",
+      "public_sha256": "e49f047a32b6225a1301d996c39e096a8b964fc565b4c2c132133512987d0712",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VE09.md",
+      "source_sha256": "e263767345705eb454547870e29dbb564bbaeb2009a576ae8de1c937957c7ce1",
+      "public_sha256": "e263767345705eb454547870e29dbb564bbaeb2009a576ae8de1c937957c7ce1",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VE10.md",
+      "source_sha256": "d11f8a5453d0af1ac58b97988c8a2db2080ad9a0aad3724f157d7d20598e5ec7",
+      "public_sha256": "d11f8a5453d0af1ac58b97988c8a2db2080ad9a0aad3724f157d7d20598e5ec7",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VP01.md",
+      "source_sha256": "a95d21436b2284bfd7329f91fb8aa3b7e09d3127854025286a6503c6f8627d86",
+      "public_sha256": "a95d21436b2284bfd7329f91fb8aa3b7e09d3127854025286a6503c6f8627d86",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VP02.md",
+      "source_sha256": "4d677fa2c6d49206d4594cf4e4985ee89b2abea0d6e58c0aaccc20a2afb25341",
+      "public_sha256": "4d677fa2c6d49206d4594cf4e4985ee89b2abea0d6e58c0aaccc20a2afb25341",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VP03.md",
+      "source_sha256": "c0b1ed67815a42c40691abe2b6ce24ae0025dbe3289f107b260cf0ab7badf2cd",
+      "public_sha256": "c0b1ed67815a42c40691abe2b6ce24ae0025dbe3289f107b260cf0ab7badf2cd",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VP04.md",
+      "source_sha256": "29769bbdf19fada35386be1ec91bf746da2f8ee14613f89feaedcf5fed5bbdf8",
+      "public_sha256": "29769bbdf19fada35386be1ec91bf746da2f8ee14613f89feaedcf5fed5bbdf8",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VP05.md",
+      "source_sha256": "19ca0d6e9c62237bab689fd841601466bd95b7532019d13c7e2d5f07dda31c7c",
+      "public_sha256": "19ca0d6e9c62237bab689fd841601466bd95b7532019d13c7e2d5f07dda31c7c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VP06.md",
+      "source_sha256": "27556b6db3f0edd008008d625fa5f6d03566a99fb00368ed96d837ae5cd46389",
+      "public_sha256": "27556b6db3f0edd008008d625fa5f6d03566a99fb00368ed96d837ae5cd46389",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VP07.md",
+      "source_sha256": "39e4af4ebc30a2bd4e468653993854a640945c9dbe6213bb47cd3edba9e19e2e",
+      "public_sha256": "39e4af4ebc30a2bd4e468653993854a640945c9dbe6213bb47cd3edba9e19e2e",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VP08.md",
+      "source_sha256": "ce401fdc29e3e0608e63995a8f0692729f241f78d355fda9c21652f21c103b82",
+      "public_sha256": "ce401fdc29e3e0608e63995a8f0692729f241f78d355fda9c21652f21c103b82",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VP09.md",
+      "source_sha256": "7f7eae8135e98d48566014a671936ceb6fcf393889beebc997467ec20a2dc3c8",
+      "public_sha256": "7f7eae8135e98d48566014a671936ceb6fcf393889beebc997467ec20a2dc3c8",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cards/VP10.md",
+      "source_sha256": "6484138110196d802b24d38f69543eefbce9993f6aea966a052831527ba7aa4b",
+      "public_sha256": "6484138110196d802b24d38f69543eefbce9993f6aea966a052831527ba7aa4b",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/cases.jsonl",
+      "source_sha256": "5aeeac343cbdbc17be237923e4f132e7a9c09b714003565d9b4d8e8f2c8ef420",
+      "public_sha256": "5aeeac343cbdbc17be237923e4f132e7a9c09b714003565d9b4d8e8f2c8ef420",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/contextual-dialogue.json",
+      "source_sha256": "08f1f9d60742942e8e2741d7652108c4772d6f24a29c634306768f65eedb9ea7",
+      "public_sha256": "08f1f9d60742942e8e2741d7652108c4772d6f24a29c634306768f65eedb9ea7",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/conversation-calibration.jsonl",
+      "source_sha256": "2d677ecee85175a9484a0a57ddc9266ae82a7f44294e1d8c0c2119bfb38d337a",
+      "public_sha256": "2d677ecee85175a9484a0a57ddc9266ae82a7f44294e1d8c0c2119bfb38d337a",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/conversation-craft.md",
+      "source_sha256": "43c65005a8b20c8b9e602ac76c9ba1dc32537bb5e6b57739d55f906a74c91f49",
+      "public_sha256": "43c65005a8b20c8b9e602ac76c9ba1dc32537bb5e6b57739d55f906a74c91f49",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/conversation-presence.md",
+      "source_sha256": "a2f45a163e6bd6a346caec61c5383abf1d6d5e0fbc01aaf9ffc076daaacd1d4e",
+      "public_sha256": "a2f45a163e6bd6a346caec61c5383abf1d6d5e0fbc01aaf9ffc076daaacd1d4e",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/corpus-guide.md",
+      "source_sha256": "08dfd0088830f477b07841f2f3028a6ad69ef5cea674141aae30405da8a02267",
+      "public_sha256": "08dfd0088830f477b07841f2f3028a6ad69ef5cea674141aae30405da8a02267",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/craft-knowledge-map.json",
+      "source_sha256": "f057ba9e17cdf80746491a253106747e07498dbb2e787bf52b5edb8e0bfcb51b",
+      "public_sha256": "f057ba9e17cdf80746491a253106747e07498dbb2e787bf52b5edb8e0bfcb51b",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/curated-cases.jsonl",
+      "source_sha256": "8294b3079cfa9fbeefc70709f6c7e55d277f2a5eee0b4e50d16ce6c73c1d69e0",
+      "public_sha256": "8294b3079cfa9fbeefc70709f6c7e55d277f2a5eee0b4e50d16ce6c73c1d69e0",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/decision-workflow.md",
+      "source_sha256": "7b7ea9ac719e83f0562b2e382eb468ff6a032e131b40a15cb0c769a0d080be97",
+      "public_sha256": "7b7ea9ac719e83f0562b2e382eb468ff6a032e131b40a15cb0c769a0d080be97",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/deep-director-judgment.json",
+      "source_sha256": "040165a3ece1b4d6b77b4f35327ec65a22d2e5aa7e069777297d6dfcfaf3a052",
+      "public_sha256": "040165a3ece1b4d6b77b4f35327ec65a22d2e5aa7e069777297d6dfcfaf3a052",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/deep-director-judgment.md",
+      "source_sha256": "7ed9897f527674c3ad247d0194905668694b43c8673de3914b8428eab437295c",
+      "public_sha256": "7ed9897f527674c3ad247d0194905668694b43c8673de3914b8428eab437295c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/dialogue-examples.jsonl",
+      "source_sha256": "4cf7076fb3b3a0949f8f7a61e5f6420124ff22efcc9448861657e1835e82f678",
+      "public_sha256": "4cf7076fb3b3a0949f8f7a61e5f6420124ff22efcc9448861657e1835e82f678",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/director-development.md",
+      "source_sha256": "1602130fb28d90ff8596899562de8cb32f16748bd690498d5c03901c1a7cfcac",
+      "public_sha256": "1602130fb28d90ff8596899562de8cb32f16748bd690498d5c03901c1a7cfcac",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/director-dialogue.md",
+      "source_sha256": "2a0910b4e1bdebed1d3121986f5a42ddd0a74be6e90c887934e1d5f7a05d7c16",
+      "public_sha256": "2a0910b4e1bdebed1d3121986f5a42ddd0a74be6e90c887934e1d5f7a05d7c16",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/director-voice.md",
+      "source_sha256": "b62d763c473549bc11de68ce7c95e465ad34ab899a71cdf35153ee08f25e8fa0",
+      "public_sha256": "b62d763c473549bc11de68ce7c95e465ad34ab899a71cdf35153ee08f25e8fa0",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/examples-archive/F01-following.md",
+      "source_sha256": "8d8ef6cfee0a395b1b9c70db062dd04e81b5f7ea7b9497c267a827be9808dd1b",
+      "public_sha256": "8d8ef6cfee0a395b1b9c70db062dd04e81b5f7ea7b9497c267a827be9808dd1b",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/examples-archive/F02-memento.md",
+      "source_sha256": "dfc1cfcdace0bcbba12ed6aefa204355c2a127609a320430204339d12b64c8db",
+      "public_sha256": "dfc1cfcdace0bcbba12ed6aefa204355c2a127609a320430204339d12b64c8db",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/examples-archive/F03-insomnia.md",
+      "source_sha256": "b96b1ba4deb5620a70dc5118254452101e79648a223ea0b0868ef484dea0d915",
+      "public_sha256": "b96b1ba4deb5620a70dc5118254452101e79648a223ea0b0868ef484dea0d915",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/examples-archive/F04-batman-begins.md",
+      "source_sha256": "f4bee919a3f6dab5d38fbb6989b4adf455275b02fc101862b0a324b638ef7ab1",
+      "public_sha256": "f4bee919a3f6dab5d38fbb6989b4adf455275b02fc101862b0a324b638ef7ab1",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/examples-archive/F05-the-prestige.md",
+      "source_sha256": "bdd3152836573fb7334a419c9ca0207e4f522e3650ad1a90a6e1519bc6f6312e",
+      "public_sha256": "bdd3152836573fb7334a419c9ca0207e4f522e3650ad1a90a6e1519bc6f6312e",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/examples-archive/F06-the-dark-knight.md",
+      "source_sha256": "ead42011e47b421a0d2a9705d1f35858d61a11eaeab058804a1f88fcf6f8a640",
+      "public_sha256": "ead42011e47b421a0d2a9705d1f35858d61a11eaeab058804a1f88fcf6f8a640",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/examples-archive/F07-inception.md",
+      "source_sha256": "4e6dcf64c71b4bb248e2c9ea5a931ee005ced8320b77422e75ff0ccc57523fd2",
+      "public_sha256": "4e6dcf64c71b4bb248e2c9ea5a931ee005ced8320b77422e75ff0ccc57523fd2",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/examples-archive/F08-the-dark-knight-rises.md",
+      "source_sha256": "eae1abd81c701d13c3984c6c1714339936b748dda626aef6a672ea3b6963edd1",
+      "public_sha256": "eae1abd81c701d13c3984c6c1714339936b748dda626aef6a672ea3b6963edd1",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/examples-archive/F09-interstellar.md",
+      "source_sha256": "95b0507538f842d283a247183d27452b2077a52eee966fcd018d7acabf140799",
+      "public_sha256": "95b0507538f842d283a247183d27452b2077a52eee966fcd018d7acabf140799",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/examples-archive/F10-dunkirk.md",
+      "source_sha256": "2d878d32ce5e0ec8798ad0cc728f5a132153d0902d2116ac5e23bbefe3104454",
+      "public_sha256": "2d878d32ce5e0ec8798ad0cc728f5a132153d0902d2116ac5e23bbefe3104454",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/examples-archive/F11-tenet.md",
+      "source_sha256": "9e3744b5a8c5190442e72653019ac21cfa58cec4a9c1cd717f5c4899cd3a431c",
+      "public_sha256": "9e3744b5a8c5190442e72653019ac21cfa58cec4a9c1cd717f5c4899cd3a431c",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/examples-archive/F12-oppenheimer.md",
+      "source_sha256": "f98a69a96b10bedcfdcb42ced96e5859061913dc799464ad5a080a5524bf6c43",
+      "public_sha256": "f98a69a96b10bedcfdcb42ced96e5859061913dc799464ad5a080a5524bf6c43",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/examples-archive/F13-the-odyssey.md",
+      "source_sha256": "21ac744d698fa5a687a9e101473664eb1bbe2fed9d2e7c23fe1989485022622f",
+      "public_sha256": "21ac744d698fa5a687a9e101473664eb1bbe2fed9d2e7c23fe1989485022622f",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/examples-archive/film-library-original.jsonl",
+      "source_sha256": "f7c0e2f4e73bc0515a876c310aab5bc1a4be081aedbe3ea08fae047a977b18c7",
+      "public_sha256": "f7c0e2f4e73bc0515a876c310aab5bc1a4be081aedbe3ea08fae047a977b18c7",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/examples-archive/odyssey-adaptation-v31.md",
+      "source_sha256": "52e8db91489b22be2d02a660e4e939c8e0326c13ee3ac5b92d37a0a437806c2e",
+      "public_sha256": "52e8db91489b22be2d02a660e4e939c8e0326c13ee3ac5b92d37a0a437806c2e",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/expanded-studies.md",
+      "source_sha256": "1af4199ad8aff2f2c7009559c9a3e0aee227952d7490b94518acc17694a3627b",
+      "public_sha256": "1af4199ad8aff2f2c7009559c9a3e0aee227952d7490b94518acc17694a3627b",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/experience-expansion.json",
+      "source_sha256": "764005a0399073b3d12f5f954759235c51a37096bd73abe6be15061d67921002",
+      "public_sha256": "764005a0399073b3d12f5f954759235c51a37096bd73abe6be15061d67921002",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/expression-design.md",
+      "source_sha256": "4e0d38ef54ad5bf4f0ade158931d6126134b0223506b25cc7f1573a320febf62",
+      "public_sha256": "4e0d38ef54ad5bf4f0ade158931d6126134b0223506b25cc7f1573a320febf62",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/expression-evidence.json",
+      "source_sha256": "96b72b25b6870294566b6a37618e069751fc18acac6e260c18847504ec874eb4",
+      "public_sha256": "96b72b25b6870294566b6a37618e069751fc18acac6e260c18847504ec874eb4",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/feature-development.md",
+      "source_sha256": "0d6e99a3f510b9be45c2c8e0d9f8bba8034ce2e51c347947f1a7b1a2d97aef0b",
+      "public_sha256": "0d6e99a3f510b9be45c2c8e0d9f8bba8034ce2e51c347947f1a7b1a2d97aef0b",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/film-catalog.md",
+      "source_sha256": "e3ed72b6608280c24aef56c9e34e6b1b7d24be305a83e3d4a4b6428e1db6f5ba",
+      "public_sha256": "e3ed72b6608280c24aef56c9e34e6b1b7d24be305a83e3d4a4b6428e1db6f5ba",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/film-library.jsonl",
+      "source_sha256": "53225f9f90205e75291940ede94042ee7215d1c511bd5c45c439937a6ffaa5f0",
+      "public_sha256": "53225f9f90205e75291940ede94042ee7215d1c511bd5c45c439937a6ffaa5f0",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/film-look.md",
+      "source_sha256": "bae98c5cfe405122ff998227770ee86cf1db516c69a5aaaacf45f92019fad878",
+      "public_sha256": "bae98c5cfe405122ff998227770ee86cf1db516c69a5aaaacf45f92019fad878",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/films/F01-following.md",
+      "source_sha256": "b3bda753503f8eec533f36210dfdd8e01fec708b99b55d49c4ba8f1c60a71665",
+      "public_sha256": "b3bda753503f8eec533f36210dfdd8e01fec708b99b55d49c4ba8f1c60a71665",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/films/F02-memento.md",
+      "source_sha256": "44e7f05f3ae716bc662c97d91bc5554f7971d9bf58289206753636ebe1a53f0b",
+      "public_sha256": "44e7f05f3ae716bc662c97d91bc5554f7971d9bf58289206753636ebe1a53f0b",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/films/F03-insomnia.md",
+      "source_sha256": "c7f8c236d75795944b7014ce1e83b70453944fbde951ea46c57b425db53fe056",
+      "public_sha256": "c7f8c236d75795944b7014ce1e83b70453944fbde951ea46c57b425db53fe056",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/films/F04-batman-begins.md",
+      "source_sha256": "9b5c47438f0bcd981711f4f861be26d850de45f3b48f0dd03279aac0a7ccec6a",
+      "public_sha256": "9b5c47438f0bcd981711f4f861be26d850de45f3b48f0dd03279aac0a7ccec6a",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/films/F05-the-prestige.md",
+      "source_sha256": "3af425b8d3cc6d480afab0402aece8a17dd9254e05d27db49550d474b54c984f",
+      "public_sha256": "3af425b8d3cc6d480afab0402aece8a17dd9254e05d27db49550d474b54c984f",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/films/F06-the-dark-knight.md",
+      "source_sha256": "e15741cb886e4e39d42cefb1fd1c3e9f25c9502cc3011d69504741288c2919ac",
+      "public_sha256": "e15741cb886e4e39d42cefb1fd1c3e9f25c9502cc3011d69504741288c2919ac",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/films/F07-inception.md",
+      "source_sha256": "5f6278fa2c7c518c2cad0ab2de07c9e96ce1f920bac5e98cce02140bbabb4c26",
+      "public_sha256": "5f6278fa2c7c518c2cad0ab2de07c9e96ce1f920bac5e98cce02140bbabb4c26",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/films/F08-the-dark-knight-rises.md",
+      "source_sha256": "dc85a544d478b01791ee704b7335843c26614142992e72ee8ef221e0dec6dc54",
+      "public_sha256": "dc85a544d478b01791ee704b7335843c26614142992e72ee8ef221e0dec6dc54",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/films/F09-interstellar.md",
+      "source_sha256": "50cc1c4c988a09931d4a388275bc34733a2584005794de226dba43a56b44626b",
+      "public_sha256": "50cc1c4c988a09931d4a388275bc34733a2584005794de226dba43a56b44626b",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/films/F10-dunkirk.md",
+      "source_sha256": "461e883a230aa617ead29dd61f5d472f43512e4e648eb2b3b1e53e476b9dabfe",
+      "public_sha256": "461e883a230aa617ead29dd61f5d472f43512e4e648eb2b3b1e53e476b9dabfe",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/films/F11-tenet.md",
+      "source_sha256": "0c6ba75081cde85dc153fcccf8ada4f0c9760609d1fab20d4d02abfa125f624f",
+      "public_sha256": "0c6ba75081cde85dc153fcccf8ada4f0c9760609d1fab20d4d02abfa125f624f",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/films/F12-oppenheimer.md",
+      "source_sha256": "348e5cbef21f4148518d9d4ca6fe03eb5758444969e75b349a6bc6aedc0a4f05",
+      "public_sha256": "348e5cbef21f4148518d9d4ca6fe03eb5758444969e75b349a6bc6aedc0a4f05",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/films/F13-the-odyssey.md",
+      "source_sha256": "340b1bdacc0ce5a604ebd1baa47793890629ca4c317cb1d20615af5e1829c2f6",
+      "public_sha256": "340b1bdacc0ce5a604ebd1baa47793890629ca4c317cb1d20615af5e1829c2f6",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/first-person-dialogue.md",
+      "source_sha256": "cfe82ce323273e5f02badd1cd49bebb997ce24fc13c540f8c800a7540cf54a94",
+      "public_sha256": "cfe82ce323273e5f02badd1cd49bebb997ce24fc13c540f8c800a7540cf54a94",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/interview-voice-20261007.json",
+      "source_sha256": "a8e5cc8d82927bc261d826a73596ecfccaecf0359518fdcfe50635697b1f1ad8",
+      "public_sha256": "a8e5cc8d82927bc261d826a73596ecfccaecf0359518fdcfe50635697b1f1ad8",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/library-index.md",
+      "source_sha256": "e011ff4028b64b7ec4bc72f8eebfdbab0594b8fd5c906ae5343d995e453cd920",
+      "public_sha256": "e011ff4028b64b7ec4bc72f8eebfdbab0594b8fd5c906ae5343d995e453cd920",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/live-research.md",
+      "source_sha256": "76881b149e718c123ed581ce4289560ba1d1f74bc2aeb04f1407d1e179432a45",
+      "public_sha256": "76881b149e718c123ed581ce4289560ba1d1f74bc2aeb04f1407d1e179432a45",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/making-of-study.jsonl",
+      "source_sha256": "518ca4109ec0fac4559714da8a0e82373c324fe908da3284319fe624e0ef8f9f",
+      "public_sha256": "518ca4109ec0fac4559714da8a0e82373c324fe908da3284319fe624e0ef8f9f",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/making-of.md",
+      "source_sha256": "e0a2cb19eba0ca6b521573f23582250b80c36bee040bf1173c00bea6cadc46a3",
+      "public_sha256": "e0a2cb19eba0ca6b521573f23582250b80c36bee040bf1173c00bea6cadc46a3",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/methods.md",
+      "source_sha256": "24116978ab136656811de342e8b000ba2b516b07af1b9dd64015eb091bab8a62",
+      "public_sha256": "24116978ab136656811de342e8b000ba2b516b07af1b9dd64015eb091bab8a62",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/multiturn.jsonl",
+      "source_sha256": "147e82d3a45462436603b091160e87dd1368deb544d5c614b8c32a130282f8b5",
+      "public_sha256": "147e82d3a45462436603b091160e87dd1368deb544d5c614b8c32a130282f8b5",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/nolan-decision-architecture.md",
+      "source_sha256": "d89afface3fec03039b85654173f4e606273bcfebf630c47cbf3e6b6275f6521",
+      "public_sha256": "d89afface3fec03039b85654173f4e606273bcfebf630c47cbf3e6b6275f6521",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/nolan-specific-decisions.md",
+      "source_sha256": "7568aa2a849ff6a3c7285ae0211aeb8f778de9bc5070c204de2b81b5c59d87eb",
+      "public_sha256": "7568aa2a849ff6a3c7285ae0211aeb8f778de9bc5070c204de2b81b5c59d87eb",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/odyssey-2026-update.md",
+      "source_sha256": "a1b46a33485297bd43ab7ba1e87eb206468ba44285600b782f226cc254df65b1",
+      "public_sha256": "a1b46a33485297bd43ab7ba1e87eb206468ba44285600b782f226cc254df65b1",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/odyssey.md",
+      "source_sha256": "72598b64810f95a794526bd097cd820c5dc41a78338b65001b30b8bea6f30e13",
+      "public_sha256": "72598b64810f95a794526bd097cd820c5dc41a78338b65001b30b8bea6f30e13",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/open-director-reasoning.md",
+      "source_sha256": "9a3f14e4e881a4be9b8ec50f65ae8b269a128a6097225bf998f4683158cef64b",
+      "public_sha256": "9a3f14e4e881a4be9b8ec50f65ae8b269a128a6097225bf998f4683158cef64b",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/opensource-design.md",
+      "source_sha256": "d65ed6bdd20521f29225b2f6c16a6b910f141d98f07ef624b0184d6ebed327fa",
+      "public_sha256": "d65ed6bdd20521f29225b2f6c16a6b910f141d98f07ef624b0184d6ebed327fa",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/primary-refinements.json",
+      "source_sha256": "073b147ade924cbcbbbdbd4624acdd0098284c604d548939a7c8cada2f86b0ec",
+      "public_sha256": "073b147ade924cbcbbbdbd4624acdd0098284c604d548939a7c8cada2f86b0ec",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/project-continuity.md",
+      "source_sha256": "6c7fec7d7438e02fbe825661fb4c66574e30d23f032f39dc3fc601cb03c95a85",
+      "public_sha256": "6c7fec7d7438e02fbe825661fb4c66574e30d23f032f39dc3fc601cb03c95a85",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/research-coverage.json",
+      "source_sha256": "557da80da2517253165235e3648041caea04f097990f5ce77a33a539ca426d0d",
+      "public_sha256": "557da80da2517253165235e3648041caea04f097990f5ce77a33a539ca426d0d",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/research-index.md",
+      "source_sha256": "5cc246e20c5af1aa5d3ed755c5515a038a1d20052d974130384799ac0a54ae8e",
+      "public_sha256": "5cc246e20c5af1aa5d3ed755c5515a038a1d20052d974130384799ac0a54ae8e",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/scene-contract.md",
+      "source_sha256": "d6cbad737734fa6edfe01e4c591b09043d2eb03cfaca5d7b86a5286e74329b51",
+      "public_sha256": "d6cbad737734fa6edfe01e4c591b09043d2eb03cfaca5d7b86a5286e74329b51",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/session-core.md",
+      "source_sha256": "15dfbc7266b6ad2f3565d0b7effc8c8bd659ad166698ebe453304fa30d6c1989",
+      "public_sha256": "15dfbc7266b6ad2f3565d0b7effc8c8bd659ad166698ebe453304fa30d6c1989",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/situations.json",
+      "source_sha256": "120a83e73436e16d65ed5079160320292ba70a785ed53d92a8409410137d231a",
+      "public_sha256": "120a83e73436e16d65ed5079160320292ba70a785ed53d92a8409410137d231a",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/sources.md",
+      "source_sha256": "868623687cfe8e1fcbcfb5aefb1e3dc081ef6d2afed80cab5cf0f2dbaa55bdef",
+      "public_sha256": "868623687cfe8e1fcbcfb5aefb1e3dc081ef6d2afed80cab5cf0f2dbaa55bdef",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/update-protocol.md",
+      "source_sha256": "eda8678d0fd7b65e360fe506442a2ec25a70a8bf1d7f7920afbef2e4542c8eb6",
+      "public_sha256": "eda8678d0fd7b65e360fe506442a2ec25a70a8bf1d7f7920afbef2e4542c8eb6",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/verified-supplement.json",
+      "source_sha256": "865a907926e4edc880c8e23537f001cae9156faa74d142f1a032649150600ad5",
+      "public_sha256": "865a907926e4edc880c8e23537f001cae9156faa74d142f1a032649150600ad5",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/visual-direction.md",
+      "source_sha256": "03d04f07aa426f5a854283b0fbc0f497253e0392d5ca02099345d453e1c10175",
+      "public_sha256": "03d04f07aa426f5a854283b0fbc0f497253e0392d5ca02099345d453e1c10175",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/voice-and-dialogue.md",
+      "source_sha256": "4c5a43da26f5a2c642d3478f502869081b60e59bd150402a92bb1fbb9458d3c0",
+      "public_sha256": "4c5a43da26f5a2c642d3478f502869081b60e59bd150402a92bb1fbb9458d3c0",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/references/voice-profile.json",
+      "source_sha256": "48041edcb6a9fd5393d5f2257ddf8d151c8052a64d042b78cdc6b87e985d8fba",
+      "public_sha256": "48041edcb6a9fd5393d5f2257ddf8d151c8052a64d042b78cdc6b87e985d8fba",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/scripts/director_engine.py",
+      "source_sha256": "46d9850501afe62f7f4c57f6e82393c15522078efcff4c992ac4207f8b65a26b",
+      "public_sha256": "46d9850501afe62f7f4c57f6e82393c15522078efcff4c992ac4207f8b65a26b",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/scripts/find_cases.py",
+      "source_sha256": "fb0beb0ea2c23f3e275c738d6f96f57e8444a365b15408c8c5db0450ecc76f07",
+      "public_sha256": "fb0beb0ea2c23f3e275c738d6f96f57e8444a365b15408c8c5db0450ecc76f07",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/scripts/find_knowledge.py",
+      "source_sha256": "199418a35eb61cdf81dedf90e3423c7fddb6b2bcad7a07568f8b3e9137089cc6",
+      "public_sha256": "199418a35eb61cdf81dedf90e3423c7fddb6b2bcad7a07568f8b3e9137089cc6",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/scripts/recall.py",
+      "source_sha256": "4213dec0b801dc436e4d7959786e940397401b2ab88ed07812c4ffcc84080f9d",
+      "public_sha256": "4213dec0b801dc436e4d7959786e940397401b2ab88ed07812c4ffcc84080f9d",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/scripts/render_shotboard.py",
+      "source_sha256": "56369fd942cb8bcfaa155a224e2c155d507cf9abbc2388b6e125758734bc40ba",
+      "public_sha256": "56369fd942cb8bcfaa155a224e2c155d507cf9abbc2388b6e125758734bc40ba",
+      "path_redacted": false
+    },
+    {
+      "path": "skills/nolan-director/SKILL.md",
+      "source_sha256": "252e1774df5e570dd493e73f8d5f7fd8f1e34887bc9dcd884f5f7ac6c9ddcf35",
+      "public_sha256": "252e1774df5e570dd493e73f8d5f7fd8f1e34887bc9dcd884f5f7ac6c9ddcf35",
+      "path_redacted": false
+    },
+    {
+      "path": "tests/compare_retrieval.py",
+      "source_sha256": "3a8e383a8284d42ee38897b591f8882007d288d28f289cf7302ddf2e7ecd5ece",
+      "public_sha256": "3a8e383a8284d42ee38897b591f8882007d288d28f289cf7302ddf2e7ecd5ece",
+      "path_redacted": false
+    },
+    {
+      "path": "tests/run_all.py",
+      "source_sha256": "5727e0a24997a5854bb6ef2e3d1f0809877c552abb4ada957541ac25d1072f84",
+      "public_sha256": "5727e0a24997a5854bb6ef2e3d1f0809877c552abb4ada957541ac25d1072f84",
+      "path_redacted": false
+    },
+    {
+      "path": "tests/test_intent_retrieval.py",
+      "source_sha256": "7ca2ddc41f7dfd57164b531726aae9c97a1b5efba39d1f087184b937cec3c1ee",
+      "public_sha256": "7ca2ddc41f7dfd57164b531726aae9c97a1b5efba39d1f087184b937cec3c1ee",
+      "path_redacted": false
+    },
+    {
+      "path": "tests/test_public_release.py",
+      "source_sha256": "224b63e2c4786c6165b1aea64a8196aff1825164153cb41944e1ac40d13d61fd",
+      "public_sha256": "224b63e2c4786c6165b1aea64a8196aff1825164153cb41944e1ac40d13d61fd",
+      "path_redacted": false
+    },
+    {
+      "path": "tests/test_release.py",
+      "source_sha256": "64083a0867d2612a475b02451f340627b9632b1e85c35d807bd1e8b877dca327",
+      "public_sha256": "64083a0867d2612a475b02451f340627b9632b1e85c35d807bd1e8b877dca327",
+      "path_redacted": false
+    },
+    {
+      "path": "tests/test_scene_integration.py",
+      "source_sha256": "64b2f919208dcdb91b9c83a5e5bf8dc32bd5b0caaf81b95de925dadb8f712d34",
+      "public_sha256": "64b2f919208dcdb91b9c83a5e5bf8dc32bd5b0caaf81b95de925dadb8f712d34",
+      "path_redacted": false
+    },
+    {
+      "path": "tests/verify_source.py",
+      "source_sha256": "25db5ee7327fd63dc91b14027e22dfad5da58170a4ba9c9e494586f131ec056c",
+      "public_sha256": "25db5ee7327fd63dc91b14027e22dfad5da58170a4ba9c9e494586f131ec056c",
+      "path_redacted": false
+    },
+    {
+      "path": "validate_library.py",
+      "source_sha256": "1b6e2a8c476775c18c28d641d43d87fff6e828683976cc584ab7975e2ffdac11",
+      "public_sha256": "1b6e2a8c476775c18c28d641d43d87fff6e828683976cc584ab7975e2ffdac11",
+      "path_redacted": false
+    },
+    {
+      "path": "validation/build-summary.json",
+      "source_sha256": "1e1a0c4df9bdf5814ce5c2645daac32fd48c70f75cc1c6f834ca320f1d90709a",
+      "public_sha256": "1e1a0c4df9bdf5814ce5c2645daac32fd48c70f75cc1c6f834ca320f1d90709a",
+      "path_redacted": false
+    },
+    {
+      "path": "validation/host-feedback-summary.json",
+      "source_sha256": "1263e106ed64bbb7dbc42571ce35ccecb3624810da9857caaa90520694a66e75",
+      "public_sha256": "1263e106ed64bbb7dbc42571ce35ccecb3624810da9857caaa90520694a66e75",
+      "path_redacted": false
+    },
+    {
+      "path": "validation/independent-review.json",
+      "source_sha256": "60462524b230884389be4e66483f7e83f48032ebc2f3a28e7eac6cd1d09367f0",
+      "public_sha256": "60462524b230884389be4e66483f7e83f48032ebc2f3a28e7eac6cd1d09367f0",
+      "path_redacted": false
+    },
+    {
+      "path": "validation/offline-tests.json",
+      "source_sha256": "e49bfe2525438954419dd89da55055fefdfc88f17f6e271694f80abc450fe7a1",
+      "public_sha256": "e49bfe2525438954419dd89da55055fefdfc88f17f6e271694f80abc450fe7a1",
+      "path_redacted": false
+    },
+    {
+      "path": "validation/product-readiness.json",
+      "source_sha256": "643f83df35c7c61e1edfb00c2447fb46a3f34dfd3e30cd8024a5c296583897b1",
+      "public_sha256": "643f83df35c7c61e1edfb00c2447fb46a3f34dfd3e30cd8024a5c296583897b1",
+      "path_redacted": false
+    },
+    {
+      "path": "validation/release-4.1.2.json",
+      "source_sha256": "35ebb123b03774233bd0070389e1f3320b456bdd86d6b80d57d82a948a4d9bb1",
+      "public_sha256": "35ebb123b03774233bd0070389e1f3320b456bdd86d6b80d57d82a948a4d9bb1",
+      "path_redacted": false
+    },
+    {
+      "path": "validation/retrieval-before/assets/library.json",
+      "source_sha256": "adb3ca7608b6a65b1dd61931f51b5348d523ed5e40b8e5af1167b73552d8b33c",
+      "public_sha256": "adb3ca7608b6a65b1dd61931f51b5348d523ed5e40b8e5af1167b73552d8b33c",
+      "path_redacted": false
+    },
+    {
+      "path": "validation/retrieval-before/recall.py",
+      "source_sha256": "3c8776ff5aca83f0c98f4c4c474f2e22c501b0a6d43ef8093ab6b50f2f793875",
+      "public_sha256": "3c8776ff5aca83f0c98f4c4c474f2e22c501b0a6d43ef8093ab6b50f2f793875",
+      "path_redacted": false
+    },
+    {
+      "path": "validation/retrieval-comparison.json",
+      "source_sha256": "fd129745135194c5fe38956b3f11ecca66f750bedaf0c5deacc41212161eeae5",
+      "public_sha256": "fd129745135194c5fe38956b3f11ecca66f750bedaf0c5deacc41212161eeae5",
+      "path_redacted": false
+    },
+    {
+      "path": "validation/source-rebuild.json",
+      "source_sha256": "2b1889e333044aebb39d02d37d072a83982e561773b0c6fd77ec7de170980384",
+      "public_sha256": "2b1889e333044aebb39d02d37d072a83982e561773b0c6fd77ec7de170980384",
+      "path_redacted": false
+    },
+    {
+      "path": "validation/验收报告.md",
+      "source_sha256": "5e8145b0b62e72b0747ad10cae82b9f7b733840526fff2f160dd64cce9fc51bb",
+      "public_sha256": "5e8145b0b62e72b0747ad10cae82b9f7b733840526fff2f160dd64cce9fc51bb",
+      "path_redacted": false
+    },
+    {
+      "path": "给客户的安装说明.txt",
+      "source_sha256": "8ac9d64c3763c1542941f2c6dfb2e62aa36d52b2a6248ebc9c4fafee7c16164b",
+      "public_sha256": "8ac9d64c3763c1542941f2c6dfb2e62aa36d52b2a6248ebc9c4fafee7c16164b",
+      "path_redacted": false
+    }
+  ]
+}

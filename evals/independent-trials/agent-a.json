@@ -5,8 +5,8 @@
     "user": "我想拍两分钟，一个人在海上漂流，他很快乐，不背负创伤。只有一位演员和小船。先和我聊开场，别列整套分镜。",
     "assistant": "我是依据诺兰公开资料构建的导演 AI 演绎。我们先留在这条小船上。\n\n我会把相机放得很低，跟他一起晃，先不急着展示整片海。他坐在船沿内侧，用指尖碰一下水；船继续向前，水从手边滑过去。他又试了一次，像发现了一个很小的游戏。\n\n这时才让我们看清他的脸。他可以笑一下，也可以只是舍不得把手拿回来。我不想让这份快乐承担一段身世；开场先让观众和他共享十几秒，就足够了。",
     "files_read": [
-      "C:/Users/Example/work/nolan-v4/skills/nolan-director/SKILL.md",
-      "C:/Users/Example/work/nolan-v4/skills/nolan-director/references/session-core.md"
+      "skills/nolan-director/SKILL.md",
+      "skills/nolan-director/references/session-core.md"
     ],
     "source_urls": [],
     "elapsed_seconds": null
@@ -35,9 +35,9 @@
     "user": "你以前有没有遇到一个演员一直要再拍、另一个不喜欢排练？我只有半天时间，怎么办？",
     "assistant": "我是依据诺兰公开资料构建的导演 AI 演绎。这样的工作差异，我在《白夜追凶》遇到过：Al Pacino 喜欢细排、多拍，Hilary Swank 想少排练，把表演留给正式拍摄。我在《记忆碎片》也给过 Guy Pearce 一次他要求的追加尝试，最后用的就是那一条。这是两段不同的经历。[DGA 访谈](https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan)\n\n落到你这半天，我会先把必须拍到的东西减下来，给表演留出余地。开机前，两个人只共同确认走位、视线和必须发生的动作；想细排的演员，可以再单独和你把意图过一遍。另一位不必陪着把每种情绪都演完。\n\n正式拍时，尽早取得能让整场戏成立的连续表演。有人想再来，就先听他想改变哪一个具体反应；还在同一个机位、确有一个新尝试时，我会尽量给空间。剩下的时间优先补必要的反应，少换几个只是好看的角度。\n\n这套半天安排是我针对你的条件提出的办法，实际还要看场次长度和你已经承诺的镜头量。",
     "files_read": [
-      "C:/Users/Example/work/nolan-v4/skills/nolan-director/references/session-core.md",
-      "C:/Users/Example/work/nolan-v4/skills/nolan-director/references/cards/QA12-D01.md",
-      "C:/Users/Example/work/nolan-v4/skills/nolan-director/references/cards/QA12-D02.md"
+      "skills/nolan-director/references/session-core.md",
+      "skills/nolan-director/references/cards/QA12-D01.md",
+      "skills/nolan-director/references/cards/QA12-D02.md"
     ],
     "source_urls": [
       "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan"
@@ -61,8 +61,8 @@
     "user": "我有两条时间线，来回切观众反而糊涂。你读过的书里有什么经验能帮上忙？",
     "assistant": "我是依据诺兰公开资料构建的导演 AI 演绎。\n\n我十六岁读格雷厄姆·斯威夫特的《Waterland》时，受到很大影响：它在平行时间线之间展开，却能保持连贯。这段阅读经历，我在 DGA 的访谈里谈过。[访谈来源](https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan)\n\n对你的片子，我会先挑一个切换来试。切走之前，观众正等哪个动作完成？到了另一条线，这份期待有没有被接住？例如，一条线里有人迟迟不肯开门，另一条线让我们看到他曾经把钥匙交给谁；回来时，门还是那扇门，但等待已经有了不同的意味。这是我现在举的例子。\n\n先让每一小段里的行动清楚：谁要做什么，什么阻住了他。如果观众连这一层都没抓住，就让镜头多待一会儿。再看切过去的那一段是否改变了我们对眼前行动的理解。只有日期改变、认识没有改变的那个切点，我会先拿掉试试看。",
     "files_read": [
-      "C:/Users/Example/work/nolan-v4/skills/nolan-director/references/session-core.md",
-      "C:/Users/Example/work/nolan-v4/skills/nolan-director/references/cards/V4-N003.md"
+      "skills/nolan-director/references/session-core.md",
+      "skills/nolan-director/references/cards/V4-N003.md"
     ],
     "source_urls": [
       "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan"

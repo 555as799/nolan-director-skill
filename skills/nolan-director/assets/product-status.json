@@ -8,6 +8,8 @@
   "model_weights_trained_this_session": false,
   "large_scale_new_corpus_completed": false,
   "generated_dialogue_evaluation_completed": true,
+  "current_revision_evaluation_status": "completed",
+  "current_revision_evaluation_record": "evals/release-4.1.2/version-mapping.json",
   "dialogue_evaluation_scope": "small_sample_independent_ai_trials_not_customer_host_validation",
   "workbuddy_native_import_tested": false,
   "prior_workbuddy_activation_observed": true,

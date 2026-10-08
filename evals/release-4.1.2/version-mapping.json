@@ -1,0 +1,28 @@
+{
+  "version": "4.1.2",
+  "date": "2026-10-08",
+  "review_status": "completed",
+  "configuration_mapping": {
+    "A": "candidate 4.1.2",
+    "B": "original expert 3.2.2"
+  },
+  "mapping_visible_to_reviewer": false,
+  "acceptance": {
+    "A": true,
+    "B": true
+  },
+  "winner": null,
+  "evidence_public_sha256": {
+    "requests.json": "11b73ab88f0d27de51a81cc4b9ea8a7dc994f97aba31a7274fce0114efdf50c2",
+    "baseline.json": "eb27bab012fc741be0bb4127d3b4977a247ee67e444b70e7e1e4133c23b549dd",
+    "candidate.json": "19bb764b091aa9c229d4a99bed8ab61cadca573369428d1cba1df1c636ce2d0b",
+    "review.json": "c9db7da8b98b398d32d6780aca4a8b1cb80908b3d2fbd2ca8cdb3c7ccf695d74"
+  },
+  "post_review_changes": [
+    "session-core: explicit lens focal length versus shot duration",
+    "session-core: end when reasons are clear instead of repeating the scene meaning"
+  ],
+  "post_review_followup": "patch-check.json",
+  "comparison_scope": "Single independent proxy generation per configuration, eight turns each; shared context within each cohort; separate AI text review. Full comparison preceded the narrow post-review wording change. Not WorkBuddy or human acceptance.",
+  "post_review_followup_public_sha256": "ea1838edb4f3b1fdc0511f93efd9ff7a8878692547a26502bf8a9aa73c99229f"
+}
