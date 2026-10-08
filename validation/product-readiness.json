@@ -106,7 +106,7 @@
   "software_validation": {
     "version": "4.1.3",
     "suite": "full_offline_suite",
-    "skill_integrity_sha256": "16e5f825093a1e56e916e8ed9b7843034140f4b9f94c4da3a3ca79816521106f",
+    "skill_integrity_sha256": "022a49b152da02bc678e16c79ec7add66dc8c1bd700a5026d2d259745bf51502",
     "tests_run": 82,
     "failures": 0,
     "errors": 0,

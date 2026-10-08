@@ -172,8 +172,8 @@
     },
     {
       "path": "evals/release-4.1.3/version-mapping.json",
-      "source_sha256": "b6e4fbd36f22f235d55d145a2e0deb6e80de6c62c06789b93d7342eb90bbd1cd",
-      "public_sha256": "685feea80042485eca98a986d38a7626976241a23a02b947960fae3f51e6eefe",
+      "source_sha256": "1202d59b3eef5d987688eb974823424dab1727c8dd067d47a528439c807afef2",
+      "public_sha256": "b57105ba8b64fd8fb06e42818d3ea26816d310cf0947e06a94edaf21707dacfb",
       "path_redacted": false
     },
     {
@@ -292,8 +292,8 @@
     },
     {
       "path": "skills/nolan-director/assets/integrity.json",
-      "source_sha256": "16e5f825093a1e56e916e8ed9b7843034140f4b9f94c4da3a3ca79816521106f",
-      "public_sha256": "16e5f825093a1e56e916e8ed9b7843034140f4b9f94c4da3a3ca79816521106f",
+      "source_sha256": "022a49b152da02bc678e16c79ec7add66dc8c1bd700a5026d2d259745bf51502",
+      "public_sha256": "022a49b152da02bc678e16c79ec7add66dc8c1bd700a5026d2d259745bf51502",
       "path_redacted": false
     },
     {
@@ -304,8 +304,8 @@
     },
     {
       "path": "skills/nolan-director/assets/library.sqlite",
-      "source_sha256": "aaf4491edec42cbce90382ebb47a529b83b49bbe10f31425f1bba111c11c286f",
-      "public_sha256": "aaf4491edec42cbce90382ebb47a529b83b49bbe10f31425f1bba111c11c286f",
+      "source_sha256": "2732dec13b74c4a23b4307f81f4a9efd247798a8b5e45376761491e58e5d4415",
+      "public_sha256": "2732dec13b74c4a23b4307f81f4a9efd247798a8b5e45376761491e58e5d4415",
       "path_redacted": false
     },
     {
@@ -2074,8 +2074,8 @@
     },
     {
       "path": "skills/nolan-director/SKILL.md",
-      "source_sha256": "04a305fd8e82c8d23ab0f0820ed9732de045f659200538ae7da5e91b869e3df8",
-      "public_sha256": "04a305fd8e82c8d23ab0f0820ed9732de045f659200538ae7da5e91b869e3df8",
+      "source_sha256": "195dea397b5cba77abd40fd2371ca2e3083ba405290cb4395e990e0f5df1b0bf",
+      "public_sha256": "195dea397b5cba77abd40fd2371ca2e3083ba405290cb4395e990e0f5df1b0bf",
       "path_redacted": false
     },
     {
@@ -2152,14 +2152,14 @@
     },
     {
       "path": "validation/offline-tests.json",
-      "source_sha256": "6a59bfec8f9d3adb5dfb3fccf64bcc7d2489288e3d1d5f13a0169b5710e577e3",
-      "public_sha256": "6a59bfec8f9d3adb5dfb3fccf64bcc7d2489288e3d1d5f13a0169b5710e577e3",
+      "source_sha256": "5670616240c50323dc0551a04dd13005ec72787501b6b719de50c3b99aeaf487",
+      "public_sha256": "5670616240c50323dc0551a04dd13005ec72787501b6b719de50c3b99aeaf487",
       "path_redacted": false
     },
     {
       "path": "validation/product-readiness.json",
-      "source_sha256": "be81f05bfd5db01c198f1a18c7c2df9fa6e8da572787d1d9690a1bdb7fb92977",
-      "public_sha256": "be81f05bfd5db01c198f1a18c7c2df9fa6e8da572787d1d9690a1bdb7fb92977",
+      "source_sha256": "4bec41a3d6a5485225d729e45d7ee671be27ecb030b819ff0f7aded5ce3218d5",
+      "public_sha256": "4bec41a3d6a5485225d729e45d7ee671be27ecb030b819ff0f7aded5ce3218d5",
       "path_redacted": false
     },
     {
@@ -2170,8 +2170,8 @@
     },
     {
       "path": "validation/release-4.1.3.json",
-      "source_sha256": "26cd43ff67b0606a6928d512624b75e03366690e41c6340a99e8a70e086be7b4",
-      "public_sha256": "26cd43ff67b0606a6928d512624b75e03366690e41c6340a99e8a70e086be7b4",
+      "source_sha256": "d6ee3e8fd1702d309666de1045b98f414d7c9af8584116b0bba8877308314594",
+      "public_sha256": "d6ee3e8fd1702d309666de1045b98f414d7c9af8584116b0bba8877308314594",
       "path_redacted": false
     },
     {
@@ -2194,8 +2194,8 @@
     },
     {
       "path": "validation/source-rebuild.json",
-      "source_sha256": "0b308340ea27671d5b22a799a37f40b47e0a4e57c1cfeccf7b827e63da2b7762",
-      "public_sha256": "0b308340ea27671d5b22a799a37f40b47e0a4e57c1cfeccf7b827e63da2b7762",
+      "source_sha256": "aa12eb5d3ea72bb8a54b6c8a726d189546e6c825a5d2582988d39b5ef98e7e7a",
+      "public_sha256": "aa12eb5d3ea72bb8a54b6c8a726d189546e6c825a5d2582988d39b5ef98e7e7a",
       "path_redacted": false
     },
     {

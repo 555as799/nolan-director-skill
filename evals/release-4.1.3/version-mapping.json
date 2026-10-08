@@ -14,7 +14,7 @@
     "review.json": "06d072b6c9e6919b1271fe9420ef452d4ba9cb9c0b8b08bbf0626b1e5be45628"
   },
   "runtime_files_sha256": {
-    "SKILL.md": "04a305fd8e82c8d23ab0f0820ed9732de045f659200538ae7da5e91b869e3df8",
+    "SKILL.md": "195dea397b5cba77abd40fd2371ca2e3083ba405290cb4395e990e0f5df1b0bf",
     "references/session-core.md": "ced933938a60c7843d4242f842ea16987ce89ead129190e24bffb19d92eff4db",
     "references/voice-and-dialogue.md": "f30d99cfdbb20b94d09e0c8ddf34f179eef42af3ce31a4d1f8498ea6ceec40c3",
     "references/situations.json": "ca6f09c552352d70a334866b4f52c2ddb1563efa174da38a7dccd45edb679395"
@@ -22,5 +22,5 @@
   "baseline_archive_sha256": "312c43fdd13e9e425cc76ef8a772ba6965e419d2a3bfce2d46286f30078a0d4f",
   "baseline_download": "https://github.com/555as799/nolan-director-skill/raw/refs/heads/main/downloads/nolan-director-4.1.2-workbuddy.zip",
   "comparison_scope": "Independent Codex proxies, same context within each cohort; synthetic developer tasks; not the WorkBuddy model, human ratings, or a fidelity benchmark.",
-  "timing_limit": "During candidate generation, an unused music-navigation link and legacy N01 focal-length term were corrected; original trial responses were not rewritten. Candidate record discloses timing."
+  "timing_limit": "During candidate generation, an unused music-navigation link and legacy N01 focal-length term were corrected; original trial responses were not rewritten. Candidate record discloses timing. After review, one literal ellipsis path in explanatory prose was replaced with plain language because Linux validation treated it as a real reference; no conversational policy or example changed."
 }

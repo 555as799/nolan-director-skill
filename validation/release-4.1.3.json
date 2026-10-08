@@ -142,5 +142,12 @@
   "training": {
     "new_parameter_training": false
   },
-  "public_boundary": "Only synthetic dialogue tests and generalized feedback; real customer scene and trace remain local."
+  "public_boundary": "Only synthetic dialogue tests and generalized feedback; real customer scene and trace remain local.",
+  "publication_fix": {
+    "trigger": "First GitHub Linux run treated a literal ellipsis path in prose as a missing reference; Windows normalizes trailing dots and did not flag it.",
+    "correction": "Removed the placeholder spelling from explanatory prose; kept all actual reference paths.",
+    "initial_commit": "8eee19b232d9f852b9c2787f357b671b7aceea5b",
+    "initial_ci_url": "https://github.com/555as799/nolan-director-skill/actions/runs/37724232021",
+    "dialogue_change": false
+  }
 }

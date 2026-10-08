@@ -15,7 +15,7 @@
     },
     {
       "path": "assets/library.sqlite",
-      "sha256": "aaf4491edec42cbce90382ebb47a529b83b49bbe10f31425f1bba111c11c286f"
+      "sha256": "2732dec13b74c4a23b4307f81f4a9efd247798a8b5e45376761491e58e5d4415"
     },
     {
       "path": "assets/original-shot-study.png",
@@ -1195,7 +1195,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "04a305fd8e82c8d23ab0f0820ed9732de045f659200538ae7da5e91b869e3df8"
+      "sha256": "195dea397b5cba77abd40fd2371ca2e3083ba405290cb4395e990e0f5df1b0bf"
     }
   ]
 }
