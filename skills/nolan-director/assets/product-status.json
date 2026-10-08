@@ -1,7 +1,7 @@
 {
-  "version": "4.1.2",
+  "version": "4.1.3",
   "stage": "release_candidate",
-  "revision": "sourced-persona-and-continuity-1",
+  "revision": "experience-led-dialogue-2",
   "delivery_scope": "portable_persona_skill",
   "parameter_training_required_for_current_scope": false,
   "ready_for_final_release": false,
@@ -9,11 +9,11 @@
   "large_scale_new_corpus_completed": false,
   "generated_dialogue_evaluation_completed": true,
   "current_revision_evaluation_status": "completed",
-  "current_revision_evaluation_record": "evals/release-4.1.2/version-mapping.json",
+  "current_revision_evaluation_record": "evals/release-4.1.3/version-mapping.json",
   "dialogue_evaluation_scope": "small_sample_independent_ai_trials_not_customer_host_validation",
   "workbuddy_native_import_tested": false,
   "prior_workbuddy_activation_observed": true,
-  "prior_workbuddy_dialogue_quality": "user_rejected_4.1.0",
+  "prior_workbuddy_dialogue_quality": "user_rejected_4.1.0_and_4.1.2",
   "current_workbuddy_dialogue_quality": "not_yet_observed",
   "note": "Packaging and retrieval checks are not evidence of persona or creative quality."
 }

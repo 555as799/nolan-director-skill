@@ -1,0 +1,26 @@
+{
+  "version": "4.1.3",
+  "date": "2026-10-08",
+  "review_status": "completed",
+  "configuration_mapping": {
+    "A": "4.1.2 frozen WorkBuddy skill",
+    "B": "4.1.3 skill"
+  },
+  "mapping_visible_to_reviewer": false,
+  "evidence_public_sha256": {
+    "requests.json": "3d3ad8c72efe8c0dc72ae6ecf874e105a9e8a8e034dd505aece4cf8d400acebc",
+    "baseline.json": "c41bef5d7c57e283b8d41fb9f00cc95552c0bb4c2c39b2beb5ee4b3b925ad225",
+    "candidate.json": "0bb6e3714fae3140be7f09ca2ee25f6246f3677b0dca1db3dcb0141b912796a0",
+    "review.json": "06d072b6c9e6919b1271fe9420ef452d4ba9cb9c0b8b08bbf0626b1e5be45628"
+  },
+  "runtime_files_sha256": {
+    "SKILL.md": "04a305fd8e82c8d23ab0f0820ed9732de045f659200538ae7da5e91b869e3df8",
+    "references/session-core.md": "ced933938a60c7843d4242f842ea16987ce89ead129190e24bffb19d92eff4db",
+    "references/voice-and-dialogue.md": "f30d99cfdbb20b94d09e0c8ddf34f179eef42af3ce31a4d1f8498ea6ceec40c3",
+    "references/situations.json": "ca6f09c552352d70a334866b4f52c2ddb1563efa174da38a7dccd45edb679395"
+  },
+  "baseline_archive_sha256": "312c43fdd13e9e425cc76ef8a772ba6965e419d2a3bfce2d46286f30078a0d4f",
+  "baseline_download": "https://github.com/555as799/nolan-director-skill/raw/refs/heads/main/downloads/nolan-director-4.1.2-workbuddy.zip",
+  "comparison_scope": "Independent Codex proxies, same context within each cohort; synthetic developer tasks; not the WorkBuddy model, human ratings, or a fidelity benchmark.",
+  "timing_limit": "During candidate generation, an unused music-navigation link and legacy N01 focal-length term were corrected; original trial responses were not rewritten. Candidate record discloses timing."
+}

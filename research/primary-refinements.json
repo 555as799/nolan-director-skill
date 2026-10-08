@@ -2,6 +2,8 @@
   "reviewed_on": "2026-10-07",
   "scope": "相关段落核读；没有观看整段视频或完成逐帧研究。新卡是已存在来源的细化，部分与旧概念卡重合，不算新增独立来源。",
   "reviewed_existing": [
+    {"id": "QA12-DI02", "source_id": "S06", "reviewed_on": "2026-10-08", "locator": "ASC Dream Thieves：L211–212；Nolan说明高速摄影与梦境/清醒的特定时间关系", "observation": "重新核读发布者正文：Nolan过去很少使用慢动作，本片以它承担时间关系的叙事任务；不推广为所有场景均慢放。"},
+    {"id": "QA12-DI03", "source_id": "S06", "reviewed_on": "2026-10-08", "locator": "ASC Dream Thieves：L253–255；Pfister与Nolan关于地点自然色调和交叉剪辑的连续发言", "observation": "重新核读发布者正文：Nolan在剧本中安排自然不同的地点，与摄影、美术、声音协作以支持交叉剪辑；具体冷暖色调描述来自Pfister，保留联合归属，不升级为Nolan单人自述。"},
     {"id": "QA12-D01", "source_id": "S21", "locator": "DGA 2012：How do you accommodate actors... 问答", "observation": "Pacino 与 Swank 的准备方式对比得到相关段落支持。"},
     {"id": "QA12-D02", "source_id": "S21", "locator": "DGA 2012：What did you pick up... 问答", "observation": "Guy Pearce 请求再拍并采用该条的经历得到相关段落支持。"},
     {"id": "QA12-I06", "source_id": "S21", "locator": "DGA 2012：budget for Insomnia... 问答", "observation": "从朋友合作到大型剧组的比较得到相关段落支持。"},

@@ -2,60 +2,42 @@
   "stage": "release_candidate",
   "ready_for_final_release": false,
   "date": "2026-10-08",
-  "version": "4.1.2",
+  "version": "4.1.3",
   "customer_host_feedback": {
-    "date": "2026-10-07",
-    "affected_version": "4.1.0",
-    "revision": "4.1.1",
-    "evidence_type": "customer_supplied_partial_workbuddy_screenshot_and_direct_feedback",
+    "date": "2026-10-08",
+    "affected_version": "4.1.2",
+    "revision": "4.1.3",
+    "evidence_type": "customer_feedback_and_matching_local_host_trace",
+    "customer_acceptance": "rejected",
     "observed": {
-      "skill_selected_in_client": true,
-      "automatic_identity_preface": true,
-      "corrective_opening_before_scene_development": true,
-      "unsupported_claim_restricting_subjective_memory": true,
-      "customer_acceptance": "rejected"
+      "skill_activation": "successful",
+      "session_core_read": "successful",
+      "specific_experience_cards_read": false,
+      "voice_examples_read": false,
+      "retrieval_script_called": false,
+      "tool_error": false,
+      "sourced_personal_experience_in_response": false,
+      "generic_tutorial_structure": true
     },
-    "visibility_limits": "Only the visible portion of a single reply was available. The host model, hidden prompt, loading trace and remainder of the reply were not inspected.",
+    "diagnosis": "Optional experience/voice loading allowed a generic creative response after loading only the core. The core itself contained some experience summaries, so total absence of persona information is not claimed.",
     "fixes": [
-      "Keep product identity disclosure in metadata and documentation; answer direct identity questions truthfully without adding an automatic preface to creative replies.",
-      "Develop the author's intended scene and emotion before critique; give concrete choices and conditional reasons.",
-      "Allow subjective memory, association and ellipsis; distinguish cinematic proposals from factual claims about real cognition.",
-      "Treat historical project exercises as optional context, not universal directing rules."
+      "Embed a small sourced experience fallback in entrypoint",
+      "Read voice guidance at activation and relevant evidence for substantive new tasks",
+      "Connect relevant history to actual creative decisions in the response",
+      "Repair conflicting example first-person attribution and subjective-memory routing"
     ],
-    "knowledge_added_this_revision": 0,
-    "model_weight_training_this_revision": false,
-    "proxy_comparison": {
-      "status": "completed_with_limitations",
-      "environment": "independent_codex_subagents_not_workbuddy",
-      "baseline": "original_3.2.2_configured_expert_entry",
-      "candidate": "4.1.1_skill_entry",
-      "human_blind_review": false,
-      "superiority_established": false,
-      "baseline_assistant_turns": 2,
-      "candidate_assistant_turns": 4,
-      "shared_prompt_turns_per_version": 2,
-      "version_labels_hidden_from_reviewer": true,
-      "candidate_observations": [
-        "No automatic identity preface in either creative opening.",
-        "Subjective memories and author-requested emotional direction developed into concrete scenes.",
-        "Public Waterland reading account was distinguished from newly proposed scene details."
-      ],
-      "tool_observations": [
-        "Python launcher was unavailable in the trial environment; direct card reading was used.",
-        "One linked source timed out; the alternative linked primary source was accessible."
-      ],
-      "limits": "Single generation per prompt in independent proxy agents; logical sessions share context within a candidate; not the WorkBuddy model, not human ratings, not a held-out general-quality result.",
-      "review_type": "single_separate_ai_text_review_with_version_labels_hidden",
-      "review_result": "Both versions usable in these samples; reviewer slightly preferred the original 3.2.2 baseline. Current revision superiority not established.",
-      "remaining_observations": [
-        "Candidate sometimes explained intended audience feelings too conclusively and repeated a full proposal after a short confirmation.",
-        "One user-specified sequence of multiple contributions was developed less fully than in the baseline.",
-        "One proposed action callback referred to a detail not explicitly established earlier."
-      ],
-      "patch_scope": "Addresses the specific host opening and creative-stance failures; does not claim all remaining dialogue weaknesses are solved."
-    },
     "current_revision_workbuddy_reply_observed": false,
-    "public_data_boundary": "Raw customer screenshot, prompt, and scene-specific comparison outputs stay local and are excluded from the public source allowlist."
+    "model_weight_training_this_revision": false,
+    "historical_4_1_0_feedback": {
+      "customer_acceptance": "rejected",
+      "fixes": [
+        "Keep product identity disclosure in metadata and documentation; answer direct identity questions truthfully without adding an automatic preface to creative replies.",
+        "Develop the author's intended scene and emotion before critique; give concrete choices and conditional reasons.",
+        "Allow subjective memory, association and ellipsis; distinguish cinematic proposals from factual claims about real cognition.",
+        "Treat historical project exercises as optional context, not universal directing rules."
+      ]
+    },
+    "public_data_boundary": "No raw customer screenshot, prompt, response, session identifier, local trace path or credential is included. Public trials use synthetic questions."
   },
   "counts": {
     "cards": 204,
@@ -104,8 +86,8 @@
       "S24",
       "V4-FANDANGO-2017"
     ],
-    "v4_cards_with_relevant_passage_review": 37,
-    "v4_cards_with_inherited_review_only": 167,
+    "v4_cards_with_relevant_passage_review": 39,
+    "v4_cards_with_inherited_review_only": 165,
     "original_example_cards": 57,
     "v4_behavior_cases_prepared": 25,
     "v4_behavior_cases_executed": 0,
@@ -122,10 +104,10 @@
     "Positive proxy-agent reviews outweigh a real customer-host failure"
   ],
   "software_validation": {
-    "version": "4.1.2",
+    "version": "4.1.3",
     "suite": "full_offline_suite",
-    "skill_integrity_sha256": "443cb8ead4255008f87ba5e65dcd27b50038c127310cb2d4e9e8d26cc42e28e9",
-    "tests_run": 72,
+    "skill_integrity_sha256": "16e5f825093a1e56e916e8ed9b7843034140f4b9f94c4da3a3ca79816521106f",
+    "tests_run": 82,
     "failures": 0,
     "errors": 0,
     "status": "passed",
@@ -155,19 +137,19 @@
     "limits": "small samples; logical sessions share one agent context per cohort; no human blind ratings, voice evaluation, customer-host model comparison or general accuracy claim"
   },
   "current_revision_dialogue_evaluation": {
-    "version": "4.1.2",
+    "version": "4.1.3",
     "status": "completed",
     "completed": true,
-    "directory": "evals/release-4.1.2",
+    "directory": "evals/release-4.1.3",
     "missing_records": [],
     "quality_acceptance_inferred": false,
     "scope": "independent_ai_proxy_comparison_not_customer_host_validation",
     "records": [
-      "evals/release-4.1.2/requests.json",
-      "evals/release-4.1.2/baseline.json",
-      "evals/release-4.1.2/candidate.json",
-      "evals/release-4.1.2/review.json",
-      "evals/release-4.1.2/version-mapping.json"
+      "evals/release-4.1.3/requests.json",
+      "evals/release-4.1.3/baseline.json",
+      "evals/release-4.1.3/candidate.json",
+      "evals/release-4.1.3/review.json",
+      "evals/release-4.1.3/version-mapping.json"
     ]
   },
   "prior_training_record": {
@@ -200,7 +182,7 @@
     "No complete verified reading history or complete film/scene analysis is available.",
     "New passage-reviewed cards overlap with old concepts; the current build is not a corpus deduplication study.",
     "Independent AI trials were run; no held-out old/new comparison on the customer model has been run.",
-    "MIT and NOTICE define authored-content scope; third-party works remain separately attributed; no public repository has been published."
+    "MIT and NOTICE define authored-content scope; third-party works remain separately attributed. Publication status is separate from creative acceptance."
   ],
   "duplicate_source_urls": {
     "https://open.workbuddy.cn/en/docs/expert": 2
@@ -211,12 +193,12 @@
     "source_by_source_evidence_audit": "incomplete",
     "corpus_expansion": {
       "added_cards_with_overlap": 33,
-      "inherited_cards_rechecked": 4
+      "inherited_cards_rechecked": 6
     },
     "model_parameter_training": "not_done_not_required_for_current_skill_scope",
     "generated_dialogue_and_creative_evaluation": "completed",
     "historical_ai_trial_evidence": "available",
-    "workbuddy_native_customer_workflow": "4.1.0_activation_observed_dialogue_rejected;current_revision_unverified",
+    "workbuddy_native_customer_workflow": "4.1.0_and_4.1.2_activation_observed_dialogue_rejected;4.1.3_unverified",
     "open_source_release_preparation": "prepared"
   }
 }

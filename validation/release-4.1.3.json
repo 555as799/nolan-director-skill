@@ -1,0 +1,146 @@
+{
+  "version": "4.1.3",
+  "date": "2026-10-08",
+  "timezone": "Asia/Shanghai",
+  "status": "release_candidate",
+  "ready_for_final_customer_acceptance": false,
+  "changes": [
+    "Experience embedded in entry and required relevant-card preparation",
+    "Voice examples at activation and natural conversational decision-making",
+    "Six historical example conflicts corrected",
+    "Subjective memory/time routing and ten regression cases",
+    "Two existing primary source passages rechecked"
+  ],
+  "corpus": {
+    "cards": 204,
+    "sources": 73,
+    "nolan_self_report_candidates": 46,
+    "cards_with_passage_review": 39,
+    "new_cards_this_revision": 0
+  },
+  "current_proxy_evaluation": {
+    "record": "evals/release-4.1.3/version-mapping.json",
+    "status": "completed",
+    "baseline_turns": 8,
+    "candidate_turns": 8,
+    "logical_sessions_each": 4,
+    "separate_ai_text_review": true,
+    "version_mapping_hidden": true,
+    "review_findings": {
+      "review_type": "independent_anonymous_dialogue_review",
+      "scope": "Read only blind-input.json: A and B, eight turns each across four logical sessions. Opened only the two interviews already cited in those responses for bounded factual checks. No configuration mapping, runtime, other reviews, or model/host comparison was examined.",
+      "material_violations": {
+        "A": [],
+        "B": []
+      },
+      "observations": {
+        "A": [
+          {
+            "session": "platform_memory",
+            "turns": [
+              1,
+              2
+            ],
+            "finding": "Substantive experience application: the cited influence of The Wall supports associative visual transitions between memories, and the follow-up identifies the affected choice. It expressly distinguishes this influence from the newly proposed action matches and locations. This is broader than a documented production technique, but is not merely a film-name mention. The hopeful tone and distinct city environments are preserved. The response also acknowledges that ten seconds may require fewer memories."
+          },
+          {
+            "session": "family_performance",
+            "turns": [
+              1,
+              2
+            ],
+            "finding": "The Pacino/Swank example directly motivates separate preparation within a half-day shoot. The Pearce example bears on the immediate extra-take decision; the follow-up does not repeat the full method. Its advice could better distinguish the daughter's satisfaction with the material from exhaustion, but the supplied dialogue does not establish a material constraint violation."
+          },
+          {
+            "session": "small_world",
+            "turns": [
+              1,
+              2
+            ],
+            "finding": "The cited Blade Runner influence becomes a concrete choice: offscreen activity affects visible behavior and sound while the camera stays inside with two actors. The correction contains only one lighter line, as requested."
+          },
+          {
+            "session": "source_honesty",
+            "turns": [
+              1,
+              2
+            ],
+            "finding": "Rejects the unsupported Three-Body reading/influence premise and explicitly distinguishes a present comparison from historical evidence. Exits the role and accurately explains the conceptual difference between instruction/retrieval resources and weight training; actual execution claims remain outside this review's observable evidence."
+          },
+          {
+            "session": "overall",
+            "finding": "Conversational prose without automatic lecture headings or identity prefaces. Initial advice is somewhat long, and the same DGA link appears in all five extended creative/advice turns; the repeated link in the platform clarification is defensible because the user explicitly asks about its evidential role, but source repetition and occasional late placement make the experience feel more appended than in B. Actors retain attribution and proposed scenes are identified as proposals."
+          }
+        ],
+        "B": [
+          {
+            "session": "platform_memory",
+            "turns": [
+              1,
+              2
+            ],
+            "finding": "The Inception account supports a specific personal filmmaking choice, using altered speed for temporal storytelling. The response connects it directly to a slightly slowed train and normal-speed memories, identifies that application as a new proposal, and later says when to discard it. This is a particularly explicit causal link. Distinct city spaces and sound textures remain intact; the ten-second duration has not been tested in an edit."
+          },
+          {
+            "session": "family_performance",
+            "turns": [
+              1,
+              2
+            ],
+            "finding": "Like A, the documented Pacino/Swank contrast changes the preparation plan and the Pearce example informs whether to allow another take. The follow-up stays on the immediate decision and usefully checks whether the daughter's objection reflects fatigue. It still includes an anecdote, but that anecdote is relevant rather than a forced digression."
+          },
+          {
+            "session": "small_world",
+            "turns": [
+              1,
+              2
+            ],
+            "finding": "The Blade Runner influence motivates offscreen events that alter the actors' timing inside the single location. No extra visible actor or exterior is required. The requested lighter replacement is returned as dialogue only."
+          },
+          {
+            "session": "source_honesty",
+            "turns": [
+              1,
+              2
+            ],
+            "finding": "Rejects the unsupported reading history and influence claim, and offers present-day textual comparison without inventing a memory. Leaves the role and correctly distinguishes contextual prompting/retrieval from fine-tuning; its statements about what was read, run, or trained cannot be independently verified from anonymous response text."
+          },
+          {
+            "session": "overall",
+            "finding": "Generally more compact initial replies and earlier integration of the relevant experience. Uses two interview sources and avoids reciting the platform citation in the clarification. Still repeats the DGA source across the acting and small-world exchanges. No automatic identity preface, obvious collaborator misattribution, or invented historical production event was found."
+          }
+        ]
+      },
+      "source_checks": [
+        {
+          "url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+          "result": "The interview supports the claimed The Wall and Blade Runner influences, differing Pacino/Swank preparation preferences, and Pearce's additional take exceeding Nolan's expectations. The new short-film proposals are applications, not events established by this interview."
+        },
+        {
+          "url": "https://theasc.com/article/dream-thieves-wally-pfister-asc-and-christopher-nolan-on-inception/",
+          "result": "Nolan's quoted comments support B's account of previously limited slow-motion use and its temporal narrative purpose in Inception. The proposed train/memory speed relationship is clearly an inference for the user's scene, not a reported historical technique for that scene."
+        }
+      ],
+      "winner": null,
+      "reason": "Both configurations contain meaningful sourced experience that changes advice. B offers a clearer production-choice link in the platform exchange, somewhat tighter initial prose, and a useful fatigue check; A offers explicit timing feasibility and careful source/application boundaries. These local differences do not demonstrate overall superiority across this small sample, and they do not support claiming that only one configuration uses experience substantively.",
+      "limitations": [
+        "One fixed anonymous sample per configuration; no repeated generations or broader behavioral coverage.",
+        "The review assesses supplied dialogue, not persistent memory, runtime execution, training logs, model weights, skill contents, or host behavior.",
+        "First-person filmmaking statements were assessed as role dialogue against cited public evidence; exiting the role was evaluated from the explicit final user request. The sample does not establish whether a separate initial role disclosure occurred.",
+        "Practical pacing, actor response, and sound design remain proposals and were not tested in production."
+      ]
+    },
+    "scope": "Independent Codex proxies, same context within each cohort; synthetic developer tasks; not the WorkBuddy model, human ratings, or a fidelity benchmark."
+  },
+  "software_evidence": "validation/offline-tests.json",
+  "workbuddy": {
+    "previous_4_1_2_quality": "user_rejected",
+    "loading_diagnosis": "validated_against_relevant_local_trace",
+    "current_revision_native_dialogue": "not_observed",
+    "local_install_is_not_creative_acceptance": true
+  },
+  "training": {
+    "new_parameter_training": false
+  },
+  "public_boundary": "Only synthetic dialogue tests and generalized feedback; real customer scene and trace remain local."
+}

@@ -1,5 +1,5 @@
 {
-  "version": "4.1.2",
+  "version": "4.1.3",
   "baseline_files_verified_at_migration": 171,
   "cards": 204,
   "source_entries": 73,
@@ -13,10 +13,10 @@
   "passage_checked_supplement_cards": 6,
   "passage_checked_refined_cards": 6,
   "passage_checked_expansion_cards": 21,
-  "existing_cards_rechecked": 4,
-  "total_passage_checked_cards": 37,
+  "existing_cards_rechecked": 6,
+  "total_passage_checked_cards": 39,
   "all_baseline_sources_rechecked": false,
   "new_weight_training": false,
   "workbuddy_native_import_tested": false,
-  "content_sha256": "31ddf6fe30cd819eb0ac6aec783e288b6a211548ba16e6817a644e0f37b108ea"
+  "content_sha256": "6e487163d785ced98f58def74341390c268c98133c53b5f24e568b4b6263f3a2"
 }

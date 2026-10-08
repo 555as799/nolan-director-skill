@@ -1,6 +1,6 @@
 # Nolan Director Skill
 
-[简体中文](README.md) · **4.1.2 release candidate** · CineMatrix
+[简体中文](README.md) · **4.1.3 release candidate** · CineMatrix
 
 An installable filmmaking conversation skill with a first-person creative persona, a portable research library, and workflows for discussing scripts, performance, camera placement, editing, and sound. It draws on relevant public accounts of Christopher Nolan's work and returns to the author's specific creative problem.
 
@@ -8,15 +8,15 @@ This is an **AI portrayal based on public sources**, not Christopher Nolan or an
 
 ## Use in WorkBuddy
 
-Download the [WorkBuddy package](https://github.com/555as799/nolan-director-skill/raw/refs/heads/main/downloads/nolan-director-4.1.2-workbuddy.zip) and import it through the Skills page: **Add Skill → Upload Skill**. Local builds write this archive to `dist/`. Confirm that the skill is enabled, start a new conversation, and explicitly request it:
+Download the [WorkBuddy package](https://github.com/555as799/nolan-director-skill/raw/refs/heads/main/downloads/nolan-director-4.1.3-workbuddy.zip) and import it through the Skills page: **Add Skill → Upload Skill**. Local builds write this archive to `dist/`. Confirm that the skill is enabled, start a new conversation, and explicitly request it:
 
 > Use the Nolan Director skill for this ongoing creative conversation. I am making a two-minute short about someone drifting at sea, feeling free and happy. I have one performer and one small boat. Let's discuss the opening first, without producing a complete shot list.
 
-Continue with ordinary questions and revisions. Select or invoke the skill again in a new conversation. These instructions follow the [official WorkBuddy Skills documentation](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market). A customer screenshot confirms that version 4.1.0 was invoked in WorkBuddy and produced an unsatisfactory response. Version 4.1.2 still needs validation on that host.
+Continue with ordinary questions and revisions. Select or invoke the skill again in a new conversation. These instructions follow the [official WorkBuddy Skills documentation](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market). Customer responses rejected both 4.1.0 and 4.1.2. A matching local 4.1.2 trace shows successful skill/core loading but no experience-card or voice-example read. Version 4.1.3 fixes that preparation path; its customer-host dialogue remains unverified.
 
 Ordinary use does not require Python, a GPU, a separate database service, or another API key. Host model and browsing usage follow the customer's account. See the [installation guide in Chinese](给客户的安装说明.txt).
 
-For another host supporting local Skills, use the complete `nolan-director` folder in the [portable package](https://github.com/555as799/nolan-director-skill/raw/refs/heads/main/downloads/nolan-director-4.1.2-portable.zip), following that host's installation procedure. Copying only `SKILL.md` leaves out the library. Install the package appropriate to your host.
+For another host supporting local Skills, use the complete `nolan-director` folder in the [portable package](https://github.com/555as799/nolan-director-skill/raw/refs/heads/main/downloads/nolan-director-4.1.3-portable.zip), following that host's installation procedure. Copying only `SKILL.md` leaves out the library. Install the package appropriate to your host.
 
 ## Design
 
@@ -30,7 +30,7 @@ Hosts can read the text index and individual cards directly. Where Python is alr
 
 ## Corpus and evidence
 
-The 4.1.2 inventory contains **204 cards, 73 source entries, and 13 film entry points**: 46 Nolan experience cards, 12 collaborator cards, 89 craft/research cards, and 57 original examples. Relevant source passages for 37 cards were checked in this development round. Other inherited material retains its per-card review status.
+The 4.1.3 inventory contains **204 cards, 73 source entries, and 13 film entry points**: 46 Nolan experience cards, 12 collaborator cards, 89 craft/research cards, and 57 original examples. Relevant source passages for 39 cards were checked in this development round. Other inherited material retains its per-card review status.
 
 Verify counts in the [build summary](validation/build-summary.json) and [canonical library](skills/nolan-director/assets/library.json). Cards can overlap in facts; source entries include engineering documentation. These counts are not counts of unique experiences or interviews, and do not imply every source was reread in full.
 
@@ -42,7 +42,7 @@ Documented reading accounts now include *Waterland*, *A Tale of Two Cities*, *Am
 
 This is a **release candidate** with an installable package and reproducible source. Engineering tests, retrieval regression cases, and small independent AI conversation trials support specific findings. They do not establish human-equivalent directing ability or overall persona fidelity.
 
-Version 4.1.2 adds six sourced working preferences to the session core and two reviewed experience cards. It addresses continuity, individual contributions, and local revision scope while preserving the removal of the automatic identity preface. Independent agents generated eight turns per configuration for the original expert and the revised Skill; a reviewer blind to version labels found no material requirement violation in either sample, without declaring a winner. See the [current release record](validation/release-4.1.2.json) for minor findings and narrow follow-up corrections. No weights were trained. Raw customer images and creative prompts are excluded from public source; release trials use synthetic scenarios. The revised version's performance on the customer's selected WorkBuddy model and broader human creative evaluation remain unverified.
+Version 4.1.3 embeds four concise sourced experiences in the entrypoint, loads voice examples at session start, and checks relevant experience for new substantive creative tasks. Six conflicting examples are repaired, subjective memory/time retrieval is added, and two existing source passages are rechecked. No cards or model weights are added. See the [current release record](validation/release-4.1.3.json) for the eight-turn-per-configuration proxy comparison with 4.1.2 and its limits. Raw customer prompts, images, traces and same-scene retests remain local. Proxy results do not establish customer-host acceptance or equivalence to a real director.
 
 See the [readiness audit](validation/product-readiness.json), [validation report](validation/验收报告.md), [conversation trials](evals/independent-trials/), and [behavior cases](evals/behavior-cases.json). Once a case informs a fix, it is a regression case, not an untouched evaluation sample.
 

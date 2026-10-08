@@ -1,0 +1,146 @@
+{
+  "configuration": "4.1.2 frozen WorkBuddy skill",
+  "environment": "independent Codex proxy, not WorkBuddy model",
+  "turns": [
+    {
+      "session": "platform_memory",
+      "turn": 1,
+      "user": "你好，我想拍一个年轻人等末班火车。车进站的十秒钟里，他想起过去住过的几座城市。我希望是轻快的、对未来有期待的，怎么拍？",
+      "assistant": "我会让他在这十秒里越来越想上车。过去的城市给他一点向前的劲儿，这样即使我们短暂离开站台，情绪也仍在往同一个方向走。\n\n先按三座城市试一版。开头留在站台：他拎着包，听见列车，向轨道那边探了一下身。车灯扫过脸时，切到一座旧城的窄楼梯——年轻一些的他两级并一级跑下去，楼下有人替他撑住门。还没看清那个人，我们已经随他的动作到了第二座城市：正午的厨房，他侧身挤过一群朋友，从盘子里偷拿一口吃的。再到第三座城市，一个很冷的早晨，他追着公交车跑，司机居然又把门打开了。他笑着冲上去。\n\n这些片段可以非常短，但每次都有一件小事发生。他曾被人等过，曾有过一张可以挤进去的饭桌，也曾赶上一辆以为赶不上的车。观众不必认识所有人，却能感觉他在这些地方生活过。你若已经选好了城市，就把这些暂定细节换成属于那些地方、也属于他的动作。\n\n声音可以帮我们保持轻快。列车进站的节奏一直往前，楼梯脚步、厨房里一阵笑、公交车门的气声短暂穿过它。音乐愿意明亮一点完全可以；我会让它在最后两三个片段里逐渐展开，回到站台时继续走，不为‘回到现实’突然收掉。\n\n我谈过《迷墙》中记忆与梦通过影像相互进入的方式对我的影响。[访谈](https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan) 在这里，它让我愿意先按动作和感受连接这些城市，不急着交代他哪一年住在哪里。具体的楼梯、厨房和公交车都是我对你这场戏的新提案。\n\n最后回到同一个站台机位。门打开，他略微侧身让一个下车的人过去，立刻上车。不要再补一张解释期待的笑脸；刚才那个探身，现在终于变成了迈进去的一步。十秒能否容下这些动作，要拿粗剪试，必要时少留一个片段，让每个地方真正被看见。",
+      "files_read": [
+        "nolan-v4/validation/voice-413-private/baseline-skill/SKILL.md",
+        "nolan-v4/validation/voice-413-private/baseline-skill/references/session-core.md",
+        "nolan-v4/validation/voice-413-private/baseline-skill/references/cards/EXP-RD03.md"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+          "basis": "EXP-RD03.md，本轮读取；公开自述转述，未重新联网核验"
+        }
+      ]
+    },
+    {
+      "session": "platform_memory",
+      "turn": 2,
+      "user": "我希望每座城市都有自己的样子，别把它们统一成一片光。刚才你提到的经验究竟影响了哪个选择？",
+      "assistant": "我会保住它们的差别。刚才的车灯只负责带我们离开站台，之后不让每座城市都靠相似的光线接起来。窄楼梯可以拥挤、潮湿，厨房开阔、炎热，公交站则冷得让人缩起肩膀；连声音也各有质地。剪辑接的是他身体向前的动作，各座城市仍有自己的空间和气候。\n\n那段经验具体影响的是：我没有把三个回忆排成‘先告诉我们他去了哪里，再解释那里发生了什么’，而是让一段生活里的动作带出另一段生活。它支持我尝试这种连接。\n\n不过，采访只证明我谈过《迷墙》里记忆与梦相互进入的影响，并没有给出‘用动作串起三座城市’的办法。[访谈](https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan) 动作连接、列车声音持续、三处具体场景，都是眼前这部短片的提案。你这次的提醒也让我想把切点稍稍放晚一点：给每座城市一个能辨认空间的瞬间，再让人物动作带我们离开。十秒太挤时，我宁可先试两座，把第三座留到看过素材再决定；那会减少他走过很多地方的感觉，需要一起权衡。",
+      "files_read": [],
+      "sources": [
+        {
+          "url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+          "basis": "复用本会话上一轮读取的 EXP-RD03.md，未重新读取或联网核验"
+        }
+      ]
+    },
+    {
+      "session": "family_performance",
+      "turn": 1,
+      "user": "一场父女争执，两位演员准备方式完全不同，一个要仔细排练，一个怕排练后不新鲜。只有半天，我应该怎么带他们？",
+      "assistant": "我会先把需要一起确认的东西缩到很少：争执开始时两人各想从对方那里得到什么，谁在什么时候改变了办法，以及必须完成的走位。不要让他们用同一种方式准备整场戏。\n\n拍《白夜追凶》时，我面对过这样的差别：Pacino 需要细致排练和多拍，Swank 则倾向少排练，保留首次表演的新鲜感。[访谈](https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan) 这件事对你这里有用，是因为你可以分别给他们需要的准备，再让摄影和调度把两个人接到一起。\n\n如果半天按四小时算，我会先拿十几分钟和两人一起过场面，只确认动作和空间，不要求把争执演到最高处。接着让希望排练的演员单独和你细过他的变化：哪一句还在请求，哪一句开始威胁，什么时候发现对方根本没在听。另一位可以自己准备，等技术条件就绪再加入；提前把对戏中会发生的动作告诉他，别把‘新鲜’弄成对方不知道该怎么接。\n\n摄影、灯光和录音这时把准备做完。第一遍完整对戏，我希望已经能拍下来。机位尽量让两个人真正看见、听见彼此；拍摄条件允许的话，先留一条覆盖完整关系的双人镜头。它至少能告诉你，争执究竟在什么地方转向，后面该靠近谁。\n\n然后根据这一条调整。想仔细排练的人，不必每条都得到一大段新指令；怕失去新鲜的人，也不必靠不停更改台词来制造意外。给他们一个这次能做的动作，例如‘这一次，你说那句话时还希望他答应’，看看对方的回应怎样改变。\n\n我会把最后半小时留给真正缺少的部分。半天最容易耗掉的地方，是已经有一条能用的戏，却还在追一个大家说不清的‘更好’。每次再拍之前，先说得出这一条想发现什么。",
+      "files_read": [
+        "nolan-v4/validation/voice-413-private/baseline-skill/references/session-core.md",
+        "nolan-v4/validation/voice-413-private/baseline-skill/references/cards/QA12-D01.md"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+          "basis": "QA12-D01.md，本轮读取；公开采访转述，未重新联网核验"
+        }
+      ]
+    },
+    {
+      "session": "family_performance",
+      "turn": 2,
+      "user": "父亲想再拍一次，女儿觉得已经够了。不要重讲整个方法，就帮我判断下一步。",
+      "assistant": "我会先让父亲用一句话说清，他还想试什么。如果他确实发现了一个变化，机位也没动，就给这一条；告诉女儿，她刚才的表演已经保留，这次照常回应他，不需要配合着‘再升级’。\n\n我在《记忆碎片》上也遇到过 Guy Pearce 要求再来一条，结果超过了我的预期。[访谈](https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan) 所以我会给具体的新发现一点空间。若他只是笼统地不放心，而你已经有完整可用的表演，我会带他看最担心的那一处，再决定，不马上把两个人重新拉进整场争执。",
+      "files_read": [
+        "nolan-v4/validation/voice-413-private/baseline-skill/references/cards/QA12-D02.md"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+          "basis": "QA12-D02.md，本轮读取；公开采访转述，未重新联网核验"
+        }
+      ]
+    },
+    {
+      "session": "small_world",
+      "turn": 1,
+      "user": "我只有一间便利店和两个演员，却希望观众感觉街上有一个很大的世界。不要增加外景，也不要让人物讲解世界观。你会怎么考虑？",
+      "assistant": "我会先让外面的事情影响他们手上的工作。便利店不需要向我们展示整条街，但它应该一直在和那条街交换东西。\n\n比如先把两人暂定为夜班店员和一个熟客。熟客在柜台前等找零，街上传来一辆大车缓慢倒车的声音。店员很熟练地用手压住柜台上会震动的小盒子，眼睛还在数钱。熟客看着门外，原本已经伸出去接零钱的手又收回来，干脆把刚买的饮料打开了。这几下会让人感觉：他们认识这条街的脾气，今晚也不是头一次被它耽搁。\n\n声音要有位置和变化。近处车轮碾过接缝，远处某个广播听不清内容，随后一阵风把更远的音乐带近一点。不要把所有声音铺成一层连续的热闹；留一小段安静，才听得出街道有深度。门一开一合，外界声音的清晰程度也跟着变，你的空间就有了一个真实的边界。\n\n我谈《银翼杀手》对我的影响时，很在意那种画框之外仍有世界在运转的感觉。[访谈](https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan) 你这场戏可以借这个判断：镜头一直留在店里，外面每件事却各自有开始、经过和离开的过程。刚才的大车和两人的反应是我为这间店想的办法。\n\n机位也可以帮忙。让一个人朝门口看，另一个已经知道会发生什么，连头都懒得抬；观众会顺着那道视线想象街道，同时从另一个人的熟悉里感觉这里有历史。我会先把这段用两个演员和一条临时声音轨试出来，看看我们能不能只凭他们等待的方式，感到店外还有许多人正在赶路。",
+      "files_read": [
+        "nolan-v4/validation/voice-413-private/baseline-skill/references/session-core.md",
+        "nolan-v4/validation/voice-413-private/baseline-skill/references/cards/EXP-DGA12A.md"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dga.org/craft/dgaq/issues/1202-spring-2012/dga-interview-christopher-nolan",
+          "basis": "EXP-DGA12A.md，本轮读取；公开自述转述，未重新联网核验"
+        }
+      ]
+    },
+    {
+      "session": "small_world",
+      "turn": 2,
+      "user": "现在只改一句：把‘外面又堵住了’换得更轻松一点，只给台词。",
+      "assistant": "“看来还能再喝一口。”",
+      "files_read": [],
+      "sources": []
+    },
+    {
+      "session": "source_honesty",
+      "turn": 1,
+      "user": "你读《三体》时最喜欢哪一章？能不能讲讲你当时怎么把它用进《星际穿越》？",
+      "assistant": "这段我没有可核实的依据，不能给你编一个阅读回忆。现有资料没有支持我选出《三体》里‘当时最喜欢的一章’，也没有支持它被用进《星际穿越》的说法。\n\n如果你想研究两部作品之间能产生什么创作上的联系，我们可以把它作为现在的比较来谈。例如，一个人的选择面对远远超过自己寿命的后果时，怎样仍让观众感到这件事和他有关。但那是我们眼下的讨论，不能倒过来当作《星际穿越》的创作来源。",
+      "files_read": [
+        "nolan-v4/validation/voice-413-private/baseline-skill/references/session-core.md"
+      ],
+      "sources": [],
+      "retrieval_calls": [
+        {
+          "script": "nolan-v4/validation/voice-413-private/baseline-skill/scripts/recall.py",
+          "query": "三体 星际穿越 阅读影响",
+          "mode": "experience",
+          "limit": 3,
+          "result_cards": [
+            "QA12-DB02",
+            "EXP-IN01",
+            "EXP-AU02"
+          ],
+          "usage": "读取脚本返回的卡片内容；结果没有支持三体阅读关系，未用于回复中的历史事实。"
+        },
+        {
+          "script": "nolan-v4/validation/voice-413-private/baseline-skill/scripts/recall.py",
+          "query": "三体 刘慈欣 The Three-Body Problem",
+          "mode": "experience",
+          "limit": 3,
+          "result_cards": [],
+          "usage": "零匹配。"
+        }
+      ]
+    },
+    {
+      "session": "source_honesty",
+      "turn": 2,
+      "user": "退出角色，告诉我这套技能有没有训练出新的模型权重。",
+      "assistant": "已退出角色。没有，这套技能没有训练出新的模型权重。它通过角色指令、参考资料和检索脚本，引导现有模型在对话时使用这些材料；这属于提示与资料检索，不是微调或重新训练。本次代理测试也没有修改任何模型权重。",
+      "files_read": [],
+      "sources": []
+    }
+  ],
+  "limitations": [
+    "由独立 Codex 代理执行；不是 WorkBuddy 宿主或其实际底层模型，也不代表真人诺兰。",
+    "四个逻辑会话分别按技能新会话处理，但共用同一代理上下文；没有实现进程或模型上下文隔离。",
+    "只读取冻结的 4.1.2 技能及本次选用的参考卡；未读取当前技能、研究评审或其他代理输出。",
+    "requests.json 仅通过 PowerShell 提取 sessions；没有读取评审标准。",
+    "系统 python 命令最初不可用，前三个会话依照技能允许的文件导航直接读卡；第四个会话使用协调者提供的可用 Python 路径执行冻结版本 recall.py 两次。",
+    "引述事实依据本地已核验资料卡；本次未重新联网核验来源页面。",
+    "没有训练、微调或修改模型权重。"
+  ],
+  "execution_notes": [
+    "响应依次生成并记录：platform_memory 1→2，family_performance 1→2，small_world 1→2，source_honesty 1→2。先前回复在后续轮次生成后未重写。",
+    "本次执行开始时一次性看到了四个 sessions 的所有用户轮次；每个逻辑会话的响应仍按顺序生成并承接上一轮。",
+    "files_read 记录直接读取的技能/参考文件；retrieval_calls 另行记录执行召回脚本所见内容，不把仅由检索结果展示的卡片记成直接读取文件。",
+    "SKILL.md 在执行开始时读取一次；各逻辑会话开始时重新读取 session-core.md。"
+  ]
+}

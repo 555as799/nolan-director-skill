@@ -13,7 +13,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parent
 SKILL = ROOT/'skills/nolan-director'
-VERSION = '4.1.2'
+VERSION = '4.1.3'
 
 def dump(path, data):
     path.parent.mkdir(parents=True,exist_ok=True)
@@ -95,7 +95,7 @@ def build():
         c = lookup[review['id']]
         if review['source_id'] not in c['source_ids']:
             raise ValueError('Review attributed to wrong source: '+c['id'])
-        c['source_review'] = 'relevant_passage_checked_2026-10-07'
+        c['source_review'] = 'relevant_passage_checked_'+review.get('reviewed_on',refinements['reviewed_on'])
         c['review_record'] = review
     for c in refinements['cards']:
         cards.append({**c,'source_ids':[c['source_id']],
@@ -214,7 +214,7 @@ def package():
     dump(SKILL/'assets/product-status.json',{
         'version':VERSION,
         'stage':'release_candidate',
-        'revision':'sourced-persona-and-continuity-1',
+        'revision':'experience-led-dialogue-2',
         'delivery_scope':'portable_persona_skill',
         'parameter_training_required_for_current_scope':False,
         'ready_for_final_release':False,
@@ -226,7 +226,7 @@ def package():
         'dialogue_evaluation_scope':'small_sample_independent_ai_trials_not_customer_host_validation',
         'workbuddy_native_import_tested':False,
         'prior_workbuddy_activation_observed':True,
-        'prior_workbuddy_dialogue_quality':'user_rejected_4.1.0',
+        'prior_workbuddy_dialogue_quality':'user_rejected_4.1.0_and_4.1.2',
         'current_workbuddy_dialogue_quality':'not_yet_observed',
         'note':'Packaging and retrieval checks are not evidence of persona or creative quality.'
     })

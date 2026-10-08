@@ -133,7 +133,7 @@ def audit():
             'No complete verified reading history or complete film/scene analysis is available.',
             'New passage-reviewed cards overlap with old concepts; the current build is not a corpus deduplication study.',
             'Independent AI trials were run; no held-out old/new comparison on the customer model has been run.',
-            'MIT and NOTICE define authored-content scope; third-party works remain separately attributed; no public repository has been published.',
+            'MIT and NOTICE define authored-content scope; third-party works remain separately attributed. Publication status is separate from creative acceptance.',
         ],
         'duplicate_source_urls':{u:n for u,n in url_counts.items() if n>1},
         'acceptance_gates':{
@@ -145,7 +145,7 @@ def audit():
             'model_parameter_training':'not_done_not_required_for_current_skill_scope',
             'generated_dialogue_and_creative_evaluation':current['status'],
             'historical_ai_trial_evidence':'available' if reviews else 'not_run',
-            'workbuddy_native_customer_workflow':'4.1.0_activation_observed_dialogue_rejected;current_revision_unverified',
+            'workbuddy_native_customer_workflow':'4.1.0_and_4.1.2_activation_observed_dialogue_rejected;4.1.3_unverified',
             'open_source_release_preparation':'prepared' if all((ROOT/p).is_file() for p in ('LICENSE','NOTICE.md','README.en.md','.github/workflows/validate.yml')) else 'incomplete',
         },
     }

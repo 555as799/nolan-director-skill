@@ -3,6 +3,40 @@
   "purpose": "编辑建立的创作问题导航，不是诺兰原话；辅助词法检索，不是向量语义模型。",
   "situations": [
     {
+      "id": "subjective_memory",
+      "label": "记忆怎样进入当下的画面",
+      "patterns": [
+        "(回忆|记忆|回想|想起).{0,28}(画面|镜头|场景|蒙太奇|拍|剪|呈现|表现)",
+        "(画面|镜头|场景|蒙太奇|拍摄|怎么拍|如何拍).{0,32}(回忆|记忆|回想|想起)",
+        "(一瞬|瞬间|刹那|瞬息|几秒|落水|跌落|坠落|坠下).{0,20}(回忆|回想|想起|记忆|一生|童年|往事)",
+        "(闪回|回忆蒙太奇|记忆蒙太奇)",
+        "\\b(?:flashbacks?|memory montage|subjective memories)\\b",
+        "\\b(?:memories|memory|remembering|recall)\\b.{0,35}\\b(?:scene|shot|montage|film|cut|visuali[sz]\\w*)\\b",
+        "\\b(?:scene|shot|montage|film|cut|visuali[sz]\\w*)\\b.{0,35}\\b(?:memories|memory|remembering)\\b"
+      ],
+      "search_terms": "主观 记忆 回忆 时间 梦境 情感 盗梦空间 星际穿越",
+      "experience_ids": ["QA12-DI02", "EXP-IN01"],
+      "craft_ids": ["QA12-DI03", "K01"],
+      "transfer": "保留作者想呈现的回忆内容；借已核实的时间关系与情感清晰度经验，决定过去如何进入、怎样返回当下，以及每次返回改变什么。地点差异涉及Nolan与Pfister的合作，不把合作者观点据为独自亲历。"
+    },
+    {
+      "id": "subjective_time",
+      "label": "把客观一瞬延展为主观时间",
+      "patterns": [
+        "(主观时间|时间伸缩|时间膨胀)",
+        "(一瞬|瞬间|刹那|几秒|一秒|两秒|三秒|数秒).{0,22}(一生|多年|十年|童年|记忆|回忆|拉长|延长|容纳)",
+        "(这一秒|这一刻|那一秒|那一刻|一瞬间).{0,12}(拉长|伸长|延展|凝固)",
+        "(拉长|伸长|延展|凝固).{0,12}(这一秒|这一刻|那一秒|那一刻|一瞬间)",
+        "\\b(?:subjective time|time dilation|stretched time)\\b",
+        "\\b(?:seconds?|moment|instant)\\b.{0,45}\\b(?:lifetime|years|stretch\\w*|expand\\w*|memor\\w*)\\b",
+        "\\b(?:stretch\\w*|expand\\w*)\\b.{0,35}\\b(?:moment|instant|second|time)\\b"
+      ],
+      "search_terms": "主观 时间 伸缩 慢动作 梦境 清醒 叙事 盗梦空间 敦刻尔克",
+      "experience_ids": ["QA12-DI02", "EXP-DGA17A"],
+      "craft_ids": ["K02", "N02"],
+      "transfer": "先明确一段客观动作与主观经历的时间关系，再决定是否慢放或交叉剪辑；结构服务当下的情绪和等待，不为风格自动增加多条时间线。"
+    },
+    {
       "id": "limited_resources",
       "label": "预算与资源不足",
       "patterns": [

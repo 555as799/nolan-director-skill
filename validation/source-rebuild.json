@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "version": "4.1.2",
+  "version": "4.1.3",
   "steps": [
     {
       "command": "python build.py",
@@ -19,13 +19,13 @@
       "exit_code": 0
     }
   ],
-  "same_corpus_sha256": "31ddf6fe30cd819eb0ac6aec783e288b6a211548ba16e6817a644e0f37b108ea",
-  "input_archive_sha256": "c4e5788b85f255e16297b7d8c081d666c7cb086c879ec08c42c65bda7beeed37",
+  "same_corpus_sha256": "6e487163d785ced98f58def74341390c268c98133c53b5f24e568b4b6263f3a2",
+  "input_archive_sha256": "92832161fb8b0a832128d0032e6fd9c5655165fb180c72f668dd6ca42c89646f",
   "offline_tests": {
-    "version": "4.1.2",
+    "version": "4.1.3",
     "suite": "full_offline_suite",
-    "skill_integrity_sha256": "1953596ae1a3a3960f1fb5b8aa42a148aae00fbcd205db92a8a290319aeed553",
-    "tests_run": 72,
+    "skill_integrity_sha256": "4ec34aacd45711bbe185fc1af76da5218a0e25fbd7ec7a79fd89046fee49f474",
+    "tests_run": 82,
     "failures": 0,
     "errors": 0,
     "status": "passed",

@@ -1,5 +1,5 @@
 {
-  "version": "4.1.2",
+  "version": "4.1.3",
   "files": [
     {
       "path": "assets/director-corpus.json",
@@ -11,11 +11,11 @@
     },
     {
       "path": "assets/library.json",
-      "sha256": "23db00964cd7efefe6d070750e74ac4943aa1e53546095d0a63281ca71ea121a"
+      "sha256": "289f1e6b8d03242cfe180a67540bad1c0fdf8e9c0b324b31afa2abe113bd4794"
     },
     {
       "path": "assets/library.sqlite",
-      "sha256": "4b2b2429459dc4d078ad7af83a80da8a66b92325bb9eb3057bd85e917a6bb154"
+      "sha256": "aaf4491edec42cbce90382ebb47a529b83b49bbe10f31425f1bba111c11c286f"
     },
     {
       "path": "assets/original-shot-study.png",
@@ -23,7 +23,7 @@
     },
     {
       "path": "assets/product-status.json",
-      "sha256": "b2ab1e59fd5b77a28c3938188eafa7101f18c663da87e8cbbe1f2d4885bc0c37"
+      "sha256": "60877d98f2e34bee7960bb98bee84177ecc228bcc8e9e0c065a969c6c331981a"
     },
     {
       "path": "assets/room-layout-example.json",
@@ -575,7 +575,7 @@
     },
     {
       "path": "references/cards/N01.md",
-      "sha256": "aa4a1043c5d93ee464722f1b188f0c60230617297e5f8cf79496ab08c0e36758"
+      "sha256": "e325e8088953f64ff2c1b23370d03273507f8d64f96cf91e2b9154c3d586d4db"
     },
     {
       "path": "references/cards/N02.md",
@@ -635,11 +635,11 @@
     },
     {
       "path": "references/cards/QA12-DI02.md",
-      "sha256": "57b201c8a4091576fed4ff2b25c945a1433741d39d9c5c47cb4f35d94f43d2e4"
+      "sha256": "b7215851a292f6553852dc34511bcf6bc2b42c6a1b62b1b960705c931e044a8b"
     },
     {
       "path": "references/cards/QA12-DI03.md",
-      "sha256": "c83504e720d53b304538650d8f7aa797c62ef5fa91d3a6952eb16c0f847af48c"
+      "sha256": "9512115d2bd6c0aa850d60960963115c6317033266d58613866f9bcd7dc9b7b1"
     },
     {
       "path": "references/cards/QA12-DL01.md",
@@ -743,19 +743,19 @@
     },
     {
       "path": "references/cards/VC04.md",
-      "sha256": "2fad04c297f4dfdf29ad0d054d25b1e844e08c97d830aff587324c963e068a4a"
+      "sha256": "e2e7a93e4626f8483db512de6e8cac60b971cc82b3885e79e8a4489815ee7376"
     },
     {
       "path": "references/cards/VC05.md",
-      "sha256": "8c18a3689011581ab5a3377915df0a4f618039210be1eaf1e7284cbb05d64dce"
+      "sha256": "61309e1751e1dba3a9d8c0b9137b32c16c38bbb22cbd1cac664c892312b8bc39"
     },
     {
       "path": "references/cards/VC06.md",
-      "sha256": "b3bc4f2f26aa16fe12afafa3f41e573244d0b557baedc3e776e30b8c943aa93a"
+      "sha256": "6617e2d8fd68cfe4192f02873dbd486781acf071a2d09648fbcea030206ce21b"
     },
     {
       "path": "references/cards/VC07.md",
-      "sha256": "fa00f39871a9c0ed3665985929b0d708928c8a8fb28b397b464321ad91c30dc9"
+      "sha256": "3f7aa3cf0931da709c7ef6ad9a63bfd982d33b4a65c32eecdeb0803c1574b38f"
     },
     {
       "path": "references/cards/VC08.md",
@@ -871,7 +871,7 @@
     },
     {
       "path": "references/conversation-calibration.jsonl",
-      "sha256": "2d677ecee85175a9484a0a57ddc9266ae82a7f44294e1d8c0c2119bfb38d337a"
+      "sha256": "2c12406a4892dc2342600b59612fa32959fb296fe0d37b7c92180d0fd540b70f"
     },
     {
       "path": "references/conversation-craft.md",
@@ -907,7 +907,7 @@
     },
     {
       "path": "references/dialogue-examples.jsonl",
-      "sha256": "4cf7076fb3b3a0949f8f7a61e5f6420124ff22efcc9448861657e1835e82f678"
+      "sha256": "a0b9a5e8709db17521316795005b9ee9eb8c2843700bb985537fc9967fb38a1d"
     },
     {
       "path": "references/director-development.md",
@@ -1103,7 +1103,7 @@
     },
     {
       "path": "references/nolan-specific-decisions.md",
-      "sha256": "7568aa2a849ff6a3c7285ae0211aeb8f778de9bc5070c204de2b81b5c59d87eb"
+      "sha256": "49719522b6723d7cdf6b4da97bdaec78609cef32060792948f65d7bfc1ffe9d1"
     },
     {
       "path": "references/odyssey-2026-update.md",
@@ -1123,7 +1123,7 @@
     },
     {
       "path": "references/primary-refinements.json",
-      "sha256": "073b147ade924cbcbbbdbd4624acdd0098284c604d548939a7c8cada2f86b0ec"
+      "sha256": "d6fe0ab755d581a6b25fed5d048f710b38b44843dce373955aa89eaab5cdf297"
     },
     {
       "path": "references/project-continuity.md",
@@ -1143,11 +1143,11 @@
     },
     {
       "path": "references/session-core.md",
-      "sha256": "15dfbc7266b6ad2f3565d0b7effc8c8bd659ad166698ebe453304fa30d6c1989"
+      "sha256": "ced933938a60c7843d4242f842ea16987ce89ead129190e24bffb19d92eff4db"
     },
     {
       "path": "references/situations.json",
-      "sha256": "120a83e73436e16d65ed5079160320292ba70a785ed53d92a8409410137d231a"
+      "sha256": "ca6f09c552352d70a334866b4f52c2ddb1563efa174da38a7dccd45edb679395"
     },
     {
       "path": "references/sources.md",
@@ -1167,7 +1167,7 @@
     },
     {
       "path": "references/voice-and-dialogue.md",
-      "sha256": "4c5a43da26f5a2c642d3478f502869081b60e59bd150402a92bb1fbb9458d3c0"
+      "sha256": "f30d99cfdbb20b94d09e0c8ddf34f179eef42af3ce31a4d1f8498ea6ceec40c3"
     },
     {
       "path": "references/voice-profile.json",
@@ -1195,7 +1195,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "252e1774df5e570dd493e73f8d5f7fd8f1e34887bc9dcd884f5f7ac6c9ddcf35"
+      "sha256": "04a305fd8e82c8d23ab0f0820ed9732de045f659200538ae7da5e91b869e3df8"
     }
   ]
 }
